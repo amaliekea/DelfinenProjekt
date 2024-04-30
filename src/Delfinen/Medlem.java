@@ -5,13 +5,30 @@ import java.time.LocalDate;
 public abstract class Medlem {
     private String navn;
     private LocalDate fødselsÅr;
-    private MedlemsType medlemsType;
+    private AktivitetsType aktivitetsType;
+    private SvømmeType svømmeType;
+    private AldersType aldersType;
     private double betalingsGebyr;
 
-    public Medlem(String navn, LocalDate fødselsÅr, MedlemsType medlemsType) {
+    public Medlem(String navn, LocalDate fødselsÅr, AktivitetsType aktivitetsType, SvømmeType svømmeType, AldersType aldersType) {
         this.navn = navn;
         this.fødselsÅr = fødselsÅr;
-        this.medlemsType = medlemsType;
+        this.aktivitetsType = aktivitetsType;
+        this.svømmeType = svømmeType;
+        this.aldersType = aldersType;
+        this.betalingsGebyr = betalingsGebyr;
+    }
+
+    @Override
+    public String toString() {
+        return "Medlem{" +
+                "navn='" + navn + '\'' +
+                ", fødselsÅr=" + fødselsÅr +
+                ", aktivitetsType=" + aktivitetsType +
+                ", svømmeType=" + svømmeType +
+                ", aldersType=" + aldersType +
+                ", betalingsGebyr=" + betalingsGebyr +
+                '}';
     }
 
     public abstract void betalMedlemsGebyr();
@@ -24,7 +41,6 @@ public abstract class Medlem {
         this.navn = navn;
     }
 
-
     public LocalDate getFødselsÅr() {
         return fødselsÅr;
     }
@@ -33,21 +49,35 @@ public abstract class Medlem {
         this.fødselsÅr = fødselsÅr;
     }
 
-    @Override
-    public String toString() {
-        return "Delfinen.Medlem{" +
-                "navn='" + navn + '\'' +
-                ", fødselsÅr=" + fødselsÅr +
-                ", medlemsType=" + medlemsType +
-                ", betalingGebyr=" + betalingsGebyr +
-                '}';
+    public AktivitetsType getAktivitetsType() {
+        return aktivitetsType;
     }
 
-    public MedlemsType getMedlemsType() {
-        return medlemsType;
+    public void setAktivitetsType(AktivitetsType aktivitetsType) {
+        this.aktivitetsType = aktivitetsType;
     }
 
-    public void setMedlemsType(MedlemsType medlemsType) {
-        this.medlemsType = medlemsType;
+    public SvømmeType getSvømmeType() {
+        return svømmeType;
+    }
+
+    public void setSvømmeType(SvømmeType svømmeType) {
+        this.svømmeType = svømmeType;
+    }
+
+    public AldersType getAldersType() {
+        return aldersType;
+    }
+
+    public void setAldersType(AldersType aldersType) {
+        this.aldersType = aldersType;
+    }
+
+    public double getBetalingsGebyr() {
+        return betalingsGebyr;
+    }
+
+    public void setBetalingsGebyr(double betalingsGebyr) {
+        this.betalingsGebyr = betalingsGebyr;
     }
 }

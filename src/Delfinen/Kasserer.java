@@ -6,7 +6,7 @@ import java.time.Period;
 public class Kasserer {
     private LocalDate fødselsÅr;
 
-    public double getPris(MedlemsType type){
+    public double getPris(AktivitetsType type){
         switch (type){
             case AKTIV:
                 int alder = udregnAlder(fødselsÅr);

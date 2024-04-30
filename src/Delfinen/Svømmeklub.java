@@ -28,8 +28,11 @@ public class Svømmeklub {
     public void setMedlemmer(ArrayList<Medlem> medlemmer) {
         this.medlemmer = medlemmer;
     }
+    public void tilføjMedlem( Medlem medlem) {
+        this.medlemmer.add(medlem);
+    }
     public void sorterMedlemmer(){
-        medlemmer.sort(Comparator.comparing(Medlem ::getMedlemsType));
+        //medlemmer.sort(Comparator.comparing(Medlem ::getMedlemsType));
     }
 
     public void læsMedlemmerTilFil(String fileName) {

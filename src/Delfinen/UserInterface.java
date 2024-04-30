@@ -69,22 +69,18 @@ public class UserInterface {
             switch (valg) {
                 case 1:
                     Medlem medlem = null;
-                    System.out.println("ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
-                    String medlemsType = scanner.nextLine();
                     System.out.println("Indsæt navn: ");
                     String navn = scanner.nextLine();
                     System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
                     String datoString = scanner.next();
-                    LocalDate dato = LocalDate.parse(datoString);
-                    scanner.nextLine();
+                    System.out.println("er medlemmet aktiv eller passiv?");
+                    String aktivitetsTyp = scanner.next();
+                    System.out.println("er medlemmet junior eller senior?");
+                    String aldersTyp = scanner.next();
+                    System.out.println("ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
+                    String svømmeTyp = scanner.next();
 
-                    if (medlemsType.equalsIgnoreCase("konkurrencesvømmer")) {
-                        medlem = new KonkurrenceSvømmer(navn, dato, MedlemsType.KONKURRENCESVØMMER);
-                    } else if (medlemsType.equalsIgnoreCase("motionist")) {
-                        medlem = new Motionist(navn, dato, MedlemsType.MOTIONIST); // Here is how you can add a motionist type member
-                    }
-                    formand.tilføjMedlem(svømmeklub, medlem);
-                    //svømmeklub.printAll();
+                    controller.tilføjMedlem(navn, datoString, aktivitetsTyp, svømmeTyp, aldersTyp);
                     break;
                 case 2:
                     svømmeklub.printAll();
