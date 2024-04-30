@@ -1,5 +1,6 @@
+package Delfinen;
+
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Motionist extends Medlem{
 

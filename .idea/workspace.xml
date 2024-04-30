@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory 1 z og a">
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory 1 z og a updates">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrugerRolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/BrugerRolle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kasser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedlemsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/MedlemsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Motionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Motionist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Svømmedisciplin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmedisciplin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
-    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="">
-      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
-    </list>
+    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,48 +30,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amaliekea"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amaliekea&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
+    "accountId": "57875154-d4ae-44c5-9163-96a49543181a"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="b20ac4bc-5cc2-40a7-a782-4d5540026b4d" />
-        <option name="url" value="https://github.com/amaliekea/DelfinenProjekt.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/UserInterface.java">
-      <ranges>
-        <range start1="38" end1="39" start2="38" end2="39" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
-        <range start1="52" end1="57" start2="52" end2="52" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
-        <range start1="58" end1="65" start2="53" end2="69" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="66" end1="72" start2="70" end2="75" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="73" end1="89" start2="76" end2="102" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="90" end1="91" start2="103" end2="104" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
-        <range start1="92" end1="92" start2="105" end2="106" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
-        <range start1="93" end1="94" start2="107" end2="108" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2foP111fkmAAIgVo56Su8uzf4iG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -74,6 +68,7 @@
     "Application.UserInterface.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -86,6 +81,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714464246038</updated>
-      <workItem from="1714464247198" duration="11987000" />
+      <workItem from="1714464247198" duration="12704000" />
+      <workItem from="1714481269632" duration="3874000" />
     </task>
     <task id="LOCAL-00001" summary="gh">
       <option name="closed" value="true" />
@@ -120,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714475170302</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="userStory 1 z og a updates">
+      <option name="closed" value="true" />
+      <created>1714479223909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714479223909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh" />
     <MESSAGE value="userStory 1 z og a" />
-    <option name="LAST_COMMIT_MESSAGE" value="userStory 1 z og a" />
+    <MESSAGE value="userStory 1 z og a updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="userStory 1 z og a updates" />
   </component>
 </project>
