@@ -50,6 +50,9 @@ public class UserInterface {
     }
 
     public void formandMenu() {
+        //fil
+        //alder
+        //junior/senior
 
         Boolean exit = false;
         while (!exit) {
