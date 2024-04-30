@@ -26,6 +26,12 @@ public class Controller {
         svømmeklub.tilføjMedlem(medlem);
         //svømmeklub.printAll(); test
     }
+    public void printAll() {
+        svømmeklub.printAll();
+    }
+    public void sorterAlle() {
+        svømmeklub.sorterMedlemmer();
+    }
 
     public int udregnAlder(LocalDate fødselsÅr) {
         return Kasserer.udregnAlder(fødselsÅr);

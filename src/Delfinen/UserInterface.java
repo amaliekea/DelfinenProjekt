@@ -83,11 +83,11 @@ public class UserInterface {
                     controller.tilføjMedlem(navn, datoString, aktivitetsTyp, svømmeTyp, aldersTyp);
                     break;
                 case 2:
-                    svømmeklub.printAll();
+                    controller.printAll();
                     break;
                 case 3:
-                    svømmeklub.sorterMedlemmer();
-                    svømmeklub.printAll();
+                    controller.sorterAlle();
+                    controller.printAll();
                     break;
                 case 4:
                     startProgram();
