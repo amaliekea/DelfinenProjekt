@@ -1,0 +1,145 @@
+Index: src/UserInterface.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nimport java.time.LocalDate;\r\nimport java.util.Scanner;\r\n\r\npublic class UserInterface {\r\n    private Svømmeklub svømmeklub;\r\n    private Formand formand;\r\n    private Scanner scanner;\r\n\r\n\r\n    public UserInterface() {\r\n        svømmeklub = new Svømmeklub();\r\n        scanner = new Scanner(System.in);\r\n        formand = new Formand();\r\n    }\r\n\r\n\r\n    public void startProgram() {\r\n        System.out.println(\"Velkommen til svømmeklubben Delfinen!!!!!\");\r\n        System.out.println(\"Vælg din rolle træner/formand/kasser\");\r\n        String rolleInput = scanner.nextLine().trim().toUpperCase();\r\n        BrugerRolle rolle;\r\n\r\n        try {\r\n            rolle = BrugerRolle.valueOf(rolleInput);\r\n        } catch (IllegalArgumentException e) {\r\n            System.out.println(\"Ugyldig rolle valgt!!\");\r\n            return;\r\n        }\r\n\r\n        switch (rolle) {\r\n            case TRÆNER:\r\n                trænerMenu();\r\n                break;\r\n            case FORMAND:\r\n                formandMenu();\r\n                break;\r\n            case KASSERER:\r\n                kasserMenu();\r\n                break;\r\n            default:\r\n                System.out.println(\"Ugyldig rolle!!!\");\r\n\r\n        }\r\n\r\n    }\r\n\r\n    public void trænerMenu() {\r\n\r\n    }\r\n\r\n    public void formandMenu() {\r\n        System.out.println(\"\\nFormandens Menu: Enter number\");\r\n        System.out.println(\"1. Tilføj nyt medlem\");\r\n        System.out.println(\"2. Vis alle medlemmer\");\r\n        System.out.println(\"3. Sorter medlemmer\");\r\n        System.out.println(\"4. Tilbage til hovedmenu\");\r\n\r\n        int valg = scanner.nextInt();\r\n        scanner.nextLine();\r\n        switch (valg) {\r\n            case 1:\r\n                System.out.println(\"ønsker du at indmelde en motionist eller konkurrencesvømmer?\");\r\n                String medlemsType = scanner.nextLine();\r\n                if (medlemsType.equalsIgnoreCase(\"konkurrencesvømmer\")) {\r\n                    System.out.println(\"Indsæt navn: \");\r\n                    String name = scanner.nextLine();\r\n                    System.out.println(\"Indsæt fødselsår: \");\r\n                    LocalDate date = scanner.nextLine();\r\n                    KonkurrenceSvømmer k = new KonkurrenceSvømmer(name,date, medlemsType);\r\n                }\r\n                if (medlemsType.equalsIgnoreCase(\"motionist\")) {\r\n\r\n                }\r\n                formand.tilføjMedlem(svømmeklub, medlem);\r\n                break;\r\n            case 2:\r\n                svømmeklub.printAll();\r\n                break;\r\n            case 3:\r\n                svømmeklub.sorterMedlemmer();\r\n                break;\r\n            case 4:\r\n                startProgram();\r\n                break;\r\n            default:\r\n                System.out.println(\"Ugyldigt valg!!\");\r\n        }\r\n    }\r\n\r\n    public void kasserMenu() {\r\n\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/UserInterface.java b/src/UserInterface.java
+--- a/src/UserInterface.java	
++++ b/src/UserInterface.java	
+@@ -66,13 +66,13 @@
+                     System.out.println("Indsæt navn: ");
+                     String name = scanner.nextLine();
+                     System.out.println("Indsæt fødselsår: ");
+-                    LocalDate date = scanner.nextLine();
+-                    KonkurrenceSvømmer k = new KonkurrenceSvømmer(name,date, medlemsType);
++                    //LocalDate date = scanner.nextLine();
++                    //KonkurrenceSvømmer k = new KonkurrenceSvømmer(name,date, medlemsType);
+                 }
+                 if (medlemsType.equalsIgnoreCase("motionist")) {
+ 
+                 }
+-                formand.tilføjMedlem(svømmeklub, medlem);
++                //formand.tilføjMedlem(svømmeklub, medlem);
+                 break;
+             case 2:
+                 svømmeklub.printAll();
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"gh\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/KonkurrenceSvømmer.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Medlem.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Motionist.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/UserInterface.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 1\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"7928000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"gh\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,12 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="gh">
+-      <change afterPath="$PROJECT_DIR$/src/KonkurrenceSvømmer.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Medlem.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Motionist.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,44 +16,64 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Class" />
+         <option value="Enum" />
++        <option value="Class" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "DhanielV"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
++    "accountId": "152fb25b-e382-42b5-8165-0d7eeed6e637"
++  }
++}]]></component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 1
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 1
++}</component>
+   <component name="ProjectId" id="2foP111fkmAAIgVo56Su8uzf4iG" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "Application.UserInterface.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
++        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
++      </set>
++    </attachedChunks>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -67,6 +83,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1714464246038</updated>
+       <workItem from="1714464247198" duration="7928000" />
++      <workItem from="1714475181759" duration="3859000" />
+     </task>
+     <task id="LOCAL-00001" summary="gh">
+       <option name="closed" value="true" />
