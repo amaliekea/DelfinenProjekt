@@ -1,8 +1,6 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Formand {
     public void tilføjMedlem(Svømmeklub svømmeklub, Medlem medlem) {
