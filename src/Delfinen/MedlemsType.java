@@ -1,4 +1,4 @@
-import java.time.LocalDate;
+package Delfinen;
 
 public enum MedlemsType {
     AKTIV,

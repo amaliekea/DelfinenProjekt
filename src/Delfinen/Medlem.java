@@ -1,11 +1,12 @@
+package Delfinen;
+
 import java.time.LocalDate;
-import java.util.Date;
 
 public abstract class Medlem {
     private String navn;
     private LocalDate fødselsÅr;
     private MedlemsType medlemsType;
-    private double betalingGebyr;
+    private double betalingsGebyr;
 
     public Medlem(String navn, LocalDate fødselsÅr, MedlemsType medlemsType) {
         this.navn = navn;
@@ -34,11 +35,11 @@ public abstract class Medlem {
 
     @Override
     public String toString() {
-        return "Medlem{" +
+        return "Delfinen.Medlem{" +
                 "navn='" + navn + '\'' +
                 ", fødselsÅr=" + fødselsÅr +
                 ", medlemsType=" + medlemsType +
-                ", betalingGebyr=" + betalingGebyr +
+                ", betalingGebyr=" + betalingsGebyr +
                 '}';
     }
 
