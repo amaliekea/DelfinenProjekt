@@ -36,7 +36,7 @@ public class UserInterface {
                 formandMenu();
                 break;
             case KASSERER:
-                kasserMenu();
+                //kasserMenu();
                 break;
             default:
                 System.out.println("Ugyldig rolle!!!");
@@ -50,11 +50,6 @@ public class UserInterface {
     }
 
     public void formandMenu() {
-        System.out.println("\nFormandens Menu: Enter number");
-        System.out.println("1. Tilføj nyt medlem");
-        System.out.println("2. Vis alle medlemmer");
-        System.out.println("3. Sorter medlemmer");
-        System.out.println("4. Tilbage til hovedmenu");
 
         Boolean exit = false;
         while (!exit) {
@@ -106,10 +101,11 @@ public class UserInterface {
             }
         }
 
-    public void kasserMenu() {
+        //public void kasserMenu (){
 
+        }
     }
-}
+
 
 
 

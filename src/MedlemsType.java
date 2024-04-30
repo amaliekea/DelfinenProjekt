@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public enum MedlemsType {
     AKTIV,
     PASSIV,
@@ -5,4 +7,6 @@ public enum MedlemsType {
     SENIOR,
     MOTIONIST,
     KONKURRENCESVØMMER;
+
+
 }
