@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer">
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
@@ -30,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="load-funktion-og-betalingsgebyr" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "load-funktion",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -156,17 +153,51 @@
       <option name="project" value="LOCAL" />
       <updated>1714558954846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer">
+      <option name="closed" value="true" />
+      <created>1714566246780</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714566246780</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="load-funktion-og-betalingsgebyr" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh" />
     <MESSAGE value="userStory 1 z og a" />
     <MESSAGE value="userStory 1 z og a updates" />
     <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer" />
+    <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer" />
+    <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet" />
+    <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer" />
   </component>
 </project>
