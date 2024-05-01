@@ -8,9 +8,9 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Kasserer {
-    private LocalDate fødselsÅr;
+    private static LocalDate fødselsÅr;
 
-    public double getPris(AktivitetsType type){
+    public static double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr){
         switch (type){
             case AKTIV:
                 int alder = udregnAlder(fødselsÅr);
@@ -23,9 +23,7 @@ public class Kasserer {
         }
     }
 
-    private void Kasserer(LocalDate fødselsÅr) {
-        this.fødselsÅr = fødselsÅr;
-    }
+
 
     public static int udregnAlder(LocalDate fødselsÅr) {
         LocalDate curDate = LocalDate.now();

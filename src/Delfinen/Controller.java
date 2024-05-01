@@ -11,8 +11,8 @@ public class Controller {
     Svømmeklub svømmeklub = new Svømmeklub();
 
     public Controller() {
-        this.fødselsÅr = fødselsÅr;
-        this.alder = alder;
+        this.fødselsÅr = LocalDate.now();
+        this.alder = new Kasserer();
     }
     public void loadMedlemsListe() {
         try {
@@ -36,15 +36,21 @@ public class Controller {
         } else if (svommeTyp.equalsIgnoreCase("motionist")) {
             medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
         }
-        double betalingsGebyr = alder.getPris(aktivitetsType);
-        medlem.setBetalingsGebyr(betalingsGebyr);
-
         svømmeklub.tilføjMedlem(medlem);
         //svømmeklub.printAll(); test
     }
 
+
     public void printAll() {
-        svømmeklub.printAll();
+        ArrayList<Medlem> medlemmer = svømmeklub.getMedlemmer();
+        for (Medlem medlem : medlemmer) {
+            LocalDate fødselsÅr = medlem.getFødselsÅr();
+            AktivitetsType aktivitetsType = medlem.getAktivitetsType();
+            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
+            medlem.setBetalingsGebyr(betalingsGebyr);
+
+            System.out.println(medlem);
+        }
     }
     public void sorterAlle() {
         svømmeklub.sorterMedlemmer();
