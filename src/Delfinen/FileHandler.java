@@ -2,6 +2,7 @@ package Delfinen;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -29,4 +30,18 @@ public class FileHandler {
         }
         return medlemmer;
     }
+    public void gemMedlemmerTilFil(ArrayList<Medlem> medlemmer) {
+        try (PrintStream output = new PrintStream(fil)) {
+            for (Medlem medlem : medlemmer) {
+                output.println(medlem.getNavn() + ", " +
+                        medlem.getFødselsÅr() + ", " +
+                        medlem.getAktivitetsType() + ", " +
+                        medlem.getSvømmeType() + ", " +
+                        medlem.getAldersType());
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException("Error saving members to file: " + e.getMessage());
+        }
+    }
 }
+

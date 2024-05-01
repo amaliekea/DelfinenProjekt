@@ -7,8 +7,7 @@
     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
@@ -67,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "udregnIndtjening-i-alt",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

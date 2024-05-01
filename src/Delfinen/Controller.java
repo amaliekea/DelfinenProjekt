@@ -6,11 +6,13 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Controller {
+    public FileHandler fileHandler;
     private LocalDate fødselsÅr;
     private Kasserer alder;
     Svømmeklub svømmeklub = new Svømmeklub();
 
     public Controller() {
+        this.fileHandler = new FileHandler();
         this.fødselsÅr = LocalDate.now();
         this.alder = new Kasserer();
     }
@@ -52,6 +54,10 @@ public class Controller {
 
             System.out.println(medlem);
         }
+    }
+    public void gemMedlemmerTilFil(){
+        ArrayList<Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
+        fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
     public void sorterAlle() {
