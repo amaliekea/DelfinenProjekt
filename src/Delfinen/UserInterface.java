@@ -24,7 +24,6 @@ public class UserInterface {
         System.out.println("Vælg din rolle træner/formand/kasserer");
         String rolleInput = scanner.nextLine().trim().toUpperCase();
         BrugerRolle rolle;
-        loadMedlemsListePåStart();
 
         try {
             rolle = BrugerRolle.valueOf(rolleInput);
@@ -49,7 +48,7 @@ public class UserInterface {
         }
     }
 
-    private void loadMedlemsListePåStart(){
+    public void loadMedlemsListePåStart(){
         controller.loadMedlemsListe();
     }
 
@@ -124,7 +123,7 @@ public class UserInterface {
             scanner.nextLine();
             switch (valg) {
                 case 1:
-                    int forventetIndtjening = controller.udregnSamletForventetIndtjening("navneListe.txt");
+                    double forventetIndtjening = controller.udregnForventetIndtjening();
                     System.out.println("Den samlede forventede indtjening er " + forventetIndtjening + " kroner.");
                     break;
                 case 2:

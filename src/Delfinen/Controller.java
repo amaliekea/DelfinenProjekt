@@ -14,6 +14,7 @@ public class Controller {
         this.fødselsÅr = LocalDate.now();
         this.alder = new Kasserer();
     }
+
     public void loadMedlemsListe() {
         try {
             ArrayList<Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
@@ -25,7 +26,7 @@ public class Controller {
         }
     }
 
-    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp,  String svommeTyp, String aldersTyp) {
+    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
         Medlem medlem = null;
         LocalDate dato = LocalDate.parse(datoString);
         AktivitetsType aktivitetsType = AktivitetsType.valueOf(aktivitetsTyp.toUpperCase());
@@ -52,6 +53,7 @@ public class Controller {
             System.out.println(medlem);
         }
     }
+
     public void sorterAlle() {
         svømmeklub.sorterMedlemmer();
     }
@@ -64,7 +66,17 @@ public class Controller {
         return (int) Kasserer.udregnAktivPris(alder);
     }
 
-    public int udregnSamletForventetIndtjening(String navneListe) {
-        return (int) Kasserer.udregnForventetIndtjening(navneListe);
+    public double udregnForventetIndtjening() {
+        double forventetIndtjening = 0;
+
+        for (Medlem medlem : svømmeklub.getMedlemmer()) {
+            LocalDate fødselsÅr = medlem.getFødselsÅr();
+            AktivitetsType aktivitetsType = medlem.getAktivitetsType();
+            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
+
+            forventetIndtjening += betalingsGebyr;
+        }
+
+        return forventetIndtjening;
     }
 }

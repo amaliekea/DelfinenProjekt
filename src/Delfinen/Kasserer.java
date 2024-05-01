@@ -10,8 +10,8 @@ import java.time.Period;
 public class Kasserer {
     private static LocalDate fødselsÅr;
 
-    public static double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr){
-        switch (type){
+    public static double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr) {
+        switch (type) {
             case AKTIV:
                 int alder = udregnAlder(fødselsÅr);
                 return udregnAktivPris(alder);
@@ -22,7 +22,6 @@ public class Kasserer {
 
         }
     }
-
 
 
     public static int udregnAlder(LocalDate fødselsÅr) {
@@ -47,40 +46,8 @@ public class Kasserer {
         }
     }
 
-    public static double udregnForventetIndtjening(String filePath) {
+    public static double udregnForventetIndtjening() {
         double forventetIndtjening = 0;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-
-                if (line.startsWith("Fødselsdato:")) {
-                    // Parse the birth date
-                    LocalDate fødselsdato = LocalDate.parse(line.substring("Fødselsdato: ".length()).trim());
-
-                    // Calculate age
-                    int alder = Period.between(fødselsdato, LocalDate.now()).getYears();
-
-                    // Adjust the age if the birthday hasn't occurred yet this year
-                    if (LocalDate.now().isBefore(fødselsdato.plusYears(alder))) {
-                        alder--;
-                    }
-
-                    // Calculate expected earnings based on age
-                    if (alder < 18) {
-                        forventetIndtjening += 1000;
-                    } else if (alder >= 60) {
-                        forventetIndtjening += 1600 / 1.25;
-                    } else {
-                        forventetIndtjening += 1600;
-                    }
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-        }
 
         return forventetIndtjening;
     }
