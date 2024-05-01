@@ -21,14 +21,12 @@ public abstract class Medlem {
 
     @Override
     public String toString() {
-        return "Medlem{" +
-                "navn='" + navn + '\'' +
-                ", fødselsÅr=" + fødselsÅr +
-                ", aktivitetsType=" + aktivitetsType +
-                ", svømmeType=" + svømmeType +
-                ", aldersType=" + aldersType +
-                ", betalingsGebyr=" + betalingsGebyr +
-                '}';
+        return "Navn: " + navn +
+                ", Fødselsår: " + fødselsÅr +
+                ", AktivitetsType: " + aktivitetsType +
+                ", SvømmeType: " + svømmeType +
+                ", AldersType: " + aldersType +
+                ", Betalingsgebyr: " + betalingsGebyr;
     }
 
     public abstract void betalMedlemsGebyr();

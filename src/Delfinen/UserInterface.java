@@ -17,11 +17,14 @@ public class UserInterface {
     }
 
 
+
+
     public void startProgram() {
         System.out.println("Velkommen til svømmeklubben Delfinen!!!!!");
         System.out.println("Vælg din rolle træner/formand/kasserer");
         String rolleInput = scanner.nextLine().trim().toUpperCase();
         BrugerRolle rolle;
+        loadMedlemsListePåStart();
 
         try {
             rolle = BrugerRolle.valueOf(rolleInput);
@@ -44,6 +47,10 @@ public class UserInterface {
                 System.out.println("Ugyldig rolle!!!");
 
         }
+    }
+
+    private void loadMedlemsListePåStart(){
+        controller.loadMedlemsListe();
     }
 
     public void trænerMenu() {

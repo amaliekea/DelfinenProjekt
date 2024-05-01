@@ -1,6 +1,9 @@
 package Delfinen;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Controller {
     private LocalDate fødselsÅr;
@@ -10,6 +13,16 @@ public class Controller {
     public Controller() {
         this.fødselsÅr = fødselsÅr;
         this.alder = alder;
+    }
+    public void loadMedlemsListe() {
+        try {
+            ArrayList<Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            for (Medlem medlem : loadedMedlemmer) {
+                svømmeklub.tilføjMedlem(medlem);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException("File not found: " + e.getMessage());
+        }
     }
 
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp,  String svommeTyp, String aldersTyp) {
@@ -23,6 +36,9 @@ public class Controller {
         } else if (svommeTyp.equalsIgnoreCase("motionist")) {
             medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
         }
+        double betalingsGebyr = alder.getPris(aktivitetsType);
+        medlem.setBetalingsGebyr(betalingsGebyr);
+
         svømmeklub.tilføjMedlem(medlem);
         //svømmeklub.printAll(); test
     }
