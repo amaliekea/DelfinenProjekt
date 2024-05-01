@@ -26,6 +26,7 @@ public class Controller {
         svømmeklub.tilføjMedlem(medlem);
         //svømmeklub.printAll(); test
     }
+
     public void printAll() {
         svømmeklub.printAll();
     }
@@ -39,5 +40,9 @@ public class Controller {
 
     public int udregnAktivPris(int alder) {
         return (int) Kasserer.udregnAktivPris(alder);
+    }
+
+    public int udregnSamletForventetIndtjening(String navneListe) {
+        return (int) Kasserer.udregnForventetIndtjening(navneListe);
     }
 }

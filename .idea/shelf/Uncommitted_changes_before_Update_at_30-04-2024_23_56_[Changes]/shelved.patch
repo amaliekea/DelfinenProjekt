@@ -1,0 +1,155 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"userStory 1 z og a updates\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Delfinen/Kasserer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/BrugerRolle.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/BrugerRolle.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Formand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Formand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Kasser.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/KonkurrenceSvømmer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Medlem.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Medlem.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/MedlemsType.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/MedlemsType.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Motionist.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Motionist.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Svømmedisciplin.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Svømmedisciplin.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Svømmeklub.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/amaliekea/DelfinenProjekt.git\",\r\n    \"accountId\": \"57875154-d4ae-44c5-9163-96a49543181a\"\r\n  }\r\n}]]></component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"userStory 1 z og a updates\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,23 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory 1 z og a updates">
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/BrugerRolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/BrugerRolle.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Kasser.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/MedlemsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/MedlemsType.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Motionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Motionist.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Svømmedisciplin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmedisciplin.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+-    </list>
++    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Ændring af Omar" />
+     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,6 +20,12 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="amaliekea &lt;amje0001@stud.kea.dk&gt;" />
++      </list>
++    </option>
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -44,12 +34,12 @@
+     &quot;assignee&quot;: &quot;amaliekea&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
+-    "accountId": "57875154-d4ae-44c5-9163-96a49543181a"
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt.git&quot;,
++    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -62,25 +52,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "Application.UserInterface.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -98,7 +88,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1714464246038</updated>
+       <workItem from="1714464247198" duration="12704000" />
+-      <workItem from="1714481269632" duration="3874000" />
++      <workItem from="1714481269632" duration="4203000" />
+     </task>
+     <task id="LOCAL-00001" summary="gh">
+       <option name="closed" value="true" />
+@@ -132,7 +122,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1714479223909</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Ændring af Omar">
++      <option name="closed" value="true" />
++      <created>1714485526708</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1714485526708</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Ændring af Omar">
++      <option name="closed" value="true" />
++      <created>1714485569637</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1714485569637</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -142,6 +148,8 @@
+     <MESSAGE value="gh" />
+     <MESSAGE value="userStory 1 z og a" />
+     <MESSAGE value="userStory 1 z og a updates" />
+-    <option name="LAST_COMMIT_MESSAGE" value="userStory 1 z og a updates" />
++    <MESSAGE value="Changes by zuhurunun" />
++    <MESSAGE value="Ændring af Omar" />
++    <option name="LAST_COMMIT_MESSAGE" value="Ændring af Omar" />
+   </component>
+ </project>
+\ No newline at end of file

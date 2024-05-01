@@ -107,7 +107,7 @@ public class UserInterface {
         Boolean exit = false;
         while (!exit) {
             System.out.println("\nKasserens Menu: Indtast nummer!!");
-            System.out.println("1. Generer en liste over en forventet indtjening");
+            System.out.println("1. Generer en liste over en samlet forventet indtjening");
             System.out.println("2. Se hvem, som har betalt/ikke betalt");
             System.out.println("3. Udregn alder");
             System.out.println("4. Tilbage til hovedmenu");
@@ -117,6 +117,8 @@ public class UserInterface {
             scanner.nextLine();
             switch (valg) {
                 case 1:
+                    int forventetIndtjening = controller.udregnSamletForventetIndtjening("navneListe.txt");
+                    System.out.println("Den samlede forventede indtjening er " + forventetIndtjening + " kroner.");
                     break;
                 case 2:
                     break;
