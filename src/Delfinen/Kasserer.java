@@ -96,7 +96,14 @@ public class Kasserer {
             while ((line = br.readLine()) != null) {
                 if (line.startsWith(navn)) {
                     found = true;
-                    line += ", " + betalingsInfo;
+
+                    if (line.contains("HAR BETALT") && betalingsInfo.equals("HAR IKKE BETALT")) {
+                        line = line.replace("HAR BETALT", "HAR IKKE BETALT");
+                    } else if (line.contains("HAR IKKE BETALT") && betalingsInfo.equals("HAR BETALT")) {
+                        line = line.replace("HAR IKKE BETALT", "HAR BETALT");
+                    } else {
+                        line += ", " + betalingsInfo;
+                    }
                 }
                 fileContent.append(line).append("\n");
             }
