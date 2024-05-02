@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Betalingsinfo">
-      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Betalingsinfo opd" />
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
@@ -106,7 +103,7 @@
       <workItem from="1714552229432" duration="135000" />
       <workItem from="1714552427540" duration="2550000" />
       <workItem from="1714644756598" duration="16000" />
-      <workItem from="1714644801772" duration="2831000" />
+      <workItem from="1714644801772" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="gh">
       <option name="closed" value="true" />
@@ -188,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714647403110</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Betalingsinfo opd">
+      <option name="closed" value="true" />
+      <created>1714647875797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714647875797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +233,7 @@
     <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand" />
     <MESSAGE value="sortering" />
     <MESSAGE value="Betalingsinfo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Betalingsinfo" />
+    <MESSAGE value="Betalingsinfo opd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Betalingsinfo opd" />
   </component>
 </project>
