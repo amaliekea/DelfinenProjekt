@@ -92,7 +92,7 @@ public class UserInterface {
                     controller.printAll();
                     break;
                 case 3:
-                    controller.sorterAlle();
+                    sorterMedlemmer();
                     controller.printAll();
                     break;
                 case 4:
@@ -107,6 +107,12 @@ public class UserInterface {
                     System.out.println("Ugyldigt valg!!");
             }
         }
+    }
+    private void sorterMedlemmer() {
+        System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, alders)");
+        String sorteringstype = scanner.nextLine().trim();
+        controller.sorterAlle(sorteringstype);
+        controller.printAll();
     }
 
     public void kassererMenu() {

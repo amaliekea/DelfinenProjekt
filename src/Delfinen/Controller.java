@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 public class Controller {
     public FileHandler fileHandler;
@@ -60,8 +62,23 @@ public class Controller {
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
-    public void sorterAlle() {
-        svømmeklub.sorterMedlemmer();
+    public void sorterAlle(String sorteringstype) {
+        switch (sorteringstype.toLowerCase()) {
+            case "navn":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
+                break;
+            case "fødselsår":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
+                break;
+            case "aktivitet":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
+                break;
+            case "alders":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
+                break;
+            default:
+                System.out.println("Ugyldig sorteringstype!");
+        }
     }
 
     public int udregnAlder(LocalDate fødselsÅr) {
@@ -85,4 +102,5 @@ public class Controller {
 
         return forventetIndtjening;
     }
+
 }

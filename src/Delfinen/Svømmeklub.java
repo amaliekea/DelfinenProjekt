@@ -31,8 +31,8 @@ public class Svømmeklub {
     public void tilføjMedlem( Medlem medlem) {
         this.medlemmer.add(medlem);
     }
-    public void sorterMedlemmer(){
-        //medlemmer.sort(Comparator.comparing(Medlem ::getMedlemsType));
+    public void sorterMedlemmer(Comparator<Medlem> comparator) {
+        medlemmer.sort(comparator);
     }
 
     public void læsMedlemmerTilFil(String fileName) {
