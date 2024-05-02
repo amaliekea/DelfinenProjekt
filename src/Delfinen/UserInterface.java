@@ -93,7 +93,7 @@ public class UserInterface {
                     break;
                 case 3:
                     sorterMedlemmer();
-                    controller.printAll();
+
                     break;
                 case 4:
                     startProgram();
