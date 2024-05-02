@@ -21,7 +21,6 @@ public class Controller {
         this.formand = new Formand(svømmeklub);
     }
 
-    //TODO: Kopier ind i formand
     public void loadMedlemsListe() {
         try {
             ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
@@ -33,7 +32,6 @@ public class Controller {
         }
     }
 
-    //TODO: Ryk ind i formand
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
         formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
     }
@@ -74,7 +72,6 @@ public class Controller {
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
-    //TODO: Flyt ind i en klasse for sig selv
     public void sorterAlle(String sorteringstype) {
         switch (sorteringstype.toLowerCase()) {
             case "navn":
