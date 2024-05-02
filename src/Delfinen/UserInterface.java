@@ -80,13 +80,13 @@ public class UserInterface {
                     System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
                     String datoString = scanner.next();
                     System.out.println("er medlemmet aktiv eller passiv?");
-                    String aktivitetsTyp = scanner.next();
+                    String aktivitetsType = scanner.next();
                     System.out.println("er medlemmet junior eller senior?");
                     String aldersTyp = scanner.next();
                     System.out.println("ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
                     String svømmeTyp = scanner.next();
 
-                    controller.tilføjMedlem(navn, datoString, aktivitetsTyp, svømmeTyp, aldersTyp);
+                    controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
                     break;
                 case 2:
                     controller.printAll();
