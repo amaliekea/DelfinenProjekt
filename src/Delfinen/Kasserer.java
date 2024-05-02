@@ -47,7 +47,7 @@ public class Kasserer {
 
     public static void læsMedlemmerFraFil(String filePath) {
         try {
-            ArrayList < Medlem > loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
             for (Medlem medlem: loadedMedlemmer) {
                 svømmeklub.tilføjMedlem(medlem);
             }
@@ -64,7 +64,7 @@ public class Kasserer {
         List < Medlem > medlemmer = svømmeklub.getMedlemmer();
 
         if (medlemmer.isEmpty()) {
-            System.out.println("No members found.");
+            System.out.println("Ingen medlemmer fundet.");
             return forventetIndtjening;
         }
 

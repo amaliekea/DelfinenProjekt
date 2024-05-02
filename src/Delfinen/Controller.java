@@ -9,39 +9,33 @@ public class Controller {
     public FileHandler fileHandler;
     private LocalDate fødselsÅr;
     private Kasserer alder;
-    Svømmeklub svømmeklub = new Svømmeklub();
+    private Formand formand;
+
+    private Svømmeklub svømmeklub;
 
     public Controller() {
         this.fileHandler = new FileHandler();
         this.fødselsÅr = LocalDate.now();
         this.alder = new Kasserer();
+        this.svømmeklub = new Svømmeklub();
+        this.formand = new Formand(svømmeklub);
     }
 
     //TODO: Kopier ind i formand
     public void loadMedlemsListe() {
         try {
-            ArrayList < Medlem > loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
             for (Medlem medlem: loadedMedlemmer) {
                 svømmeklub.tilføjMedlem(medlem);
             }
         } catch (FileNotFoundException e) {
-            throw new RuntimeException("File not found: " + e.getMessage());
+            throw new RuntimeException("Fil ikke fundet: " + e.getMessage());
         }
     }
-    
+
     //TODO: Ryk ind i formand
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
-        Medlem medlem = null;
-        LocalDate dato = LocalDate.parse(datoString);
-        AktivitetsType aktivitetsType = AktivitetsType.valueOf(aktivitetsTyp.toUpperCase());
-        AldersType aldersType = AldersType.valueOf(aldersTyp.toUpperCase());
-
-        if (svommeTyp.equalsIgnoreCase("konkurrenceSvømmer")) {
-            medlem = new KonkurrenceSvømmer(navn, dato, aktivitetsType, SvømmeType.KONKURRENCESVØMMER, aldersType);
-        } else if (svommeTyp.equalsIgnoreCase("motionist")) {
-            medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
-        }
-        svømmeklub.tilføjMedlem(medlem);
+        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
     }
 
     public void printAll() {

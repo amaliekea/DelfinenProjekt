@@ -4,4 +4,3 @@ public enum AktivitetsType {
     AKTIV,
     PASSIV;
 }
-

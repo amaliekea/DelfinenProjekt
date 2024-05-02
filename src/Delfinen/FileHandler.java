@@ -31,7 +31,7 @@ public class FileHandler {
         return medlemmer;
     }
 
-    public void gemMedlemmerTilFil(ArrayList < Medlem > medlemmer) {
+    public void gemMedlemmerTilFil(ArrayList <Medlem> medlemmer) {
         try (PrintStream output = new PrintStream(fil)) {
             for (Medlem medlem: medlemmer) {
                 output.println(medlem.getNavn() + ", " +

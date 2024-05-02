@@ -5,14 +5,12 @@ import java.util.Scanner;
 
 public class UserInterface {
     private Svømmeklub svømmeklub;
-    private Formand formand;
     private Scanner scanner;
     private Controller controller = new Controller();
 
     public UserInterface() {
         svømmeklub = new Svømmeklub();
         scanner = new Scanner(System.in);
-        formand = new Formand();
     }
 
     public void startProgram() {
@@ -83,6 +81,7 @@ public class UserInterface {
                     String svømmeTyp = scanner.next();
 
                     controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
+                    controller.gemMedlemmerTilFil();
                     break;
                 case 2:
                     controller.printAll();
@@ -95,7 +94,6 @@ public class UserInterface {
                     break;
                 case 5:
                     System.out.println("logger ud...");
-                    controller.gemMedlemmerTilFil();
                     exit = true;
                     break;
                 default:
