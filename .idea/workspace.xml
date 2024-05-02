@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Betalingsinfo opd" />
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Betalingsinfo opd">
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/AldersType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/AldersType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Motionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Motionist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+    </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
@@ -54,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.UserInterface.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
@@ -103,7 +117,7 @@
       <workItem from="1714552229432" duration="135000" />
       <workItem from="1714552427540" duration="2550000" />
       <workItem from="1714644756598" duration="16000" />
-      <workItem from="1714644801772" duration="3138000" />
+      <workItem from="1714644801772" duration="5486000" />
     </task>
     <task id="LOCAL-00001" summary="gh">
       <option name="closed" value="true" />
@@ -193,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714647875797</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Betalingsinfo opd">
+      <option name="closed" value="true" />
+      <created>1714648029293</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714648029293</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
