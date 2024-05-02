@@ -17,17 +17,19 @@ public class Controller {
         this.alder = new Kasserer();
     }
 
+    //TODO: Kopier ind i formand
     public void loadMedlemsListe() {
         try {
-            ArrayList<Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
-            for (Medlem medlem : loadedMedlemmer) {
+            ArrayList < Medlem > loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            for (Medlem medlem: loadedMedlemmer) {
                 svømmeklub.tilføjMedlem(medlem);
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException("File not found: " + e.getMessage());
         }
     }
-
+    
+    //TODO: Ryk ind i formand
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
         Medlem medlem = null;
         LocalDate dato = LocalDate.parse(datoString);
@@ -42,22 +44,21 @@ public class Controller {
         svømmeklub.tilføjMedlem(medlem);
     }
 
-
     public void printAll() {
-        ArrayList<Medlem> medlemmer = svømmeklub.getMedlemmer();
-        for (Medlem medlem : medlemmer) {
+        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();
+        for (Medlem medlem: medlemmer) {
             LocalDate fødselsÅr = medlem.getFødselsÅr();
             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
             medlem.setBetalingsGebyr(betalingsGebyr);
 
-            String betalingsinfo = retrieveBetalingsinfoFromFile("navneListe.txt", medlem.getNavn());
+            String betalingsinfo = hentBetalignsInfoFraFil("navneListe.txt", medlem.getNavn());
 
             System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
         }
     }
 
-    private String retrieveBetalingsinfoFromFile(String filePath, String navn) {
+    private String hentBetalignsInfoFraFil(String filePath, String navn) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = br.readLine()) != null) {
@@ -71,14 +72,15 @@ public class Controller {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "Information not found";
+        return "Information ikke fundet";
     }
 
-    public void gemMedlemmerTilFil(){
-        ArrayList<Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
+    public void gemMedlemmerTilFil() {
+        ArrayList <Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
+    //TODO: Flyt ind i en klasse for sig selv
     public void sorterAlle(String sorteringstype) {
         switch (sorteringstype.toLowerCase()) {
             case "navn":

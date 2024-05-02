@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class FileHandler {
     private File fil = new File("navneListe.txt");
-    public static ArrayList<Medlem> læsMedlemmerFraFil(File fil) throws FileNotFoundException {
-        ArrayList<Medlem> medlemmer = new ArrayList<>();
+    public static ArrayList < Medlem > læsMedlemmerFraFil(File fil) throws FileNotFoundException {
+        ArrayList < Medlem > medlemmer = new ArrayList < > ();
         try (Scanner scanner = new Scanner(fil)) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -30,9 +30,10 @@ public class FileHandler {
         }
         return medlemmer;
     }
-    public void gemMedlemmerTilFil(ArrayList<Medlem> medlemmer) {
+
+    public void gemMedlemmerTilFil(ArrayList < Medlem > medlemmer) {
         try (PrintStream output = new PrintStream(fil)) {
-            for (Medlem medlem : medlemmer) {
+            for (Medlem medlem: medlemmer) {
                 output.println(medlem.getNavn() + ", " +
                         medlem.getFødselsÅr() + ", " +
                         medlem.getAktivitetsType() + ", " +
@@ -40,8 +41,7 @@ public class FileHandler {
                         medlem.getAldersType());
             }
         } catch (FileNotFoundException e) {
-            throw new RuntimeException("Error saving members to file: " + e.getMessage());
+            throw new RuntimeException("Kunne ikke gemme medlemmer til fil: " + e.getMessage());
         }
     }
 }
-

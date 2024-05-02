@@ -1,9 +1,6 @@
 package Delfinen;
 
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.ArrayList;
-
+//TODO: Flyt tilføj medlemmer til formand
 public class Formand {
 
 }

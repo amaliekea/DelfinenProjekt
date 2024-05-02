@@ -47,8 +47,8 @@ public class Kasserer {
 
     public static void læsMedlemmerFraFil(String filePath) {
         try {
-            ArrayList<Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
-            for (Medlem medlem : loadedMedlemmer) {
+            ArrayList < Medlem > loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            for (Medlem medlem: loadedMedlemmer) {
                 svømmeklub.tilføjMedlem(medlem);
             }
         } catch (FileNotFoundException e) {
@@ -61,14 +61,14 @@ public class Kasserer {
 
         læsMedlemmerFraFil("navneListe.txt");
 
-        List<Medlem> medlemmer = svømmeklub.getMedlemmer();
+        List < Medlem > medlemmer = svømmeklub.getMedlemmer();
 
         if (medlemmer.isEmpty()) {
             System.out.println("No members found.");
             return forventetIndtjening;
         }
 
-        for (Medlem medlem : medlemmer) {
+        for (Medlem medlem: medlemmer) {
             LocalDate fødselsÅr = medlem.getFødselsÅr();
             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
             double betalingsGebyr = udregnBetalingsGebyr(aktivitetsType, fødselsÅr);

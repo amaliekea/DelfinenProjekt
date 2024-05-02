@@ -9,15 +9,11 @@ public class UserInterface {
     private Scanner scanner;
     private Controller controller = new Controller();
 
-
     public UserInterface() {
         svømmeklub = new Svømmeklub();
         scanner = new Scanner(System.in);
         formand = new Formand();
     }
-
-
-
 
     public void startProgram() {
         System.out.println("Velkommen til svømmeklubben Delfinen!!!!!");
@@ -48,7 +44,7 @@ public class UserInterface {
         }
     }
 
-    public void loadMedlemsListePåStart(){
+    public void loadMedlemsListePåStart() {
         controller.loadMedlemsListe();
     }
 
@@ -93,7 +89,6 @@ public class UserInterface {
                     break;
                 case 3:
                     sorterMedlemmer();
-
                     break;
                 case 4:
                     startProgram();
@@ -165,7 +160,3 @@ public class UserInterface {
         }
     }
 }
-
-
-
-

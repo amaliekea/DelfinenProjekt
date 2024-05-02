@@ -35,44 +35,20 @@ public abstract class Medlem {
         return navn;
     }
 
-    public void setNavn(String navn) {
-        this.navn = navn;
-    }
-
     public LocalDate getFødselsÅr() {
         return fødselsÅr;
-    }
-
-    public void setFødselsÅr(LocalDate fødselsÅr) {
-        this.fødselsÅr = fødselsÅr;
     }
 
     public AktivitetsType getAktivitetsType() {
         return aktivitetsType;
     }
 
-    public void setAktivitetsType(AktivitetsType aktivitetsType) {
-        this.aktivitetsType = aktivitetsType;
-    }
-
     public SvømmeType getSvømmeType() {
         return svømmeType;
     }
 
-    public void setSvømmeType(SvømmeType svømmeType) {
-        this.svømmeType = svømmeType;
-    }
-
     public AldersType getAldersType() {
         return aldersType;
-    }
-
-    public void setAldersType(AldersType aldersType) {
-        this.aldersType = aldersType;
-    }
-
-    public double getBetalingsGebyr() {
-        return betalingsGebyr;
     }
 
     public void setBetalingsGebyr(double betalingsGebyr) {
