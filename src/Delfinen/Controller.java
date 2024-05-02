@@ -73,7 +73,7 @@ public class Controller {
             case "aktivitet":
                 svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
                 break;
-            case "alders":
+            case "aldersgruppe":
                 svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
                 break;
             default:

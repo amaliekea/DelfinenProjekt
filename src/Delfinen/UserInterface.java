@@ -109,7 +109,7 @@ public class UserInterface {
         }
     }
     private void sorterMedlemmer() {
-        System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, alders)");
+        System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)");
         String sorteringstype = scanner.nextLine().trim();
         controller.sorterAlle(sorteringstype);
         controller.printAll();
