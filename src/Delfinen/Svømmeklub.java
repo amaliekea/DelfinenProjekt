@@ -1,14 +1,9 @@
 package Delfinen;
-
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Scanner;
 
 public class Svømmeklub {
     private ArrayList<Medlem> medlemmer;
-    //private static final String FILE_NAME ="members.txt";
 
 
     public Svømmeklub(){
@@ -35,15 +30,4 @@ public class Svømmeklub {
         medlemmer.sort(comparator);
     }
 
-    public void læsMedlemmerTilFil(String fileName) {
-        try {
-            File file = new File(fileName);
-            Scanner scanner = new Scanner(file);
-            while (scanner.hasNext()) {
-                System.out.println(scanner.nextLine());
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-    }
 }
