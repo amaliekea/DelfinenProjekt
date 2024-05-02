@@ -65,7 +65,7 @@ public class UserInterface {
         while (!exit) {
             System.out.println("\nFormandens Menu: Indtast nummer!!");
             System.out.println("1. Tilføj nyt medlem");
-            System.out.println("2. Vis alle medlemmer");
+            System.out.println("2. Vis alle medlemmer med betalingsinfo");
             System.out.println("3. Sorter medlemmer");
             System.out.println("4. Tilbage til hovedmenu");
             System.out.println("5. Log ud");
@@ -116,12 +116,12 @@ public class UserInterface {
     }
 
     public void kassererMenu() {
-
         Boolean exit = false;
         while (!exit) {
             System.out.println("\nKasserens Menu: Indtast nummer!!");
             System.out.println("1. Generer en liste over en samlet forventet indtjening");
-            System.out.println("2. Se hvem, som har betalt/ikke betalt");
+            System.out.println("2. Indtast navne på dem, som har betalt/ikke betalt");
+            System.out.println("3. Vis alle medlemmer med betalingsinfo");
             System.out.println("3. Udregn alder");
             System.out.println("4. Tilbage til hovedmenu");
             System.out.println("5. Log ud");
@@ -134,8 +134,17 @@ public class UserInterface {
                     System.out.println("Den samlede forventede indtjening er " + forventetIndtjening + " kroner.");
                     break;
                 case 2:
+                    System.out.println("Indtast navn:");
+                    String navn = scanner.nextLine();
+                    System.out.println("Har medlemmet betalt? (HAR BETALT/HAR IKKE BETALT):");
+                    String betalingsInfo = scanner.nextLine();
+                    String filePath = "navneListe.txt";
+                    controller.betalingsInfo(filePath, navn, betalingsInfo);
                     break;
                 case 3:
+                    controller.printAll();
+                    break;
+                case 4:
                     System.out.print("Indtast fødselsår (YYYY-MM-DD format): ");
                     String input = scanner.nextLine();
                     LocalDate fødselsÅr = LocalDate.parse(input);
@@ -143,10 +152,10 @@ public class UserInterface {
                     double aktivPris = controller.udregnAktivPris(alder);
                     System.out.println("Medlemmet er " + alder + " år gammel, og skal dermed betale " + aktivPris + " kroner.");
                     break;
-                case 4:
+                case 5:
                     startProgram();
                     break;
-                case 5:
+                case 6:
                     System.out.println("logger ud...");
                     exit = true;
                     break;
@@ -156,7 +165,6 @@ public class UserInterface {
         }
     }
 }
-
 
 
 

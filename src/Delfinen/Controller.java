@@ -1,7 +1,6 @@
 package Delfinen;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -41,7 +40,6 @@ public class Controller {
             medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
         }
         svømmeklub.tilføjMedlem(medlem);
-        //svømmeklub.printAll(); test
     }
 
 
@@ -53,9 +51,29 @@ public class Controller {
             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
             medlem.setBetalingsGebyr(betalingsGebyr);
 
-            System.out.println(medlem);
+            String betalingsinfo = retrieveBetalingsinfoFromFile("navneListe.txt", medlem.getNavn());
+
+            System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
         }
     }
+
+    private String retrieveBetalingsinfoFromFile(String filePath, String navn) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (line.startsWith(navn)) {
+                    String[] parts = line.split(", ");
+                    if (parts.length > 1) {
+                        return parts[parts.length - 1];
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "Information not found";
+    }
+
     public void gemMedlemmerTilFil(){
         ArrayList<Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
@@ -89,17 +107,10 @@ public class Controller {
     }
 
     public double udregnForventetIndtjening() {
-        double forventetIndtjening = 0;
-
-        for (Medlem medlem : svømmeklub.getMedlemmer()) {
-            LocalDate fødselsÅr = medlem.getFødselsÅr();
-            AktivitetsType aktivitetsType = medlem.getAktivitetsType();
-            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
-
-            forventetIndtjening += betalingsGebyr;
-        }
-
-        return forventetIndtjening;
+        return Kasserer.udregnForventetIndtjening();
     }
 
+    public static boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {
+        return Kasserer.betalingsInfo(filePath, navn, betalingsInfo);
+    }
 }
