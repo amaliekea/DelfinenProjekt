@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+    <list id="504863aa-3151-42ed-9d58-4c5e64c508b9" name="Changes by omara" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+    </list>
     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="oprydning" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,12 +43,12 @@
     &quot;assignee&quot;: &quot;amaliekea&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,
-    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
+    "accountId": "152fb25b-e382-42b5-8165-0d7eeed6e637"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -71,7 +68,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "oprydning",
+    "git-widget-placeholder": "kass-sort-sortering-i-ny-class",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,10 +76,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="Sortering" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
@@ -114,6 +116,7 @@
       <workItem from="1714552427540" duration="2550000" />
       <workItem from="1714644756598" duration="16000" />
       <workItem from="1714644801772" duration="11798000" />
+      <workItem from="1714724359716" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="gh">
       <option name="closed" value="true" />
@@ -270,5 +273,9 @@
     <MESSAGE value="Betalingsinfo opd" />
     <MESSAGE value="TODO lister er tilføjet" />
     <option name="LAST_COMMIT_MESSAGE" value="TODO lister er tilføjet" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

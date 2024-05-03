@@ -10,8 +10,9 @@ public class Controller {
     private LocalDate fødselsÅr;
     private Kasserer alder;
     private Formand formand;
+    private static Sortering sortering;
 
-    private Svømmeklub svømmeklub;
+    private static Svømmeklub svømmeklub;
 
     public Controller() {
         this.fileHandler = new FileHandler();
@@ -19,6 +20,7 @@ public class Controller {
         this.alder = new Kasserer();
         this.svømmeklub = new Svømmeklub();
         this.formand = new Formand(svømmeklub);
+        this.sortering = new Sortering(svømmeklub);
     }
 
     public void loadMedlemsListe() {
@@ -73,22 +75,7 @@ public class Controller {
     }
 
     public void sorterAlle(String sorteringstype) {
-        switch (sorteringstype.toLowerCase()) {
-            case "navn":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
-                break;
-            case "fødselsår":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
-                break;
-            case "aktivitet":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
-                break;
-            case "aldersgruppe":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
-                break;
-            default:
-                System.out.println("Ugyldig sorteringstype!");
-        }
+        sortering.sorterAlle(sorteringstype);
     }
 
     public int udregnAlder(LocalDate fødselsÅr) {
