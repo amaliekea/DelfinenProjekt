@@ -14,7 +14,7 @@ public class UserInterface {
     }
 
     public void startProgram() {
-        System.out.println("Velkommen til svømmeklubben Delfinen!!!!!");
+        System.out.println("Velkommen til svømmeklubben Delfinen!");
         System.out.println("Vælg din rolle træner/formand/kasserer");
         String rolleInput = scanner.nextLine().trim().toUpperCase();
         BrugerRolle rolle;
@@ -37,8 +37,7 @@ public class UserInterface {
                 kassererMenu();
                 break;
             default:
-                System.out.println("Ugyldig rolle!!!");
-
+                System.out.println("Ugyldig rolle!");
         }
     }
 
@@ -46,8 +45,89 @@ public class UserInterface {
         controller.loadMedlemsListe();
     }
 
+    public void loadTidsListePåStart() {
+        controller.loadTidsListe();
+    }
+
+    public String getTrænerValg() {
+        return scanner.next();
+    }
+
     public void trænerMenu() {
 
+        Boolean exit = false;
+        while (!exit) {
+            System.out.println("\nTrænerens Menu: Indtast nummer!");
+            System.out.println("1. Registrer/rediger konkurrence resultater");
+            System.out.println("2. Rediger konkurrence tidspunkter");
+            System.out.println("3. Se Top 5 listen");
+            System.out.println("4. Tilbage til hovedmenu");
+            System.out.println("5. Log ud");
+
+            int valg = scanner.nextInt();
+            scanner.nextLine();
+            switch (valg) {
+                case 1:
+                    System.out.println("Vil du registrere eller redigere?");
+                    String trænerValg = getTrænerValg();
+                    while (!(trænerValg.equalsIgnoreCase("registrere") || trænerValg.equalsIgnoreCase("redigere"))) {
+                        System.out.println("Ikke gyldigt valg. Indtast 'registrere' eller 'redigere'.");
+                        trænerValg = getTrænerValg();
+                    }
+                    if (trænerValg.equalsIgnoreCase("registrere")) {
+                        System.out.println("Indsæt navn: ");
+                        String navn = scanner.next();
+                        System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
+                        String datoString = scanner.next();
+                        System.out.println("Hvor hurtigt svømmede svømmeren (MM-SS format)? ");
+                        String svømmeTid = scanner.next();
+                        System.out.println("Er svømmeren junior eller senior? ");
+                        String aldersTyp = scanner.next();
+
+                        controller.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+                        controller.gemTiderTilFil();
+                    } else {
+                        System.out.println("Indtast nummeret på tiden, du vil redigere: ");
+                        int tidIndex = scanner.nextInt();
+                        scanner.nextLine();
+
+                        if (tidIndex < 1 || tidIndex > controller.getTider().size()) {
+                            System.out.println("Ugyldigt valg. Der findes mindre end 3 tider på listen.");
+                            break;
+                        }
+
+                        System.out.println("Indtast nyt navn: ");
+                        String nytNavn = scanner.next();
+                        System.out.println("Indtast ny fødselsår (YYYY-MM-DD format): ");
+                        String nyDatoString = scanner.next();
+                        System.out.println("Indtast ny svømmetid (MM-SS format): ");
+                        String nySvømmeTid = scanner.next();
+                        System.out.println("Er svømmeren junior eller senior? ");
+                        String nyAldersTyp = scanner.next();
+
+                        Tid tid = controller.getTider().get(tidIndex - 1);
+                        tid.setNavn(nytNavn);
+                        tid.setFødselsÅr(LocalDate.parse(nyDatoString));
+                        tid.setSvømmeTid(nySvømmeTid);
+                        tid.setAldersType(AldersType.valueOf(nyAldersTyp.toUpperCase()));
+
+                        controller.gemTiderTilFil();
+                    }
+                    break;
+                case 3:
+                    controller.printAllTop5();
+                    break;
+                case 4:
+                    startProgram();
+                    break;
+                case 5:
+                    System.out.println("Logger ud...");
+                    exit = true;
+                    break;
+                default:
+                    System.out.println("Ugyldigt valg!");
+            }
+        }
     }
 
     public void formandMenu() {
@@ -73,11 +153,11 @@ public class UserInterface {
                     String navn = scanner.nextLine();
                     System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
                     String datoString = scanner.next();
-                    System.out.println("er medlemmet aktiv eller passiv?");
+                    System.out.println("Er medlemmet aktiv eller passiv?");
                     String aktivitetsType = scanner.next();
-                    System.out.println("er medlemmet junior eller senior?");
+                    System.out.println("Er medlemmet junior eller senior?");
                     String aldersTyp = scanner.next();
-                    System.out.println("ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
+                    System.out.println("Ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
                     String svømmeTyp = scanner.next();
 
                     controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
@@ -93,14 +173,15 @@ public class UserInterface {
                     startProgram();
                     break;
                 case 5:
-                    System.out.println("logger ud...");
+                    System.out.println("Logger ud...");
                     exit = true;
                     break;
                 default:
-                    System.out.println("Ugyldigt valg!!");
+                    System.out.println("Ugyldigt valg!");
             }
         }
     }
+
     private void sorterMedlemmer() {
         System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)");
         String sorteringstype = scanner.nextLine().trim();
@@ -149,11 +230,11 @@ public class UserInterface {
                     startProgram();
                     break;
                 case 6:
-                    System.out.println("logger ud...");
+                    System.out.println("Logger ud...");
                     exit = true;
                     break;
                 default:
-                    System.out.println("Ugyldigt valg!!");
+                    System.out.println("Ugyldigt valg!");
             }
         }
     }

@@ -1,16 +1,16 @@
 package Delfinen;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
+import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileHandler {
     private File fil = new File("navneListe.txt");
-    public static ArrayList < Medlem > læsMedlemmerFraFil(File fil) throws FileNotFoundException {
-        ArrayList < Medlem > medlemmer = new ArrayList < > ();
+    private File filTider = new File("konkurrenceTider.txt");
+
+    public static ArrayList <Medlem> læsMedlemmerFraFil(File fil) throws FileNotFoundException {
+        ArrayList <Medlem> medlemmer = new ArrayList < > ();
         try (Scanner scanner = new Scanner(fil)) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -42,6 +42,52 @@ public class FileHandler {
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException("Kunne ikke gemme medlemmer til fil: " + e.getMessage());
+        }
+    }
+
+    public static ArrayList<Tid> læsTiderFraFilTræner(File filTider) throws FileNotFoundException {
+        ArrayList<Tid> tider = new ArrayList<>();
+        try (Scanner scanner = new Scanner(filTider)) {
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] tidData = line.split(", ");
+                String navn = tidData[0];
+                LocalDate fødselsdato = LocalDate.parse(tidData[1]);
+                String svømmeTidString = tidData[2];
+                AldersType aldersType = AldersType.valueOf(tidData[3]);
+
+                SvømmeTid svømmeTid = new SvømmeTid(svømmeTidString);
+
+                Tid tid = new Tid(navn, fødselsdato, aldersType, svømmeTid.toString());
+                tider.add(tid);
+            }
+        }
+        return tider;
+    }
+
+    public void gemTiderTilFilTræner(ArrayList<Tid> tider) {
+        try (PrintWriter output = new PrintWriter(filTider)) {
+            for (Tid tid : tider) {
+                String svømmeTidInput = tid.getSvømmeTid();
+                String svømmeTidFormateret;
+                
+                if (svømmeTidInput.contains(":")) {
+                    if (svømmeTidInput.endsWith(":")) {
+                        svømmeTidFormateret = svømmeTidInput + "00";
+                    } else {
+                        svømmeTidFormateret = svømmeTidInput;
+                    }
+                } else {
+                    svømmeTidFormateret = svømmeTidInput + ":00";
+                }
+                
+                output.println(tid.getNavn() + ", " +
+                        tid.getFødselsÅr() + ", " +
+                        svømmeTidFormateret + ", " +
+                        tid.getAldersType());
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException("Kunne ikke gemme tider til fil: " + e.getMessage());
         }
     }
 }

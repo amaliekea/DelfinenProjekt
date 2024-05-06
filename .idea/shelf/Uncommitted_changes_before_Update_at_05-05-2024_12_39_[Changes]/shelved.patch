@@ -1,0 +1,122 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"TODO lister er tilføjet\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/navneListe.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/navneListe.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/AktivitetsType.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/AktivitetsType.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Formand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Formand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Kasserer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Kasserer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"oprydning\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,\r\n    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"oprydning\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"editor.preferences.tabs\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TODO lister er tilføjet\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ffc0ca80667b95244de7dad8377ec488c589bdec)
++++ b/.idea/workspace.xml	(date 1714724840681)
+@@ -6,14 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+     </list>
+     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+@@ -35,7 +27,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="oprydning" />
++        <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -64,25 +56,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "Application.UserInterface.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "oprydning",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager">
+     <configuration name="Main" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
+@@ -113,7 +105,8 @@
+       <workItem from="1714552229432" duration="135000" />
+       <workItem from="1714552427540" duration="2550000" />
+       <workItem from="1714644756598" duration="16000" />
+-      <workItem from="1714644801772" duration="11798000" />
++      <workItem from="1714644801772" duration="12389000" />
++      <workItem from="1714724482985" duration="349000" />
+     </task>
+     <task id="LOCAL-00001" summary="gh">
+       <option name="closed" value="true" />
+@@ -227,7 +220,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1714650404372</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="TODO lister er tilføjet">
++      <option name="closed" value="true" />
++      <created>1714658516588</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1714658516588</updated>
++    </task>
++    <task id="LOCAL-00016" summary="TODO lister er tilføjet">
++      <option name="closed" value="true" />
++      <created>1714658565513</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1714658565513</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -244,7 +253,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="origin/oprydning" />
++                        <option value="main" />
+                       </list>
+                     </value>
+                   </entry>

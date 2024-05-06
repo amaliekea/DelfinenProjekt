@@ -10,7 +10,7 @@ public class Controller {
     private LocalDate fødselsÅr;
     private Kasserer alder;
     private Formand formand;
-    private static Sortering sortering;
+    private Træner træner;
 
     private static Svømmeklub svømmeklub;
 
@@ -20,7 +20,7 @@ public class Controller {
         this.alder = new Kasserer();
         this.svømmeklub = new Svømmeklub();
         this.formand = new Formand(svømmeklub);
-        this.sortering = new Sortering(svømmeklub);
+        this.træner = new Træner(svømmeklub);
     }
 
     public void loadMedlemsListe() {
@@ -34,25 +34,60 @@ public class Controller {
         }
     }
 
+    public void loadTidsListe() {
+        try {
+            ArrayList<Tid> loadedTider = FileHandler.læsTiderFraFilTræner(new File("konkurrenceTider.txt"));
+            for (Tid tid: loadedTider) {
+                svømmeklub.tilføjTid((tid));
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException("Fil ikke fundet: " + e.getMessage());
+        }
+    }
+
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
         formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
     }
 
+    public void tilføjTid(String navn, String datoString, String svømmeTid, String aldersTyp) {
+        træner.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+        SvømmeTid.tilføjSvømmeTid(svømmeTid);
+    }
+
+    public ArrayList<Tid> getTider() {
+        return svømmeklub.getTider();
+    }
+
     public void printAll() {
-        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();
+        ArrayList <Medlem> medlemmer = svømmeklub.getMedlemmer();
         for (Medlem medlem: medlemmer) {
             LocalDate fødselsÅr = medlem.getFødselsÅr();
             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
             medlem.setBetalingsGebyr(betalingsGebyr);
 
-            String betalingsinfo = hentBetalignsInfoFraFil("navneListe.txt", medlem.getNavn());
+            String betalingsinfo = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
 
             System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
         }
     }
 
-    private String hentBetalignsInfoFraFil(String filePath, String navn) {
+    public void printAllTop5() {
+        ArrayList<Tid> tider = svømmeklub.getTider();
+
+        tider.sort(Comparator.comparing(Tid::getSvømmeTid));
+
+        System.out.println("Top 5 konkurrencesvømmere:");
+        for (int i = 0; i < Math.min(5, tider.size()); i++) {
+            Tid tid = tider.get(i);
+            LocalDate fødselsÅr = tid.getFødselsÅr();
+            String svømmeTid = tid.getSvømmeTid();
+            AldersType aldersType = tid.getAldersType();
+            System.out.println("Navn: " + tid.getNavn() + ", Svømmetid: " + svømmeTid + ", Alders type: " + aldersType);
+        }
+    }
+
+    private String hentBetalingsInfoFraFil(String filePath, String navn) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = br.readLine()) != null) {
@@ -74,8 +109,28 @@ public class Controller {
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
+    public void gemTiderTilFil() {
+        ArrayList<Tid> tiderDerSkalGemmes = svømmeklub.getTider();
+        fileHandler.gemTiderTilFilTræner(tiderDerSkalGemmes);
+    }
+
     public void sorterAlle(String sorteringstype) {
-        sortering.sorterAlle(sorteringstype);
+        switch (sorteringstype.toLowerCase()) {
+            case "navn":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
+                break;
+            case "fødselsår":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
+                break;
+            case "aktivitet":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
+                break;
+            case "aldersgruppe":
+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
+                break;
+            default:
+                System.out.println("Ugyldig sorteringstype!");
+        }
     }
 
     public int udregnAlder(LocalDate fødselsÅr) {
