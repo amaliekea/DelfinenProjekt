@@ -1,0 +1,38 @@
+Index: src/Delfinen/KonkurrenceSvømmer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Delfinen;\r\n\r\nimport java.time.LocalDate;\r\n\r\npublic class KonkurrenceSvømmer extends Medlem {\r\n\r\n    public KonkurrenceSvømmer(String navn, LocalDate fødselsÅr, AktivitetsType aktivitetsType, SvømmeType svømmeType, AldersType aldersType) {\r\n        super(navn, fødselsÅr, aktivitetsType, svømmeType, aldersType);\r\n    }\r\n\r\n    //TODO: Lav en RandomGenerator, som betaler for medlemmer, hvis der står \"HAR IKKE BETALT\" 15 minutter efter programmet er startet\r\n    @Override\r\n    public void betalMedlemsGebyr() {\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Delfinen/KonkurrenceSvømmer.java b/src/Delfinen/KonkurrenceSvømmer.java
+--- a/src/Delfinen/KonkurrenceSvømmer.java	(revision 72e1d6775df86676249d8747e810c5cf5be0838c)
++++ b/src/Delfinen/KonkurrenceSvømmer.java	(date 1714729103196)
+@@ -8,9 +8,8 @@
+         super(navn, fødselsÅr, aktivitetsType, svømmeType, aldersType);
+     }
+ 
+-    //TODO: Lav en RandomGenerator, som betaler for medlemmer, hvis der står "HAR IKKE BETALT" 15 minutter efter programmet er startet
+     @Override
+     public void betalMedlemsGebyr() {
+ 
+     }
+-}
+\ No newline at end of file
++}
+Index: navneListe.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Omar Al-Ali, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\r\nMette Frederiksen, 1987-07-20, PASSIV, MOTIONIST, SENIOR\r\nCharlie Chaplin, 2007-11-10, AKTIV, KONKURRENCESVØMMER, JUNIOR\r\nGamle Ole, 1938-05-02, AKTIV, MOTIONIST, SENIOR\r\nUnge Sønsen, 2010-09-25, PASSIV, MOTIONIST, JUNIOR\r\nDaniel, 1997-05-25, AKTIV, MOTIONIST, SENIOR\r\nAmalie, 2002-02-17, AKTIV, MOTIONIST, JUNIOR\r\nDaniel Sørensen, 1997-01-01, PASSIV, KONKURRENCESVØMMER, JUNIOR\r\nChristian Ole, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\r\nSøren Ole, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\r\nBørge Ole, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\r\nJesper Børge, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/navneListe.txt b/navneListe.txt
+--- a/navneListe.txt	(revision 72e1d6775df86676249d8747e810c5cf5be0838c)
++++ b/navneListe.txt	(date 1714727121590)
+@@ -1,4 +1,4 @@
+-Omar Al-Ali, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR
++Omar Al-Ali, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR, HAR IKKE BETALT
+ Mette Frederiksen, 1987-07-20, PASSIV, MOTIONIST, SENIOR
+ Charlie Chaplin, 2007-11-10, AKTIV, KONKURRENCESVØMMER, JUNIOR
+ Gamle Ole, 1938-05-02, AKTIV, MOTIONIST, SENIOR
