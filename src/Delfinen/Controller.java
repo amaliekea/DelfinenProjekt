@@ -25,8 +25,8 @@ public class Controller {
 
     public void loadMedlemsListe() {
         try {
-            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
-            for (Medlem medlem: loadedMedlemmer) {
+            ArrayList<Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            for (Medlem medlem : loadedMedlemmer) {
                 svømmeklub.tilføjMedlem(medlem);
             }
         } catch (FileNotFoundException e) {
@@ -34,13 +34,18 @@ public class Controller {
         }
     }
 
-    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
-        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
+    public Formand getFormand() {
+        return formand;
     }
 
+    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svømmeType, String aldersType) {
+        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svømmeType, aldersType);
+    }
+
+
     public void printAll() {
-        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();
-        for (Medlem medlem: medlemmer) {
+        ArrayList<Medlem> medlemmer = svømmeklub.getMedlemmer();
+        for (Medlem medlem : medlemmer) {
             LocalDate fødselsÅr = medlem.getFødselsÅr();
             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
@@ -70,7 +75,7 @@ public class Controller {
     }
 
     public void gemMedlemmerTilFil() {
-        ArrayList <Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
+        ArrayList<Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
     }
 
