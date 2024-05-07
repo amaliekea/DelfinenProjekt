@@ -11,6 +11,7 @@ public class Controller {
     private Kasserer alder;
     private Formand formand;
     private Træner træner;
+    private Sortering sortering;
 
     private static Svømmeklub svømmeklub;
 
@@ -115,22 +116,7 @@ public class Controller {
     }
 
     public void sorterAlle(String sorteringstype) {
-        switch (sorteringstype.toLowerCase()) {
-            case "navn":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
-                break;
-            case "fødselsår":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
-                break;
-            case "aktivitet":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
-                break;
-            case "aldersgruppe":
-                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
-                break;
-            default:
-                System.out.println("Ugyldig sorteringstype!");
-        }
+        sortering.sorterAlle(sorteringstype);
     }
 
     public int udregnAlder(LocalDate fødselsÅr) {
