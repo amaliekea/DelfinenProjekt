@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_08_59_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_11_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
@@ -29,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="træneren" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
