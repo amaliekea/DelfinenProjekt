@@ -23,7 +23,7 @@ public class UserInterface {
         try {
             rolle = BrugerRolle.valueOf(rolleInput);
         } catch (IllegalArgumentException e) {
-            System.out.println("Ugyldig rolle valgt!!");
+            System.out.println("Ugyldig rolle valgt!");
             return;
         }
 
@@ -179,9 +179,6 @@ public class UserInterface {
                         System.out.println("Logger ud...");
                         exit = true;
                         break;
-                    default:
-                        System.out.println("Ugyldigt valg!");
-                        break;
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Ugyldigt input! Prøv igen.");
@@ -241,9 +238,6 @@ public class UserInterface {
                     case 6:
                         System.out.println("Logger ud...");
                         exit = true;
-                        break;
-                    default:
-                        System.out.println("Ugyldigt valg!");
                         break;
                 }
             } catch (InputMismatchException e) {
