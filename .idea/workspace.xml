@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
-      <change afterPath="$PROJECT_DIR$/Test/Delfinen/FormandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
@@ -63,6 +63,7 @@
     "Application.Main.executor": "Run",
     "Application.UserInterface.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.FormandTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -97,7 +98,7 @@
       <recent name="Delfinen" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormandTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
       <module name="DelfinenProjekt" />

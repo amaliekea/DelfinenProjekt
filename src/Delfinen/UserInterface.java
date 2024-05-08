@@ -68,19 +68,7 @@ public class UserInterface {
                 scanner.nextLine();
                 switch (valg) {
                     case 1:
-                        System.out.println("Indsæt navn: ");
-                        String navn = scanner.nextLine();
-                        System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
-                        String datoString = scanner.next();
-                        System.out.println("Er medlemmet aktiv eller passiv?");
-                        String aktivitetsType = scanner.next();
-                        System.out.println("Er medlemmet junior eller senior?");
-                        String aldersTyp = scanner.next();
-                        System.out.println("Ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
-                        String svømmeTyp = scanner.next();
-
-                        controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
-                        controller.gemMedlemmerTilFil();
+                      tilføjNytMedlem();
                         break;
                     case 2:
                         controller.printAll();
@@ -104,6 +92,61 @@ public class UserInterface {
                 scanner.nextLine();
             }
         }
+    }
+    public void tilføjNytMedlem() {
+        // Valider navn
+        String navn = "";
+        while (navn.isEmpty()) {
+            System.out.println("Indsæt navn (kun bogstaver og mellemrum):");
+            navn = controller.getFormand().validerNavn(scanner.nextLine().trim());
+            if (navn.isEmpty()) {
+                System.out.println("Ugyldigt navn. Kun bogstaver og mellemrum er tilladt.");
+            }
+        }
+
+        // Valider fødselsdato
+        LocalDate fødselsDato = null;
+        while (fødselsDato == null) {
+            System.out.println("Indtast fødselsår (YYYY-MM-DD format):");
+            fødselsDato = controller.getFormand().validerDato(scanner.nextLine().trim());
+            if (fødselsDato == null) {
+                System.out.println("Ugyldigt datoformat! Brug YYYY-MM-DD.");
+            }
+        }
+
+        // Valider aktivitetsType
+        String aktivitetsType = "";
+        while (aktivitetsType.isEmpty()) {
+            System.out.println("Er medlemmet aktiv eller passiv?");
+            aktivitetsType = controller.getFormand().validerAktivitetsType(scanner.nextLine().trim());
+            if (aktivitetsType.isEmpty()) {
+                System.out.println("Ugyldigt input. Kun 'aktiv' eller 'passiv' er tilladt.");
+            }
+        }
+
+        // Valider svømmeType
+        String svømmeType = "";
+        while (svømmeType.isEmpty()) {
+            System.out.println("Ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
+            svømmeType = controller.getFormand().validerSvømmeType(scanner.nextLine().trim());
+            if (svømmeType.isEmpty()) {
+                System.out.println("Ugyldigt input. Kun 'motionist' eller 'konkurrencesvømmer' er tilladt.");
+            }
+        }
+
+        // Valider aldersType
+        String aldersType = "";
+        while (aldersType.isEmpty()) {
+            System.out.println("Er medlemmet junior eller senior?");
+            aldersType = controller.getFormand().validerAldersType(scanner.nextLine().trim());
+            if (aldersType.isEmpty()) {
+                System.out.println("Ugyldigt input. Kun 'junior' eller 'senior' er tilladt.");
+            }
+        }
+
+        // Tilføj medlem til svømmeklubben
+        controller.tilføjMedlem(navn, fødselsDato.toString(), aktivitetsType, svømmeType, aldersType);
+        System.out.println("Medlem tilføjet: " + navn);
     }
 
     private void sorterMedlemmer() {
