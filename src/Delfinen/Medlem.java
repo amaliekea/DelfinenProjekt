@@ -16,7 +16,6 @@ public abstract class Medlem {
         this.aktivitetsType = aktivitetsType;
         this.svømmeType = svømmeType;
         this.aldersType = aldersType;
-        this.betalingsGebyr = betalingsGebyr;
     }
 
     @Override

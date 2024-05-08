@@ -4,4 +4,3 @@ public enum SvømmeType {
     MOTIONIST,
     KONKURRENCESVØMMER;
 }
-
