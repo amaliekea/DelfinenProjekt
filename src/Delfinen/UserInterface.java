@@ -126,9 +126,6 @@ public class UserInterface {
                         System.out.println("Logger ud...");
                         exit = true;
                         break;
-                    default:
-                        System.out.println("Ugyldigt valg!");
-                        break;
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Ugyldigt input! Prøv igen.");
