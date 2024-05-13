@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2024_14_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2024_14_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_01_05_2024_14_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_01_05_2024_14_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_08_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_08_59__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_11_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_11_24__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_11_33_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_11_33__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_14__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="formand opdateringer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
@@ -196,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714637212129</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="formand opdateringer">
+      <option name="closed" value="true" />
+      <created>1715625355647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715625355648</updated>
+    </task>
+    <task id="LOCAL-00011" summary="formand opdateringer">
+      <option name="closed" value="true" />
+      <created>1715625383272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715625383272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +236,8 @@
     <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer" />
     <MESSAGE value="Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand" />
     <MESSAGE value="sortering" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortering" />
+    <MESSAGE value="formand opdateringer" />
+    <option name="LAST_COMMIT_MESSAGE" value="formand opdateringer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

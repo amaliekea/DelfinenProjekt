@@ -38,10 +38,6 @@ public class Controller {
         }
     }
 
-    public void gemMedlemmerTilFil() {
-        ArrayList<Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();
-        fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
-    }
 
     public void sorterAlle(String sorteringstype) {
         switch (sorteringstype.toLowerCase()) {

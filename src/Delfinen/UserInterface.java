@@ -92,7 +92,6 @@ public class UserInterface {
                     break;
                 case 5:
                     System.out.println("logger ud...");
-                    controller.gemMedlemmerTilFil();
                     exit = true;
                     break;
                 default:

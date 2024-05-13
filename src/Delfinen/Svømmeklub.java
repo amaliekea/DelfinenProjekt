@@ -22,6 +22,7 @@ public class Svømmeklub {
         }
     }
 
+
     public ArrayList<Medlem> getMedlemmer() {
         return this.medlemmer;
     }
@@ -42,9 +43,11 @@ public class Svømmeklub {
             medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
         }
         medlemmer.add(medlem);
+        gemMedlemmerTilFil();
     }
     public void tilføjMedlem(Medlem medlem) {
         medlemmer.add(medlem);
+        gemMedlemmerTilFil();
     }
     private void loadMedlemsListe() {
         try {
@@ -55,6 +58,10 @@ public class Svømmeklub {
         } catch (FileNotFoundException e) {
             throw new RuntimeException("File not found: " + e.getMessage());
         }
+
+    }
+    private void gemMedlemmerTilFil() {
+        fileHandler.gemMedlemmerTilFil(medlemmer);
     }
     public void sorterMedlemmer(Comparator<Medlem> comparator) {
         medlemmer.sort(comparator);
