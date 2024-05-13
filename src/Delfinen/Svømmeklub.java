@@ -1,13 +1,19 @@
 package Delfinen;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Svømmeklub {
     private ArrayList<Medlem> medlemmer;
+    private FileHandler fileHandler;
 
 
     public Svømmeklub(){
+        this.fileHandler = new FileHandler();
         this.medlemmer= new ArrayList<>();
+        this.loadMedlemsListe();
     }
 
     public void printAll() {
@@ -23,8 +29,32 @@ public class Svømmeklub {
     public void setMedlemmer(ArrayList<Medlem> medlemmer) {
         this.medlemmer = medlemmer;
     }
-    public void tilføjMedlem( Medlem medlem) {
-        this.medlemmer.add(medlem);
+
+    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
+        Medlem medlem = null;
+        LocalDate dato = LocalDate.parse(datoString);
+        AktivitetsType aktivitetsType = AktivitetsType.valueOf(aktivitetsTyp.toUpperCase());
+        AldersType aldersType = AldersType.valueOf(aldersTyp.toUpperCase());
+
+        if (svommeTyp.equalsIgnoreCase("konkurrenceSvømmer")) {
+            medlem = new KonkurrenceSvømmer(navn, dato, aktivitetsType, SvømmeType.KONKURRENCESVØMMER, aldersType);
+        } else if (svommeTyp.equalsIgnoreCase("motionist")) {
+            medlem = new Motionist(navn, dato, aktivitetsType, SvømmeType.MOTIONIST, aldersType);
+        }
+        medlemmer.add(medlem);
+    }
+    public void tilføjMedlem(Medlem medlem) {
+        medlemmer.add(medlem);
+    }
+    private void loadMedlemsListe() {
+        try {
+            ArrayList<Medlem> loadedMedlemmer = fileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
+            for (Medlem medlem : loadedMedlemmer) {
+                this.tilføjMedlem(medlem);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException("File not found: " + e.getMessage());
+        }
     }
     public void sorterMedlemmer(Comparator<Medlem> comparator) {
         medlemmer.sort(comparator);

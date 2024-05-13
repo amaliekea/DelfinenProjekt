@@ -4,16 +4,13 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 public class UserInterface {
-    private Svømmeklub svømmeklub;
-    private Formand formand;
     private Scanner scanner;
-    private Controller controller = new Controller();
+    private Controller controller;
 
 
     public UserInterface() {
-        svømmeklub = new Svømmeklub();
         scanner = new Scanner(System.in);
-        formand = new Formand();
+        controller = new Controller();
     }
 
 
@@ -47,11 +44,6 @@ public class UserInterface {
 
         }
     }
-
-    public void loadMedlemsListePåStart(){
-        controller.loadMedlemsListe();
-    }
-
     public void trænerMenu() {
 
     }
@@ -86,7 +78,7 @@ public class UserInterface {
                     System.out.println("ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
                     String svømmeTyp = scanner.next();
 
-                    controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
+                    controller.formand.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
                     break;
                 case 2:
                     controller.printAll();

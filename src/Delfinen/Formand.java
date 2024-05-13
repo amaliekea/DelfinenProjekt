@@ -1,9 +1,12 @@
 package Delfinen;
 
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.ArrayList;
-
 public class Formand {
+    private Svømmeklub svømmeklub;
 
+    public Formand(Svømmeklub svømmeklub) {
+        this.svømmeklub = svømmeklub;
+    }
+    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
+        svømmeklub.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
+    }
 }
