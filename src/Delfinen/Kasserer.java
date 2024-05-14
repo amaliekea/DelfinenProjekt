@@ -1,50 +1,37 @@
 package Delfinen;
 
 import java.time.LocalDate;
-import java.time.Period;
 
 public class Kasserer {
-    private static LocalDate fødselsÅr;
+    private Svommeklub svommeklub;
 
-    public static double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr) {
-        switch (type) {
-            case AKTIV:
-                int alder = udregnAlder(fødselsÅr);
-                return udregnAktivPris(alder);
-            case PASSIV:
-                return 500;
-            default:
-                return 0;
-
-        }
+    public Kasserer(Svommeklub svommeklub) {
+        this.svommeklub = svommeklub;
     }
 
-
-    public static int udregnAlder(LocalDate fødselsÅr) {
-        LocalDate curDate = LocalDate.now();
-        if ((fødselsÅr != null) && (curDate != null)) {
-            return Period.between(fødselsÅr, curDate).getYears();
-        } else {
-            return 0;
-        }
-    }
-
-    public static double udregnAktivPris(int alder) {
-        double basisSeniorPris = 1600;
-        if (alder < 18) {
-            return 1000;
-        } else {
-            if (alder >= 60) {
-                return basisSeniorPris / 1.25;
+    public void opkraevMedlem(String navn) {
+            if (this.svommeklub.searchMedlem(navn) != null) {
+                this.svommeklub.searchMedlem(navn).setHarIkkeBetalt();
             } else {
-                return basisSeniorPris;
+                System.out.println("medlem ikke fundet");
             }
         }
+    public double beregnKontingent(String navn) {
+        try {
+            if (this.svommeklub.searchMedlem(navn) != null) {
+                return this.svommeklub.searchMedlem(navn).beregnKontingent();
+            }
+        } catch (Exception e) {
+            System.out.println("Medlem ikke fundet");
+        }
+        return 0.0;
     }
 
-    public static double udregnForventetIndtjening() {
-        double forventetIndtjening = 0;
+    public void printRestance() {
+        this.svommeklub.printRestance();
+    }
 
-        return forventetIndtjening;
+    public double udregnTotalIndtjening() {
+        return this.svommeklub.beregnTotalIndtjening();
     }
 }

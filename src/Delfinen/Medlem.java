@@ -1,6 +1,7 @@
 package Delfinen;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 public abstract class Medlem {
     private String navn;
@@ -9,6 +10,7 @@ public abstract class Medlem {
     private SvømmeType svømmeType;
     private AldersType aldersType;
     private double betalingsGebyr;
+    private boolean harBetalt;
 
     public Medlem(String navn, LocalDate fødselsÅr, AktivitetsType aktivitetsType, SvømmeType svømmeType, AldersType aldersType) {
         this.navn = navn;
@@ -17,16 +19,60 @@ public abstract class Medlem {
         this.svømmeType = svømmeType;
         this.aldersType = aldersType;
         this.betalingsGebyr = betalingsGebyr;
+        this.harBetalt = false;
+    }
+
+    public void setBetal() {
+        this.harBetalt = true;
+    }
+
+    public void setHarIkkeBetalt() {
+        this.harBetalt = false;
+    }
+
+    public boolean harBetalt() {
+       return this.harBetalt;
     }
 
     @Override
     public String toString() {
-        return "Navn: " + navn +
-                ", Fødselsår: " + fødselsÅr +
-                ", AktivitetsType: " + aktivitetsType +
-                ", SvømmeType: " + svømmeType +
-                ", AldersType: " + aldersType +
-                ", Betalingsgebyr: " + betalingsGebyr;
+        return "Medlem{" +
+                "navn='" + navn + '\'' +
+                ", fødselsÅr=" + fødselsÅr +
+                ", aktivitetsType=" + aktivitetsType +
+                ", svømmeType=" + svømmeType +
+                ", aldersType=" + aldersType +
+                ", betalingsGebyr=" + betalingsGebyr +
+                ", harBetalt=" + harBetalt +
+                '}';
+    }
+
+
+    public int udregnAlder() {
+        LocalDate curDate = LocalDate.now();
+        if ((fødselsÅr != null) && (curDate != null)) {
+            return Period.between(fødselsÅr, curDate).getYears();
+        } else {
+            return 0;
+        }
+    }
+
+
+    public double beregnKontingent() {
+        int alder = udregnAlder();
+        double basisSeniorPris = 1600;
+        if (aktivitetsType.equals(AktivitetsType.PASSIV)) {
+            return 500;
+        }
+        if (alder < 18) {
+            return 1000;
+        } else {
+            if (alder >= 60) {
+                return basisSeniorPris / 1.25;
+            } else {
+                return basisSeniorPris;
+            }
+        }
     }
 
     public abstract void betalMedlemsGebyr();

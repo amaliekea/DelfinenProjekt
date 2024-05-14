@@ -1,12 +1,12 @@
 package Delfinen;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 
 public class Controller {
     public FileHandler fileHandler;
-    private LocalDate fodselsÅr;
-    private Kasserer alder;
+    private Kasserer kasserer;
     public Formand formand;
     Svommeklub svommeklub;
 
@@ -14,23 +14,13 @@ public class Controller {
         this.svommeklub = new Svommeklub();
         this.formand = new Formand(this.svommeklub);
         this.fileHandler = new FileHandler();
-        this.fodselsÅr = LocalDate.now();
-        this.alder = new Kasserer();
-    }
-
-
-    public void tilføjMedlem() {
+        this.kasserer = new Kasserer(this.svommeklub);
     }
 
 
     public void printAll() {
         ArrayList<Medlem> medlemmer = svommeklub.getMedlemmer();
         for (Medlem medlem : medlemmer) {
-            LocalDate fødselsÅr = medlem.getFødselsÅr();
-            AktivitetsType aktivitetsType = medlem.getAktivitetsType();
-            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
-            medlem.setBetalingsGebyr(betalingsGebyr);
-
             System.out.println(medlem);
         }
     }
@@ -55,26 +45,17 @@ public class Controller {
         }
     }
 
-    public int udregnAlder(LocalDate fødselsÅr) {
-        return Kasserer.udregnAlder(fødselsÅr);
+
+    public double udregnTotalIndtjening() {
+        return kasserer.udregnTotalIndtjening();
     }
-
-    public int udregnAktivPris(int alder) {
-        return (int) Kasserer.udregnAktivPris(alder);
+    public void printRestance() {
+        svommeklub.printRestance();
     }
-
-    public double udregnForventetIndtjening() {
-        double forventetIndtjening = 0;
-
-        for (Medlem medlem : svommeklub.getMedlemmer()) {
-            LocalDate fødselsÅr = medlem.getFødselsÅr();
-            AktivitetsType aktivitetsType = medlem.getAktivitetsType();
-            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
-
-            forventetIndtjening += betalingsGebyr;
-        }
-
-        return forventetIndtjening;
+    public void opkraevMedlem(String navn) {
+        kasserer.opkraevMedlem(navn);
     }
-
+    public void medlemsBetaling(String navn) {
+        svommeklub.medlemsBetaling(navn);
+    }
 }

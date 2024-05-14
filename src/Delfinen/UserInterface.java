@@ -14,8 +14,6 @@ public class UserInterface {
     }
 
 
-
-
     public void startProgram() {
         System.out.println("Velkommen til svømmeklubben Delfinen!!!!!");
         System.out.println("Vælg din rolle træner/formand/kasserer");
@@ -44,6 +42,7 @@ public class UserInterface {
 
         }
     }
+
     public void trænerMenu() {
 
     }
@@ -55,7 +54,7 @@ public class UserInterface {
 
         Boolean exit = false;
         while (!exit) {
-            System.out.println("\nFormandens Menu: Indtast nummer!!");
+            System.out.println("\nFormandens Menu: Indtast nummer:");
             System.out.println("1. Tilføj nyt medlem");
             System.out.println("2. Vis alle medlemmer");
             System.out.println("3. Sorter medlemmer");
@@ -99,6 +98,7 @@ public class UserInterface {
             }
         }
     }
+
     private void sorterMedlemmer() {
         System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)");
         String sorteringstype = scanner.nextLine().trim();
@@ -112,32 +112,35 @@ public class UserInterface {
         while (!exit) {
             System.out.println("\nKasserens Menu: Indtast nummer!!");
             System.out.println("1. Generer en liste over en samlet forventet indtjening");
-            System.out.println("2. Se hvem, som har betalt/ikke betalt");
-            System.out.println("3. Udregn alder");
-            System.out.println("4. Tilbage til hovedmenu");
-            System.out.println("5. Log ud");
+            System.out.println("2. Se hvem, der ikke har betalt");
+            System.out.println("3. Opkræv medlem");
+            System.out.println("4. Modtag betaling fra medlem");
+            System.out.println("5. Tilbage til hovedmenu");
+            System.out.println("6. Log ud");
 
             int valg = scanner.nextInt();
             scanner.nextLine();
             switch (valg) {
                 case 1:
-                    double forventetIndtjening = controller.udregnForventetIndtjening();
-                    System.out.println("Den samlede forventede indtjening er " + forventetIndtjening + " kroner.");
+                    System.out.println("Den samlede forventede indtjening er " + controller.udregnTotalIndtjening() + " kroner.");
                     break;
                 case 2:
+                    controller.printRestance();
                     break;
                 case 3:
-                    System.out.print("Indtast fødselsår (YYYY-MM-DD format): ");
-                    String input = scanner.nextLine();
-                    LocalDate fødselsÅr = LocalDate.parse(input);
-                    int alder = controller.udregnAlder(fødselsÅr);
-                    double aktivPris = controller.udregnAktivPris(alder);
-                    System.out.println("Medlemmet er " + alder + " år gammel, og skal dermed betale " + aktivPris + " kroner.");
+                    System.out.println("Indtast navnet på medlem");
+                    String navn = scanner.nextLine().toLowerCase();
+                    controller.opkraevMedlem(navn);
                     break;
                 case 4:
-                    startProgram();
+                    System.out.println("Indtast navnet på medlem");
+                    String navn2 = scanner.nextLine().toLowerCase();
+                    controller.medlemsBetaling(navn2);
                     break;
                 case 5:
+                    startProgram();
+                    break;
+                case 6:
                     System.out.println("logger ud...");
                     exit = true;
                     break;
