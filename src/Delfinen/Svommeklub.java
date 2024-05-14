@@ -5,12 +5,12 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class Svømmeklub {
+public class Svommeklub {
     private ArrayList<Medlem> medlemmer;
     private FileHandler fileHandler;
 
 
-    public Svømmeklub(){
+    public Svommeklub(){
         this.fileHandler = new FileHandler();
         this.medlemmer= new ArrayList<>();
         this.loadMedlemsListe();
