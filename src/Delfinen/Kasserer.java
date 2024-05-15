@@ -7,10 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Kasserer {
-    private static LocalDate fødselsÅr;
-    static Svømmeklub svømmeklub = new Svømmeklub();
+    private Svømmeklub svømmeklub;
 
-    public static double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr) {
+    public Kasserer(Svømmeklub svømmeklub) {
+        this.svømmeklub = svømmeklub;
+    }
+
+    public double udregnBetalingsGebyr(AktivitetsType type, LocalDate fødselsÅr) {
         switch (type) {
             case AKTIV:
                 int alder = udregnAlder(fødselsÅr);
@@ -23,7 +26,7 @@ public class Kasserer {
         }
     }
 
-    public static int udregnAlder(LocalDate fødselsÅr) {
+    public int udregnAlder(LocalDate fødselsÅr) {
         LocalDate curDate = LocalDate.now();
         if ((fødselsÅr != null) && (curDate != null)) {
             return Period.between(fødselsÅr, curDate).getYears();
@@ -32,7 +35,7 @@ public class Kasserer {
         }
     }
 
-    public static double udregnAktivPris(int alder) {
+    public double udregnAktivPris(int alder) {
         double basisSeniorPris = 1600;
         if (alder < 18) {
             return 1000;
@@ -45,21 +48,10 @@ public class Kasserer {
         }
     }
 
-    public static void læsMedlemmerFraFil(String filePath) {
-        try {
-            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File("navneListe.txt"));
-            for (Medlem medlem: loadedMedlemmer) {
-                svømmeklub.tilføjMedlem(medlem);
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException("Fil ikke fundet: " + e.getMessage());
-        }
-    }
 
-    public static double udregnForventetIndtjening() {
+
+    public double udregnForventetIndtjening() {
         double forventetIndtjening = 0;
-
-        læsMedlemmerFraFil("navneListe.txt");
 
         List < Medlem > medlemmer = svømmeklub.getMedlemmer();
 
