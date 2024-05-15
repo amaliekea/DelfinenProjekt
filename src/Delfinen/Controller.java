@@ -68,9 +68,12 @@ public class Controller {
             double betalingsGebyr = kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
             medlem.setBetalingsGebyr(betalingsGebyr);
 
-            String betalingsinfo = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
-
-            System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
+            String betalingsStatus = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
+            if (betalingsStatus.equals("HAR IKKE BETALT") || betalingsStatus.equals("HAR BETALT")) {
+                System.out.println(medlem + ", Betalingsstatus: " + betalingsStatus);
+            } else {
+                System.out.println(medlem);
+            }
         }
     }
 
