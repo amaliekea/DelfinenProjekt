@@ -83,8 +83,29 @@ public class UserInterface {
                             String svømmeTid = scanner.next();
                             System.out.println("Er svømmeren junior eller senior? ");
                             String aldersTyp = scanner.next();
+                            System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
+                            String svømmeDisciplin = scanner.next();
 
-                            controller.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+                            while (true) {
+                                boolean validDisciplin = false;
+                                for (SvømmeDisciplin disciplin : SvømmeDisciplin.values()) {
+                                    if (disciplin.name().equalsIgnoreCase(svømmeDisciplin)) {
+                                        validDisciplin = true;
+                                        break;
+                                    }
+                                }
+                                if (validDisciplin) {
+                                    break;
+                                } else {
+                                    System.out.println("Forkert svømmedisciplin. Prøv igen.");
+                                    svømmeDisciplin = scanner.next();
+                                }
+                            }
+
+                            System.out.println("Hvornår var stævnet (YYYY-MM-DD format)?");
+                            LocalDate konkurrenceDato = LocalDate.parse(scanner.next());
+
+                            controller.tilføjTid(navn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
                             controller.gemTiderTilFil();
                         } else {
                             System.out.println("Indtast nummeret på tiden, du vil redigere: ");
@@ -104,12 +125,35 @@ public class UserInterface {
                             String nySvømmeTid = scanner.next();
                             System.out.println("Er svømmeren junior eller senior? ");
                             String nyAldersTyp = scanner.next();
+                            System.out.println("Indtast ny svømmedisciplin: ");
+                            String nySvømmeDisciplin = scanner.next();
+
+                            while (true) {
+                                boolean validDisciplin = false;
+                                for (SvømmeDisciplin disciplin : SvømmeDisciplin.values()) {
+                                    if (disciplin.name().equalsIgnoreCase(nySvømmeDisciplin)) {
+                                        validDisciplin = true;
+                                        break;
+                                    }
+                                }
+                                if (validDisciplin) {
+                                    break;
+                                } else {
+                                    System.out.println("Forkert svømmedisciplin. Prøv igen.");
+                                    nySvømmeDisciplin = scanner.next();
+                                }
+                            }
+
+                            System.out.println("Indtast ny stævnedato (YYYY-MM-DD format): ");
+                            LocalDate nyKonkurrenceDato = LocalDate.parse(scanner.next());
 
                             Tid tid = controller.getTider().get(tidIndex - 1);
                             tid.setNavn(nytNavn);
                             tid.setFødselsÅr(LocalDate.parse(nyDatoString));
                             tid.setSvømmeTid(nySvømmeTid);
+                            tid.setSvømmeDisciplin(nySvømmeDisciplin);
                             tid.setAldersType(AldersType.valueOf(nyAldersTyp.toUpperCase()));
+                            tid.setKonkurrenceDato(nyKonkurrenceDato);
 
                             controller.gemTiderTilFil();
                         }

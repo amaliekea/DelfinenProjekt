@@ -54,11 +54,13 @@ public class FileHandler {
                 String navn = tidData[0];
                 LocalDate fødselsdato = LocalDate.parse(tidData[1]);
                 String svømmeTidString = tidData[2];
-                AldersType aldersType = AldersType.valueOf(tidData[3]);
+                String svømmeDisciplinString = tidData[3];
+                AldersType aldersType = AldersType.valueOf(tidData[4]);
+                LocalDate konkurrenceDato = LocalDate.parse(tidData[5]);
 
                 SvømmeTid svømmeTid = new SvømmeTid(svømmeTidString);
 
-                Tid tid = new Tid(navn, fødselsdato, aldersType, svømmeTid.toString());
+                Tid tid = new Tid(navn, fødselsdato, aldersType, svømmeDisciplinString, svømmeTid.toString(), konkurrenceDato);
                 tider.add(tid);
             }
         }
@@ -80,11 +82,13 @@ public class FileHandler {
                 } else {
                     svømmeTidFormateret = svømmeTidInput + ":00";
                 }
-                
+
                 output.println(tid.getNavn() + ", " +
                         tid.getFødselsÅr() + ", " +
                         svømmeTidFormateret + ", " +
-                        tid.getAldersType());
+                        tid.getSvømmeDisciplin() + ", " +
+                        tid.getAldersType() + ", " +
+                        tid.getKonkurrenceDato());
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException("Kunne ikke gemme tider til fil: " + e.getMessage());

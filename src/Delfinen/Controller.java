@@ -50,8 +50,8 @@ public class Controller {
         formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
     }
 
-    public void tilføjTid(String navn, String datoString, String svømmeTid, String aldersTyp) {
-        træner.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+    public void tilføjTid(String navn, String datoString, String svømmeDisciplin, String svømmeTid, String aldersTyp, LocalDate konkurrenceDato) {
+        træner.tilføjTid(navn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
         SvømmeTid.tilføjSvømmeTid(svømmeTid);
     }
 
@@ -84,7 +84,8 @@ public class Controller {
             LocalDate fødselsÅr = tid.getFødselsÅr();
             String svømmeTid = tid.getSvømmeTid();
             AldersType aldersType = tid.getAldersType();
-            System.out.println("Navn: " + tid.getNavn() + ", Svømmetid: " + svømmeTid + ", Alders type: " + aldersType);
+            LocalDate konkurrenceDato = tid.getKonkurrenceDato();
+            System.out.println("Navn: " + tid.getNavn() + ", Svømmetid: " + svømmeTid + ", Alders type: " + aldersType + ", Konkurrence dato: " + konkurrenceDato);
         }
     }
 

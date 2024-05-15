@@ -1,6 +1,6 @@
 package Delfinen;
 
-public enum Svømmedisciplin {
+public enum SvømmeDisciplin {
     BUTTERFLY,
     CRAWL,
     RYGCRAWL,
