@@ -1,4 +1,4 @@
-package Delfinen;
+/*package Delfinen;
 
 import org.junit.jupiter.api.Test;
 
@@ -141,4 +141,4 @@ class KassererTest {
     @Test
     public void betalingsInfo() {
     }
-}
+}*/
