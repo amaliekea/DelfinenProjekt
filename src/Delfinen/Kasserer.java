@@ -48,8 +48,6 @@ public class Kasserer {
         }
     }
 
-
-
     public double udregnForventetIndtjening() {
         double forventetIndtjening = 0;
 

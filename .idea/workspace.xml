@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_05_2024_14_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_by_omara_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_by_omara_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08-05-2024_13_06__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08-05-2024_13_06__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08-05-2024_13_06__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08-05-2024_13_06__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_01_05_2024_14_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_11_33__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_08__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_08__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_47__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_05_2024_09_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_05_2024_09_40__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konkurrenceTider.txt" beforeDir="false" afterPath="$PROJECT_DIR$/konkurrenceTider.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmedisciplin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/SvømmeDisciplin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Tid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Tid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Træner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Træner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Opd">
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
@@ -61,12 +39,12 @@
     &quot;assignee&quot;: &quot;amaliekea&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt.git&quot;,
-    &quot;accountId&quot;: &quot;152fb25b-e382-42b5-8165-0d7eeed6e637&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amaliekea/DelfinenProjekt",
+    "accountId": "57875154-d4ae-44c5-9163-96a49543181a"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -248,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714650404372</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Opd">
+      <option name="closed" value="true" />
+      <created>1715850179634</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715850179634</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +279,8 @@
     <MESSAGE value="TODO lister er tilføjet" />
     <MESSAGE value="Træner og fejlhåndtering er merged ind i main" />
     <MESSAGE value="Fejlhåndtering er merged ind i træneren" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fejlhåndtering er merged ind i træneren" />
+    <MESSAGE value="Opd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
