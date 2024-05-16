@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Delfinen/FormandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Delfinen/KassererTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_by_omara_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_08__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_05_2024_09_40__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="FormandTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DelfinenProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DelfinenProjekt.iml" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
@@ -109,7 +99,7 @@
       <recent name="Delfinen" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormandTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
       <module name="DelfinenProjekt" />
@@ -290,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714650404372</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="FormandTest">
+      <option name="closed" value="true" />
+      <created>1715768263914</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715768263914</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +333,8 @@
     <MESSAGE value="TODO lister er tilføjet" />
     <MESSAGE value="Træner og fejlhåndtering er merged ind i main" />
     <MESSAGE value="Fejlhåndtering er merged ind i træneren" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fejlhåndtering er merged ind i træneren" />
+    <MESSAGE value="FormandTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="FormandTest" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

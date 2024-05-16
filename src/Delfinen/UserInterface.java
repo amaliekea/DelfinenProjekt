@@ -59,10 +59,9 @@ public class UserInterface {
             try {
                 System.out.println("\nTrænerens Menu: Indtast nummer!");
                 System.out.println("1. Registrer/rediger konkurrence resultater");
-                System.out.println("2. Rediger konkurrence tidspunkter");
-                System.out.println("3. Se Top 5 listen");
-                System.out.println("4. Tilbage til hovedmenu");
-                System.out.println("5. Log ud");
+                System.out.println("2. Se Top 5 listen");
+                System.out.println("3. Tilbage til hovedmenu");
+                System.out.println("4. Log ud");
 
                 int valg = scanner.nextInt();
                 scanner.nextLine();
@@ -158,13 +157,13 @@ public class UserInterface {
                             controller.gemTiderTilFil();
                         }
                         break;
-                    case 3:
+                    case 2:
                         controller.printAllTop5();
                         break;
-                    case 4:
+                    case 3:
                         startProgram();
                         break;
-                    case 5:
+                    case 4:
                         System.out.println("Logger ud...");
                         exit = true;
                         break;
