@@ -3,7 +3,6 @@ package Delfinen;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Kasserer {
