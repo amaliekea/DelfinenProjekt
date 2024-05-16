@@ -7,21 +7,22 @@ import java.util.Comparator;
 
 public class Controller {
     public FileHandler fileHandler;
-    private LocalDate fødselsÅr;
-    private Kasserer alder;
+    private Kasserer kasserer;
     private Formand formand;
     private Træner træner;
     private Sortering sortering;
 
-    private static Svømmeklub svømmeklub;
+    private Svømmeklub svømmeklub;
 
     public Controller() {
         this.fileHandler = new FileHandler();
-        this.fødselsÅr = LocalDate.now();
-        this.alder = new Kasserer();
+
         this.svømmeklub = new Svømmeklub();
+        this.kasserer = new Kasserer(svømmeklub);
         this.formand = new Formand(svømmeklub);
         this.træner = new Træner(svømmeklub);
+        this.sortering = new Sortering(svømmeklub);
+
     }
 
     public void loadMedlemsListe() {
@@ -64,12 +65,15 @@ public class Controller {
         for (Medlem medlem: medlemmer) {
             LocalDate fødselsÅr = medlem.getFødselsÅr();
             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
-            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
+            double betalingsGebyr = kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
             medlem.setBetalingsGebyr(betalingsGebyr);
 
-            String betalingsinfo = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
-
-            System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
+            String betalingsStatus = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
+            if (betalingsStatus.equals("HAR IKKE BETALT") || betalingsStatus.equals("HAR BETALT")) {
+                System.out.println(medlem + ", Betalingsstatus: " + betalingsStatus);
+            } else {
+                System.out.println(medlem);
+            }
         }
     }
 
@@ -121,18 +125,18 @@ public class Controller {
     }
 
     public int udregnAlder(LocalDate fødselsÅr) {
-        return Kasserer.udregnAlder(fødselsÅr);
+        return kasserer.udregnAlder(fødselsÅr);
     }
 
     public int udregnAktivPris(int alder) {
-        return (int) Kasserer.udregnAktivPris(alder);
+        return (int) kasserer.udregnAktivPris(alder);
     }
 
     public double udregnForventetIndtjening() {
-        return Kasserer.udregnForventetIndtjening();
+        return kasserer.udregnForventetIndtjening();
     }
 
-    public static boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {
-        return Kasserer.betalingsInfo(filePath, navn, betalingsInfo);
+    public boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {
+        return kasserer.betalingsInfo(filePath, navn, betalingsInfo);
     }
 }

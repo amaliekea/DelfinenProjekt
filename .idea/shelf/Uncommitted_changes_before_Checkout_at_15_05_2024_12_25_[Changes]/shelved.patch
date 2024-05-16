@@ -1,0 +1,1432 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]/shelved.patch	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,122 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"TODO lister er tilføjet\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/navneListe.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/navneListe.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/AktivitetsType.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/AktivitetsType.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Formand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Formand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Kasserer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Kasserer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"oprydning\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,\r\n    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"oprydning\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"editor.preferences.tabs\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TODO lister er tilføjet\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision ffc0ca80667b95244de7dad8377ec488c589bdec)
+-+++ b/.idea/workspace.xml	(date 1714724840681)
+-@@ -6,14 +6,6 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/AktivitetsType.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Formand.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Kasserer.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+-     </list>
+-     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+-     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+-@@ -35,7 +27,7 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="oprydning" />
+-+        <entry key="$PROJECT_DIR$" value="main" />
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-@@ -64,25 +56,25 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "Application.Main.executor": "Run",
+--    "Application.UserInterface.executor": "Run",
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+--    "git-widget-placeholder": "oprydning",
+--    "kotlin-language-version-configured": "true",
+--    "node.js.detected.package.eslint": "true",
+--    "node.js.detected.package.tslint": "true",
+--    "node.js.selected.package.eslint": "(autodetect)",
+--    "node.js.selected.package.tslint": "(autodetect)",
+--    "nodejs_package_manager_path": "npm",
+--    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+--    "settings.editor.selected.configurable": "editor.preferences.tabs",
+--    "vue.rearranger.settings.migration": "true"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-+    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+-+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="RunManager">
+-     <configuration name="Main" type="Application" factoryName="Application">
+-       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
+-@@ -113,7 +105,8 @@
+-       <workItem from="1714552229432" duration="135000" />
+-       <workItem from="1714552427540" duration="2550000" />
+-       <workItem from="1714644756598" duration="16000" />
+--      <workItem from="1714644801772" duration="11798000" />
+-+      <workItem from="1714644801772" duration="12389000" />
+-+      <workItem from="1714724482985" duration="349000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="gh">
+-       <option name="closed" value="true" />
+-@@ -227,7 +220,23 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1714650404372</updated>
+-     </task>
+--    <option name="localTasksCounter" value="15" />
+-+    <task id="LOCAL-00015" summary="TODO lister er tilføjet">
+-+      <option name="closed" value="true" />
+-+      <created>1714658516588</created>
+-+      <option name="number" value="00015" />
+-+      <option name="presentableId" value="LOCAL-00015" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1714658516588</updated>
+-+    </task>
+-+    <task id="LOCAL-00016" summary="TODO lister er tilføjet">
+-+      <option name="closed" value="true" />
+-+      <created>1714658565513</created>
+-+      <option name="number" value="00016" />
+-+      <option name="presentableId" value="LOCAL-00016" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1714658565513</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="17" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -244,7 +253,7 @@
+-                   <entry key="branch">
+-                     <value>
+-                       <list>
+--                        <option value="origin/oprydning" />
+-+                        <option value="main" />
+-                       </list>
+-                     </value>
+-                   </entry>
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]" date="1715101731121" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 07-05-2024 19:07 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]" date="1715101798444" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 07-05-2024 19:09 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]" date="1714905616237" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 05-05-2024 12:39 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_rebase_[Changes]1" date="1714910171323" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07_[Changes]/shelved.patch	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,269 +0,0 @@
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-+++ /dev/null	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-@@ -1,143 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"userStory 1 z og a\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Formand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Formand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"amaliekea\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"b20ac4bc-5cc2-40a7-a782-4d5540026b4d\" />\r\n        <option name=\"url\" value=\"https://github.com/amaliekea/DelfinenProjekt.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"LineStatusTrackerManager\">\r\n    <file path=\"$PROJECT_DIR$/src/UserInterface.java\">\r\n      <ranges>\r\n        <range start1=\"38\" end1=\"39\" start2=\"38\" end2=\"39\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"52\" end1=\"57\" start2=\"52\" end2=\"52\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"58\" end1=\"65\" start2=\"53\" end2=\"69\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"66\" end1=\"72\" start2=\"70\" end2=\"75\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"73\" end1=\"89\" start2=\"76\" end2=\"102\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"90\" end1=\"91\" start2=\"103\" end2=\"104\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"92\" end1=\"92\" start2=\"105\" end2=\"106\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"93\" end1=\"94\" start2=\"107\" end2=\"108\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n      </ranges>\r\n    </file>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 1\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"11987000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"userStory 1 z og a\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision a953fa2e04d1f45a9bbe6150c46698bdc5620259)
+--+++ b/.idea/workspace.xml	(date 1714479805414)
+--@@ -4,14 +4,10 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory 1 z og a">
+--+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory #3 udregning af medlemspriser">
+--       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formand.java" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+---    </list>
+---    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="">
+---      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+--     </list>
+--+    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+--@@ -28,12 +24,12 @@
+--   <component name="Git.Settings">
+--     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+--   </component>
+---  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+---  "lastFilter": {
+---    "state": "OPEN",
+---    "assignee": "amaliekea"
+--+  <component name="GitHubPullRequestSearchHistory">{
+--+  &quot;lastFilter&quot;: {
+--+    &quot;state&quot;: &quot;OPEN&quot;,
+--+    &quot;assignee&quot;: &quot;amaliekea&quot;
+--   }
+---}]]></component>
+--+}</component>
+--   <component name="GithubPullRequestsUISettings">
+--     <option name="selectedUrlAndAccountId">
+--       <UrlAndAccount>
+--@@ -42,50 +38,36 @@
+--       </UrlAndAccount>
+--     </option>
+--   </component>
+---  <component name="LineStatusTrackerManager">
+---    <file path="$PROJECT_DIR$/src/UserInterface.java">
+---      <ranges>
+---        <range start1="38" end1="39" start2="38" end2="39" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="52" end1="57" start2="52" end2="52" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="58" end1="65" start2="53" end2="69" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="66" end1="72" start2="70" end2="75" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="73" end1="89" start2="76" end2="102" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="90" end1="91" start2="103" end2="104" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="92" end1="92" start2="105" end2="106" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="93" end1="94" start2="107" end2="108" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---      </ranges>
+---    </file>
+---  </component>
+--   <component name="MarkdownSettingsMigration">
+--     <option name="stateVersion" value="1" />
+--   </component>
+---  <component name="ProjectColorInfo"><![CDATA[{
+---  "associatedIndex": 1
+---}]]></component>
+--+  <component name="ProjectColorInfo">{
+--+  &quot;associatedIndex&quot;: 1
+--+}</component>
+--   <component name="ProjectId" id="2foP111fkmAAIgVo56Su8uzf4iG" />
+--   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+--   <component name="ProjectViewState">
+--     <option name="hideEmptyMiddlePackages" value="true" />
+--     <option name="showLibraryContents" value="true" />
+--   </component>
+---  <component name="PropertiesComponent"><![CDATA[{
+---  "keyToString": {
+---    "Application.Main.executor": "Run",
+---    "Application.UserInterface.executor": "Run",
+---    "RunOnceActivity.OpenProjectViewOnStart": "true",
+---    "RunOnceActivity.ShowReadmeOnStart": "true",
+---    "git-widget-placeholder": "main",
+---    "kotlin-language-version-configured": "true",
+---    "node.js.detected.package.eslint": "true",
+---    "node.js.detected.package.tslint": "true",
+---    "node.js.selected.package.eslint": "(autodetect)",
+---    "node.js.selected.package.tslint": "(autodetect)",
+---    "nodejs_package_manager_path": "npm",
+---    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+---    "settings.editor.selected.configurable": "preferences.pluginManager",
+---    "vue.rearranger.settings.migration": "true"
+--+  <component name="PropertiesComponent">{
+--+  &quot;keyToString&quot;: {
+--+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+--+    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
+--+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+--+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+--+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+--+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+--+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+--+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+--+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+--+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+--+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+--+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
+--+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+--+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+--   }
+---}]]></component>
+--+}</component>
+--   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+--   <component name="TaskManager">
+--     <task active="true" id="Default" summary="Default task">
+--@@ -120,7 +102,15 @@
+--       <option name="project" value="LOCAL" />
+--       <updated>1714475170302</updated>
+--     </task>
+---    <option name="localTasksCounter" value="4" />
+--+    <task id="LOCAL-00004" summary="userStory #3 udregning af medlemspriser">
+--+      <option name="closed" value="true" />
+--+      <created>1714479326912</created>
+--+      <option name="number" value="00004" />
+--+      <option name="presentableId" value="LOCAL-00004" />
+--+      <option name="project" value="LOCAL" />
+--+      <updated>1714479326912</updated>
+--+    </task>
+--+    <option name="localTasksCounter" value="5" />
+--     <servers />
+--   </component>
+--   <component name="TypeScriptGeneratedFilesManager">
+--@@ -129,6 +119,7 @@
+--   <component name="VcsManagerConfiguration">
+--     <MESSAGE value="gh" />
+--     <MESSAGE value="userStory 1 z og a" />
+---    <option name="LAST_COMMIT_MESSAGE" value="userStory 1 z og a" />
+--+    <MESSAGE value="userStory #3 udregning af medlemspriser" />
+--+    <option name="LAST_COMMIT_MESSAGE" value="userStory #3 udregning af medlemspriser" />
+--   </component>
+-- </project>
+--\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-+++ /dev/null	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]" date="1714480705372" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30/04/2024 14.32 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: src/Delfinen/Controller.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.io.*;\r\nimport java.time.LocalDate;\r\nimport java.util.ArrayList;\r\nimport java.util.Comparator;\r\n\r\npublic class Controller {\r\n    public FileHandler fileHandler;\r\n    private LocalDate fødselsÅr;\r\n    private Kasserer alder;\r\n    private Formand formand;\r\n    private Træner træner;\r\n\r\n    private static Svømmeklub svømmeklub;\r\n\r\n    public Controller() {\r\n        this.fileHandler = new FileHandler();\r\n        this.fødselsÅr = LocalDate.now();\r\n        this.alder = new Kasserer();\r\n        this.svømmeklub = new Svømmeklub();\r\n        this.formand = new Formand(svømmeklub);\r\n        this.træner = new Træner(svømmeklub);\r\n    }\r\n\r\n    public void loadMedlemsListe() {\r\n        try {\r\n            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File(\"navneListe.txt\"));\r\n            for (Medlem medlem: loadedMedlemmer) {\r\n                svømmeklub.tilføjMedlem(medlem);\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            throw new RuntimeException(\"Fil ikke fundet: \" + e.getMessage());\r\n        }\r\n    }\r\n\r\n    public void loadTidsListe() {\r\n        try {\r\n            ArrayList<Tid> loadedTider = FileHandler.læsTiderFraFilTræner(new File(\"konkurrenceTider.txt\"));\r\n            for (Tid tid: loadedTider) {\r\n                svømmeklub.tilføjTid((tid));\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            throw new RuntimeException(\"Fil ikke fundet: \" + e.getMessage());\r\n        }\r\n    }\r\n\r\n    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {\r\n        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);\r\n    }\r\n\r\n    public void tilføjTid(String navn, String datoString, String svømmeTid, String aldersTyp) {\r\n        træner.tilføjTid(navn, datoString, svømmeTid, aldersTyp);\r\n        SvømmeTid.tilføjSvømmeTid(svømmeTid);\r\n    }\r\n\r\n    public ArrayList<Tid> getTider() {\r\n        return svømmeklub.getTider();\r\n    }\r\n\r\n    public void printAll() {\r\n        ArrayList <Medlem> medlemmer = svømmeklub.getMedlemmer();\r\n        for (Medlem medlem: medlemmer) {\r\n            LocalDate fødselsÅr = medlem.getFødselsÅr();\r\n            AktivitetsType aktivitetsType = medlem.getAktivitetsType();\r\n            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);\r\n            medlem.setBetalingsGebyr(betalingsGebyr);\r\n\r\n            String betalingsinfo = hentBetalingsInfoFraFil(\"navneListe.txt\", medlem.getNavn());\r\n\r\n            System.out.println(medlem + \", Betalingsinfo: \" + betalingsinfo);\r\n        }\r\n    }\r\n\r\n    public void printAllTop5() {\r\n        ArrayList<Tid> tider = svømmeklub.getTider();\r\n\r\n        tider.sort(Comparator.comparing(Tid::getSvømmeTid));\r\n\r\n        System.out.println(\"Top 5 konkurrencesvømmere:\");\r\n        for (int i = 0; i < Math.min(5, tider.size()); i++) {\r\n            Tid tid = tider.get(i);\r\n            LocalDate fødselsÅr = tid.getFødselsÅr();\r\n            String svømmeTid = tid.getSvømmeTid();\r\n            AldersType aldersType = tid.getAldersType();\r\n            System.out.println(\"Navn: \" + tid.getNavn() + \", Svømmetid: \" + svømmeTid + \", Alders type: \" + aldersType);\r\n        }\r\n    }\r\n\r\n    private String hentBetalingsInfoFraFil(String filePath, String navn) {\r\n        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {\r\n            String line;\r\n            while ((line = br.readLine()) != null) {\r\n                if (line.startsWith(navn)) {\r\n                    String[] parts = line.split(\", \");\r\n                    if (parts.length > 1) {\r\n                        return parts[parts.length - 1];\r\n                    }\r\n                }\r\n            }\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n        return \"Information ikke fundet\";\r\n    }\r\n\r\n    public void gemMedlemmerTilFil() {\r\n        ArrayList <Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();\r\n        fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);\r\n    }\r\n\r\n    public void gemTiderTilFil() {\r\n        ArrayList<Tid> tiderDerSkalGemmes = svømmeklub.getTider();\r\n        fileHandler.gemTiderTilFilTræner(tiderDerSkalGemmes);\r\n    }\r\n\r\n    public void sorterAlle(String sorteringstype) {\r\n        switch (sorteringstype.toLowerCase()) {\r\n            case \"navn\":\r\n                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));\r\n                break;\r\n            case \"fødselsår\":\r\n                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));\r\n                break;\r\n            case \"aktivitet\":\r\n                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));\r\n                break;\r\n            case \"aldersgruppe\":\r\n                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));\r\n                break;\r\n            default:\r\n                System.out.println(\"Ugyldig sorteringstype!\");\r\n        }\r\n    }\r\n\r\n    public int udregnAlder(LocalDate fødselsÅr) {\r\n        return Kasserer.udregnAlder(fødselsÅr);\r\n    }\r\n\r\n    public int udregnAktivPris(int alder) {\r\n        return (int) Kasserer.udregnAktivPris(alder);\r\n    }\r\n\r\n    public double udregnForventetIndtjening() {\r\n        return Kasserer.udregnForventetIndtjening();\r\n    }\r\n\r\n    public static boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {\r\n        return Kasserer.betalingsInfo(filePath, navn, betalingsInfo);\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/Controller.java b/src/Delfinen/Controller.java
+---- a/src/Delfinen/Controller.java	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-+++ b/src/Delfinen/Controller.java	(date 1715101600957)
+-@@ -11,6 +11,7 @@
+-     private Kasserer alder;
+-     private Formand formand;
+-     private Træner træner;
+-+    private Sortering sortering;
+- 
+-     private static Svømmeklub svømmeklub;
+- 
+-@@ -115,22 +116,7 @@
+-     }
+- 
+-     public void sorterAlle(String sorteringstype) {
+--        switch (sorteringstype.toLowerCase()) {
+--            case "navn":
+--                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
+--                break;
+--            case "fødselsår":
+--                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
+--                break;
+--            case "aktivitet":
+--                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
+--                break;
+--            case "aldersgruppe":
+--                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
+--                break;
+--            default:
+--                System.out.println("Ugyldig sorteringstype!");
+--        }
+-+        sortering.sorterAlle(sorteringstype);
+-     }
+- 
+-     public int udregnAlder(LocalDate fødselsÅr) {
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"TODO lister er tilføjet\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/FileHandler.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Medlem.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Medlem.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/SvømmeType.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/SvømmeType.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Svømmeklub.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,\r\n    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;træneren&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n      <workItem from=\"1714988550023\" duration=\"5564000\" />\r\n      <workItem from=\"1714994177827\" duration=\"4114000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TODO lister er tilføjet\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision f86a9d5d2c936b0028817f4b4f5083ea63fbddbb)
+-+++ b/.idea/workspace.xml	(date 1715008018034)
+-@@ -4,17 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Træneren er færdig" />
+-     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+-     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+-     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+-@@ -115,7 +105,7 @@
+-       <workItem from="1714644756598" duration="16000" />
+-       <workItem from="1714644801772" duration="11798000" />
+-       <workItem from="1714988550023" duration="5564000" />
+--      <workItem from="1714994177827" duration="4114000" />
+-+      <workItem from="1714994177827" duration="5586000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="gh">
+-       <option name="closed" value="true" />
+-@@ -229,7 +219,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1714650404372</updated>
+-     </task>
+--    <option name="localTasksCounter" value="15" />
+-+    <task id="LOCAL-00015" summary="Træneren er færdig">
+-+      <option name="closed" value="true" />
+-+      <created>1715000973833</created>
+-+      <option name="number" value="00015" />
+-+      <option name="presentableId" value="LOCAL-00015" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1715000973833</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="16" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -271,6 +269,7 @@
+-     <MESSAGE value="Betalingsinfo" />
+-     <MESSAGE value="Betalingsinfo opd" />
+-     <MESSAGE value="TODO lister er tilføjet" />
+--    <option name="LAST_COMMIT_MESSAGE" value="TODO lister er tilføjet" />
+-+    <MESSAGE value="Træneren er færdig" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Træneren er færdig" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,444 +0,0 @@
+-Index: src/Delfinen/Controller.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.io.*;\r\nimport java.time.LocalDate;\r\nimport java.util.ArrayList;\r\nimport java.util.Comparator;\r\n\r\npublic class Controller {\r\n    public FileHandler fileHandler;\r\n    private LocalDate fødselsÅr;\r\n    private Kasserer alder;\r\n    private Formand formand;\r\n    private static Sortering sortering;\r\n\r\n    private static Svømmeklub svømmeklub;\r\n\r\n    public Controller() {\r\n        this.fileHandler = new FileHandler();\r\n        this.fødselsÅr = LocalDate.now();\r\n        this.alder = new Kasserer();\r\n        this.svømmeklub = new Svømmeklub();\r\n        this.formand = new Formand(svømmeklub);\r\n        this.sortering = new Sortering(svømmeklub);\r\n    }\r\n\r\n    public void loadMedlemsListe() {\r\n        try {\r\n            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File(\"navneListe.txt\"));\r\n            for (Medlem medlem: loadedMedlemmer) {\r\n                svømmeklub.tilføjMedlem(medlem);\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            throw new RuntimeException(\"Fil ikke fundet: \" + e.getMessage());\r\n        }\r\n    }\r\n\r\n    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {\r\n        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);\r\n    }\r\n\r\n    public void printAll() {\r\n        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();\r\n        for (Medlem medlem: medlemmer) {\r\n            LocalDate fødselsÅr = medlem.getFødselsÅr();\r\n            AktivitetsType aktivitetsType = medlem.getAktivitetsType();\r\n            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);\r\n            medlem.setBetalingsGebyr(betalingsGebyr);\r\n\r\n            String betalingsinfo = hentBetalignsInfoFraFil(\"navneListe.txt\", medlem.getNavn());\r\n\r\n            System.out.println(medlem + \", Betalingsinfo: \" + betalingsinfo);\r\n        }\r\n    }\r\n\r\n    private String hentBetalignsInfoFraFil(String filePath, String navn) {\r\n        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {\r\n            String line;\r\n            while ((line = br.readLine()) != null) {\r\n                if (line.startsWith(navn)) {\r\n                    String[] parts = line.split(\", \");\r\n                    if (parts.length > 1) {\r\n                        return parts[parts.length - 1];\r\n                    }\r\n                }\r\n            }\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n        return \"Information ikke fundet\";\r\n    }\r\n\r\n    public void gemMedlemmerTilFil() {\r\n        ArrayList <Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();\r\n        fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);\r\n    }\r\n\r\n    public void sorterAlle(String sorteringstype) {\r\n        sortering.sorterAlle(sorteringstype);\r\n    }\r\n\r\n    public int udregnAlder(LocalDate fødselsÅr) {\r\n        return Kasserer.udregnAlder(fødselsÅr);\r\n    }\r\n\r\n    public int udregnAktivPris(int alder) {\r\n        return (int) Kasserer.udregnAktivPris(alder);\r\n    }\r\n\r\n    public double udregnForventetIndtjening() {\r\n        return Kasserer.udregnForventetIndtjening();\r\n    }\r\n\r\n    public static boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {\r\n        return Kasserer.betalingsInfo(filePath, navn, betalingsInfo);\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/Controller.java b/src/Delfinen/Controller.java
+---- a/src/Delfinen/Controller.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/Controller.java	(date 1714910166150)
+-@@ -10,7 +10,7 @@
+-     private LocalDate fødselsÅr;
+-     private Kasserer alder;
+-     private Formand formand;
+--    private static Sortering sortering;
+-+    private Træner træner;
+- 
+-     private static Svømmeklub svømmeklub;
+- 
+-@@ -20,7 +20,7 @@
+-         this.alder = new Kasserer();
+-         this.svømmeklub = new Svømmeklub();
+-         this.formand = new Formand(svømmeklub);
+--        this.sortering = new Sortering(svømmeklub);
+-+        this.træner = new Træner(svømmeklub);
+-     }
+- 
+-     public void loadMedlemsListe() {
+-@@ -38,21 +38,25 @@
+-         formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
+-     }
+- 
+-+    public void tilføjTid(String navn, String datoString, String svømmeTid, String aldersTyp) {
+-+        træner.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+-+    }
+-+
+-     public void printAll() {
+--        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();
+-+        ArrayList <Medlem> medlemmer = svømmeklub.getMedlemmer();
+-         for (Medlem medlem: medlemmer) {
+-             LocalDate fødselsÅr = medlem.getFødselsÅr();
+-             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
+-             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
+-             medlem.setBetalingsGebyr(betalingsGebyr);
+- 
+--            String betalingsinfo = hentBetalignsInfoFraFil("navneListe.txt", medlem.getNavn());
+-+            String betalingsinfo = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
+- 
+-             System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
+-         }
+-     }
+- 
+--    private String hentBetalignsInfoFraFil(String filePath, String navn) {
+-+    private String hentBetalingsInfoFraFil(String filePath, String navn) {
+-         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+-             String line;
+-             while ((line = br.readLine()) != null) {
+-@@ -74,8 +78,28 @@
+-         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
+-     }
+- 
+-+    public void gemTiderTilFil() {
+-+        ArrayList <Tid> tiderDerSkalGemmes = svømmeklub.getTider();
+-+        fileHandler.gemTiderTilFil(tiderDerSkalGemmes);
+-+    }
+-+
+-     public void sorterAlle(String sorteringstype) {
+--        sortering.sorterAlle(sorteringstype);
+-+        switch (sorteringstype.toLowerCase()) {
+-+            case "navn":
+-+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getNavn));
+-+                break;
+-+            case "fødselsår":
+-+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getFødselsÅr));
+-+                break;
+-+            case "aktivitet":
+-+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAktivitetsType));
+-+                break;
+-+            case "aldersgruppe":
+-+                svømmeklub.sorterMedlemmer(Comparator.comparing(Medlem::getAldersType));
+-+                break;
+-+            default:
+-+                System.out.println("Ugyldig sorteringstype!");
+-+        }
+-     }
+- 
+-     public int udregnAlder(LocalDate fødselsÅr) {
+-Index: src/Delfinen/FileHandler.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.io.File;\r\nimport java.io.FileNotFoundException;\r\nimport java.io.PrintStream;\r\nimport java.time.LocalDate;\r\nimport java.util.ArrayList;\r\nimport java.util.Scanner;\r\n\r\npublic class FileHandler {\r\n    private File fil = new File(\"navneListe.txt\");\r\n    public static ArrayList < Medlem > læsMedlemmerFraFil(File fil) throws FileNotFoundException {\r\n        ArrayList < Medlem > medlemmer = new ArrayList < > ();\r\n        try (Scanner scanner = new Scanner(fil)) {\r\n            while (scanner.hasNextLine()) {\r\n                String line = scanner.nextLine();\r\n                String[] medlemsData = line.split(\", \");\r\n                String navn = medlemsData[0];\r\n                LocalDate fødselsdato = LocalDate.parse(medlemsData[1]);\r\n                AktivitetsType aktivitetsType = AktivitetsType.valueOf(medlemsData[2]);\r\n                SvømmeType svømmeType = SvømmeType.valueOf(medlemsData[3]);\r\n                AldersType aldersType = AldersType.valueOf(medlemsData[4]);\r\n\r\n                if (svømmeType == SvømmeType.KONKURRENCESVØMMER) {\r\n                    medlemmer.add(new KonkurrenceSvømmer(navn, fødselsdato, aktivitetsType, svømmeType, aldersType));\r\n                } else if (svømmeType == SvømmeType.MOTIONIST) {\r\n                    medlemmer.add(new Motionist(navn, fødselsdato, aktivitetsType, svømmeType, aldersType));\r\n                }\r\n            }\r\n        }\r\n        return medlemmer;\r\n    }\r\n\r\n    public void gemMedlemmerTilFil(ArrayList <Medlem> medlemmer) {\r\n        try (PrintStream output = new PrintStream(fil)) {\r\n            for (Medlem medlem: medlemmer) {\r\n                output.println(medlem.getNavn() + \", \" +\r\n                        medlem.getFødselsÅr() + \", \" +\r\n                        medlem.getAktivitetsType() + \", \" +\r\n                        medlem.getSvømmeType() + \", \" +\r\n                        medlem.getAldersType());\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            throw new RuntimeException(\"Kunne ikke gemme medlemmer til fil: \" + e.getMessage());\r\n        }\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/FileHandler.java b/src/Delfinen/FileHandler.java
+---- a/src/Delfinen/FileHandler.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/FileHandler.java	(date 1714910166165)
+-@@ -1,16 +1,15 @@
+- package Delfinen;
+- 
+--import java.io.File;
+--import java.io.FileNotFoundException;
+--import java.io.PrintStream;
+-+import java.io.*;
+- import java.time.LocalDate;
+- import java.util.ArrayList;
+- import java.util.Scanner;
+- 
+- public class FileHandler {
+-     private File fil = new File("navneListe.txt");
+--    public static ArrayList < Medlem > læsMedlemmerFraFil(File fil) throws FileNotFoundException {
+--        ArrayList < Medlem > medlemmer = new ArrayList < > ();
+-+
+-+    public static ArrayList <Medlem> læsMedlemmerFraFil(File fil) throws FileNotFoundException {
+-+        ArrayList <Medlem> medlemmer = new ArrayList < > ();
+-         try (Scanner scanner = new Scanner(fil)) {
+-             while (scanner.hasNextLine()) {
+-                 String line = scanner.nextLine();
+-@@ -44,4 +43,12 @@
+-             throw new RuntimeException("Kunne ikke gemme medlemmer til fil: " + e.getMessage());
+-         }
+-     }
+-+
+-+    public void gemTiderTilFil(String swimTime) {
+-+        try (PrintWriter writer = new PrintWriter(new FileWriter("konkurrenceTider.txt", true))) {
+-+            writer.println(swimTime);
+-+        } catch (IOException e) {
+-+            e.printStackTrace();
+-+        }
+-+    }
+- }
+-\ No newline at end of file
+-Index: src/Delfinen/Svømmeklub.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\nimport java.util.ArrayList;\r\nimport java.util.Comparator;\r\n\r\npublic class Svømmeklub {\r\n    private ArrayList < Medlem > medlemmer;\r\n\r\n    public Svømmeklub() {\r\n        this.medlemmer = new ArrayList<>(); //ALLEREDE INSTANTIERET!\r\n    }\r\n\r\n    public ArrayList < Medlem > getMedlemmer() {\r\n        return this.medlemmer;\r\n    }\r\n\r\n    public void tilføjMedlem(Medlem medlem) {\r\n        this.medlemmer.add(medlem);\r\n    }\r\n\r\n    public void sorterMedlemmer(Comparator < Medlem > comparator) {\r\n        medlemmer.sort(comparator);\r\n    }\r\n\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/Svømmeklub.java b/src/Delfinen/Svømmeklub.java
+---- a/src/Delfinen/Svømmeklub.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/Svømmeklub.java	(date 1714907853799)
+-@@ -3,22 +3,25 @@
+- import java.util.Comparator;
+- 
+- public class Svømmeklub {
+--    private ArrayList < Medlem > medlemmer;
+-+    private ArrayList <Medlem> medlemmer;
+- 
+-     public Svømmeklub() {
+--        this.medlemmer = new ArrayList<>(); //ALLEREDE INSTANTIERET!
+-+        this.medlemmer = new ArrayList<>();
+-     }
+- 
+--    public ArrayList < Medlem > getMedlemmer() {
+-+    public ArrayList <Medlem> getMedlemmer() {
+-         return this.medlemmer;
+-     }
+- 
+-     public void tilføjMedlem(Medlem medlem) {
+-         this.medlemmer.add(medlem);
+-     }
+-+
+-+    public void tilføjTid(Medlem medlem) {
+-+        this.medlemmer.add(medlem);
+-+    }
+- 
+--    public void sorterMedlemmer(Comparator < Medlem > comparator) {
+-+    public void sorterMedlemmer(Comparator <Medlem> comparator) {
+-         medlemmer.sort(comparator);
+-     }
+--
+- }
+-\ No newline at end of file
+-Index: src/Delfinen/UserInterface.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.time.LocalDate;\r\nimport java.util.Scanner;\r\n\r\npublic class UserInterface {\r\n    private Svømmeklub svømmeklub;\r\n    private Scanner scanner;\r\n    private Controller controller = new Controller();\r\n\r\n    public UserInterface() {\r\n        svømmeklub = new Svømmeklub();\r\n        scanner = new Scanner(System.in);\r\n    }\r\n\r\n    public void startProgram() {\r\n        System.out.println(\"Velkommen til svømmeklubben Delfinen!!!!!\");\r\n        System.out.println(\"Vælg din rolle træner/formand/kasserer\");\r\n        String rolleInput = scanner.nextLine().trim().toUpperCase();\r\n        BrugerRolle rolle;\r\n\r\n        try {\r\n            rolle = BrugerRolle.valueOf(rolleInput);\r\n        } catch (IllegalArgumentException e) {\r\n            System.out.println(\"Ugyldig rolle valgt!!\");\r\n            return;\r\n        }\r\n\r\n        switch (rolle) {\r\n            case TRÆNER:\r\n                trænerMenu();\r\n                break;\r\n            case FORMAND:\r\n                formandMenu();\r\n                break;\r\n            case KASSERER:\r\n                kassererMenu();\r\n                break;\r\n            default:\r\n                System.out.println(\"Ugyldig rolle!!!\");\r\n\r\n        }\r\n    }\r\n\r\n    public void loadMedlemsListePåStart() {\r\n        controller.loadMedlemsListe();\r\n    }\r\n\r\n    public void trænerMenu() {\r\n\r\n    }\r\n\r\n    public void formandMenu() {\r\n        //fil\r\n        //alder\r\n        //junior/senior\r\n\r\n        Boolean exit = false;\r\n        while (!exit) {\r\n            System.out.println(\"\\nFormandens Menu: Indtast nummer!!\");\r\n            System.out.println(\"1. Tilføj nyt medlem\");\r\n            System.out.println(\"2. Vis alle medlemmer med betalingsinfo\");\r\n            System.out.println(\"3. Sorter medlemmer\");\r\n            System.out.println(\"4. Tilbage til hovedmenu\");\r\n            System.out.println(\"5. Log ud\");\r\n\r\n            int valg = scanner.nextInt();\r\n            scanner.nextLine();\r\n            switch (valg) {\r\n                case 1:\r\n                    Medlem medlem = null;\r\n                    System.out.println(\"Indsæt navn: \");\r\n                    String navn = scanner.nextLine();\r\n                    System.out.println(\"Indtast fødselsår (YYYY-MM-DD format): \");\r\n                    String datoString = scanner.next();\r\n                    System.out.println(\"er medlemmet aktiv eller passiv?\");\r\n                    String aktivitetsType = scanner.next();\r\n                    System.out.println(\"er medlemmet junior eller senior?\");\r\n                    String aldersTyp = scanner.next();\r\n                    System.out.println(\"ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?\");\r\n                    String svømmeTyp = scanner.next();\r\n\r\n                    controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);\r\n                    controller.gemMedlemmerTilFil();\r\n                    break;\r\n                case 2:\r\n                    controller.printAll();\r\n                    break;\r\n                case 3:\r\n                    sorterMedlemmer();\r\n                    break;\r\n                case 4:\r\n                    startProgram();\r\n                    break;\r\n                case 5:\r\n                    System.out.println(\"logger ud...\");\r\n                    exit = true;\r\n                    break;\r\n                default:\r\n                    System.out.println(\"Ugyldigt valg!!\");\r\n            }\r\n        }\r\n    }\r\n    private void sorterMedlemmer() {\r\n        System.out.println(\"Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)\");\r\n        String sorteringstype = scanner.nextLine().trim();\r\n        controller.sorterAlle(sorteringstype);\r\n        controller.printAll();\r\n    }\r\n\r\n    public void kassererMenu() {\r\n        Boolean exit = false;\r\n        while (!exit) {\r\n            System.out.println(\"\\nKasserens Menu: Indtast nummer!!\");\r\n            System.out.println(\"1. Generer en liste over en samlet forventet indtjening\");\r\n            System.out.println(\"2. Indtast navne på dem, som har betalt/ikke betalt\");\r\n            System.out.println(\"3. Vis alle medlemmer med betalingsinfo\");\r\n            System.out.println(\"3. Udregn alder\");\r\n            System.out.println(\"4. Tilbage til hovedmenu\");\r\n            System.out.println(\"5. Log ud\");\r\n\r\n            int valg = scanner.nextInt();\r\n            scanner.nextLine();\r\n            switch (valg) {\r\n                case 1:\r\n                    double forventetIndtjening = controller.udregnForventetIndtjening();\r\n                    System.out.println(\"Den samlede forventede indtjening er \" + forventetIndtjening + \" kroner.\");\r\n                    break;\r\n                case 2:\r\n                    System.out.println(\"Indtast navn:\");\r\n                    String navn = scanner.nextLine();\r\n                    System.out.println(\"Har medlemmet betalt? (HAR BETALT/HAR IKKE BETALT):\");\r\n                    String betalingsInfo = scanner.nextLine();\r\n                    String filePath = \"navneListe.txt\";\r\n                    controller.betalingsInfo(filePath, navn, betalingsInfo);\r\n                    break;\r\n                case 3:\r\n                    controller.printAll();\r\n                    break;\r\n                case 4:\r\n                    System.out.print(\"Indtast fødselsår (YYYY-MM-DD format): \");\r\n                    String input = scanner.nextLine();\r\n                    LocalDate fødselsÅr = LocalDate.parse(input);\r\n                    int alder = controller.udregnAlder(fødselsÅr);\r\n                    double aktivPris = controller.udregnAktivPris(alder);\r\n                    System.out.println(\"Medlemmet er \" + alder + \" år gammel, og skal dermed betale \" + aktivPris + \" kroner.\");\r\n                    break;\r\n                case 5:\r\n                    startProgram();\r\n                    break;\r\n                case 6:\r\n                    System.out.println(\"logger ud...\");\r\n                    exit = true;\r\n                    break;\r\n                default:\r\n                    System.out.println(\"Ugyldigt valg!!\");\r\n            }\r\n        }\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/UserInterface.java b/src/Delfinen/UserInterface.java
+---- a/src/Delfinen/UserInterface.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/UserInterface.java	(date 1714910166118)
+-@@ -14,7 +14,7 @@
+-     }
+- 
+-     public void startProgram() {
+--        System.out.println("Velkommen til svømmeklubben Delfinen!!!!!");
+-+        System.out.println("Velkommen til svømmeklubben Delfinen!");
+-         System.out.println("Vælg din rolle træner/formand/kasserer");
+-         String rolleInput = scanner.nextLine().trim().toUpperCase();
+-         BrugerRolle rolle;
+-@@ -37,8 +37,7 @@
+-                 kassererMenu();
+-                 break;
+-             default:
+--                System.out.println("Ugyldig rolle!!!");
+--
+-+                System.out.println("Ugyldig rolle!");
+-         }
+-     }
+- 
+-@@ -46,8 +45,59 @@
+-         controller.loadMedlemsListe();
+-     }
+- 
+-+    public String getTrænerValg() {
+-+        return scanner.next();
+-+    }
+-+
+-     public void trænerMenu() {
+- 
+-+        Boolean exit = false;
+-+        while (!exit) {
+-+            System.out.println("\nTrænerens Menu: Indtast nummer!");
+-+            System.out.println("1. Registrer/rediger konkurrence resultater");
+-+            System.out.println("2. Rediger konkurrence tidspunkter");
+-+            System.out.println("3. Tilbage til hovedmenu");
+-+            System.out.println("4. Log ud");
+-+
+-+            int valg = scanner.nextInt();
+-+            scanner.nextLine();
+-+            switch (valg) {
+-+                case 1:
+-+                    System.out.println("Vil du registrere eller redigere?");
+-+                    String trænerValg = getTrænerValg();
+-+                    while (!(trænerValg.equalsIgnoreCase("registrere") || trænerValg.equalsIgnoreCase("redigere"))) {
+-+                        System.out.println("Ikke gyldigt valg. Indtast 'registrere' eller 'redigere'.");
+-+                        trænerValg = getTrænerValg();
+-+                    }
+-+                    if (trænerValg.equalsIgnoreCase("registrere")) {
+-+                        Medlem medlem = null;
+-+                        System.out.println("Indsæt navn: ");
+-+                        String navn = scanner.next();
+-+                        System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
+-+                        String datoString = scanner.next();
+-+                        System.out.println("Hvor hurtigt svømmede svømmeren?");
+-+                        String svømmeTid = scanner.next();
+-+                        System.out.println("Er svømmeren junior eller senior?");
+-+                        String aldersTyp = scanner.next();
+-+
+-+                        controller.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+-+                        controller.gemTiderTilFil();
+-+                    }
+-+                    break;
+-+                case 2:
+-+                    controller.printAll();
+-+                    break;
+-+                case 3:
+-+                    startProgram();
+-+                    break;
+-+                case 4:
+-+                    System.out.println("logger ud...");
+-+                    exit = true;
+-+                    break;
+-+                default:
+-+                    System.out.println("Ugyldigt valg!!");
+-+            }
+-+        }
+-     }
+- 
+-     public void formandMenu() {
+-@@ -101,6 +151,7 @@
+-             }
+-         }
+-     }
+-+
+-     private void sorterMedlemmer() {
+-         System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)");
+-         String sorteringstype = scanner.nextLine().trim();
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/.idea/misc.xml	(date 1714908383104)
+-@@ -1,6 +1,6 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/out" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: src/Delfinen/SvømmeType.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\npublic enum SvømmeType {\r\n    MOTIONIST,\r\n    KONKURRENCESVØMMER;\r\n}\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/SvømmeType.java b/src/Delfinen/SvømmeType.java
+---- a/src/Delfinen/SvømmeType.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/SvømmeType.java	(date 1714907853908)
+-@@ -3,5 +3,4 @@
+- public enum SvømmeType {
+-     MOTIONIST,
+-     KONKURRENCESVØMMER;
+--}
+--
+-+}
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"sortering\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"504863aa-3151-42ed-9d58-4c5e64c508b9\" name=\"Changes by omara\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/amaliekea/DelfinenProjekt.git\",\r\n    \"accountId\": \"152fb25b-e382-42b5-8165-0d7eeed6e637\"\r\n  }\r\n}]]></component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"kass-sort-sortering-i-ny-class\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveMembersDialog.RECENTS_KEY\">\r\n      <recent name=\"Sortering\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n      <workItem from=\"1714724359716\" duration=\"2495000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TODO lister er tilføjet\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/.idea/workspace.xml	(date 1714909352281)
+-@@ -4,16 +4,18 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
+-+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="TODO lister er tilføjet">
+-       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/SvømmeType.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svømmeklub.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
+-     </list>
+-     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+-     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+--    <list id="504863aa-3151-42ed-9d58-4c5e64c508b9" name="Changes by omara" comment="">
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+--    </list>
+-     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -32,7 +34,7 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="main" />
+-+        <entry key="$PROJECT_DIR$" value="træneren" />
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-@@ -43,12 +45,12 @@
+-     &quot;assignee&quot;: &quot;amaliekea&quot;
+-   }
+- }</component>
+--  <component name="GithubPullRequestsUISettings"><![CDATA[{
+--  "selectedUrlAndAccountId": {
+--    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
+--    "accountId": "152fb25b-e382-42b5-8165-0d7eeed6e637"
+-+  <component name="GithubPullRequestsUISettings">{
+-+  &quot;selectedUrlAndAccountId&quot;: {
+-+    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,
+-+    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="MarkdownSettingsMigration">
+-     <option name="stateVersion" value="1" />
+-   </component>
+-@@ -68,7 +70,7 @@
+-     "RunOnceActivity.OpenProjectViewOnStart": "true",
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+--    "git-widget-placeholder": "kass-sort-sortering-i-ny-class",
+-+    "git-widget-placeholder": "main",
+-     "kotlin-language-version-configured": "true",
+-     "node.js.detected.package.eslint": "true",
+-     "node.js.detected.package.tslint": "true",
+-@@ -76,15 +78,10 @@
+-     "node.js.selected.package.tslint": "(autodetect)",
+-     "nodejs_package_manager_path": "npm",
+-     "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+--    "settings.editor.selected.configurable": "preferences.pluginManager",
+-+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+-     "vue.rearranger.settings.migration": "true"
+-   }
+- }]]></component>
+--  <component name="RecentsManager">
+--    <key name="MoveMembersDialog.RECENTS_KEY">
+--      <recent name="Sortering" />
+--    </key>
+--  </component>
+-   <component name="RunManager">
+-     <configuration name="Main" type="Application" factoryName="Application">
+-       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
+-@@ -116,7 +113,6 @@
+-       <workItem from="1714552427540" duration="2550000" />
+-       <workItem from="1714644756598" duration="16000" />
+-       <workItem from="1714644801772" duration="11798000" />
+--      <workItem from="1714724359716" duration="2495000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="gh">
+-       <option name="closed" value="true" />
+-@@ -274,8 +270,4 @@
+-     <MESSAGE value="TODO lister er tilføjet" />
+-     <option name="LAST_COMMIT_MESSAGE" value="TODO lister er tilføjet" />
+-   </component>
+--  <component name="XSLT-Support.FileAssociations.UIState">
+--    <expand />
+--    <select />
+--  </component>
+- </project>
+-\ No newline at end of file
+-Index: src/Delfinen/Medlem.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.time.LocalDate;\r\n\r\npublic abstract class Medlem {\r\n    private String navn;\r\n    private LocalDate fødselsÅr;\r\n    private AktivitetsType aktivitetsType;\r\n    private SvømmeType svømmeType;\r\n    private AldersType aldersType;\r\n    private double betalingsGebyr;\r\n\r\n    public Medlem(String navn, LocalDate fødselsÅr, AktivitetsType aktivitetsType, SvømmeType svømmeType, AldersType aldersType) {\r\n        this.navn = navn;\r\n        this.fødselsÅr = fødselsÅr;\r\n        this.aktivitetsType = aktivitetsType;\r\n        this.svømmeType = svømmeType;\r\n        this.aldersType = aldersType;\r\n        this.betalingsGebyr = betalingsGebyr;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Navn: \" + navn +\r\n                \", Fødselsår: \" + fødselsÅr +\r\n                \", AktivitetsType: \" + aktivitetsType +\r\n                \", SvømmeType: \" + svømmeType +\r\n                \", AldersType: \" + aldersType +\r\n                \", Betalingsgebyr: \" + betalingsGebyr;\r\n    }\r\n\r\n    public abstract void betalMedlemsGebyr();\r\n\r\n    public String getNavn() {\r\n        return navn;\r\n    }\r\n\r\n    public LocalDate getFødselsÅr() {\r\n        return fødselsÅr;\r\n    }\r\n\r\n    public AktivitetsType getAktivitetsType() {\r\n        return aktivitetsType;\r\n    }\r\n\r\n    public SvømmeType getSvømmeType() {\r\n        return svømmeType;\r\n    }\r\n\r\n    public AldersType getAldersType() {\r\n        return aldersType;\r\n    }\r\n\r\n    public void setBetalingsGebyr(double betalingsGebyr) {\r\n        this.betalingsGebyr = betalingsGebyr;\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/Medlem.java b/src/Delfinen/Medlem.java
+---- a/src/Delfinen/Medlem.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/Medlem.java	(date 1714909548959)
+-@@ -16,7 +16,6 @@
+-         this.aktivitetsType = aktivitetsType;
+-         this.svømmeType = svømmeType;
+-         this.aldersType = aldersType;
+--        this.betalingsGebyr = betalingsGebyr;
+-     }
+- 
+-     @Override
+-@@ -54,4 +53,12 @@
+-     public void setBetalingsGebyr(double betalingsGebyr) {
+-         this.betalingsGebyr = betalingsGebyr;
+-     }
+-+
+-+    public String konkurrenceTider() {
+-+        return navn + ", " +
+-+                fødselsÅr + ", " +
+-+                aktivitetsType + ", " +
+-+                svømmeType + ", " +
+-+                aldersType;
+-+    }
+- }
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09_[Changes]/shelved.patch	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ /dev/null	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
+@@ -1,403 +0,0 @@
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ /dev/null	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-@@ -1,143 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"userStory 1 z og a\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Formand.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Formand.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/UserInterface.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/UserInterface.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"amaliekea\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"b20ac4bc-5cc2-40a7-a782-4d5540026b4d\" />\r\n        <option name=\"url\" value=\"https://github.com/amaliekea/DelfinenProjekt.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"LineStatusTrackerManager\">\r\n    <file path=\"$PROJECT_DIR$/src/UserInterface.java\">\r\n      <ranges>\r\n        <range start1=\"38\" end1=\"39\" start2=\"38\" end2=\"39\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"52\" end1=\"57\" start2=\"52\" end2=\"52\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"58\" end1=\"65\" start2=\"53\" end2=\"69\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"66\" end1=\"72\" start2=\"70\" end2=\"75\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"73\" end1=\"89\" start2=\"76\" end2=\"102\" changelist=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" />\r\n        <range start1=\"90\" end1=\"91\" start2=\"103\" end2=\"104\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"92\" end1=\"92\" start2=\"105\" end2=\"106\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n        <range start1=\"93\" end1=\"94\" start2=\"107\" end2=\"108\" changelist=\"644b0149-4ab5-400b-b910-91888a403bd2\" />\r\n      </ranges>\r\n    </file>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 1\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"11987000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"userStory 1 z og a\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision a953fa2e04d1f45a9bbe6150c46698bdc5620259)
+--+++ b/.idea/workspace.xml	(date 1714479805414)
+--@@ -4,14 +4,10 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory 1 z og a">
+--+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="userStory #3 udregning af medlemspriser">
+--       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/Formand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formand.java" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+---    </list>
+---    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="">
+---      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+--     </list>
+--+    <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+--@@ -28,12 +24,12 @@
+--   <component name="Git.Settings">
+--     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+--   </component>
+---  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+---  "lastFilter": {
+---    "state": "OPEN",
+---    "assignee": "amaliekea"
+--+  <component name="GitHubPullRequestSearchHistory">{
+--+  &quot;lastFilter&quot;: {
+--+    &quot;state&quot;: &quot;OPEN&quot;,
+--+    &quot;assignee&quot;: &quot;amaliekea&quot;
+--   }
+---}]]></component>
+--+}</component>
+--   <component name="GithubPullRequestsUISettings">
+--     <option name="selectedUrlAndAccountId">
+--       <UrlAndAccount>
+--@@ -42,50 +38,36 @@
+--       </UrlAndAccount>
+--     </option>
+--   </component>
+---  <component name="LineStatusTrackerManager">
+---    <file path="$PROJECT_DIR$/src/UserInterface.java">
+---      <ranges>
+---        <range start1="38" end1="39" start2="38" end2="39" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="52" end1="57" start2="52" end2="52" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="58" end1="65" start2="53" end2="69" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="66" end1="72" start2="70" end2="75" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="73" end1="89" start2="76" end2="102" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+---        <range start1="90" end1="91" start2="103" end2="104" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="92" end1="92" start2="105" end2="106" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---        <range start1="93" end1="94" start2="107" end2="108" changelist="644b0149-4ab5-400b-b910-91888a403bd2" />
+---      </ranges>
+---    </file>
+---  </component>
+--   <component name="MarkdownSettingsMigration">
+--     <option name="stateVersion" value="1" />
+--   </component>
+---  <component name="ProjectColorInfo"><![CDATA[{
+---  "associatedIndex": 1
+---}]]></component>
+--+  <component name="ProjectColorInfo">{
+--+  &quot;associatedIndex&quot;: 1
+--+}</component>
+--   <component name="ProjectId" id="2foP111fkmAAIgVo56Su8uzf4iG" />
+--   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+--   <component name="ProjectViewState">
+--     <option name="hideEmptyMiddlePackages" value="true" />
+--     <option name="showLibraryContents" value="true" />
+--   </component>
+---  <component name="PropertiesComponent"><![CDATA[{
+---  "keyToString": {
+---    "Application.Main.executor": "Run",
+---    "Application.UserInterface.executor": "Run",
+---    "RunOnceActivity.OpenProjectViewOnStart": "true",
+---    "RunOnceActivity.ShowReadmeOnStart": "true",
+---    "git-widget-placeholder": "main",
+---    "kotlin-language-version-configured": "true",
+---    "node.js.detected.package.eslint": "true",
+---    "node.js.detected.package.tslint": "true",
+---    "node.js.selected.package.eslint": "(autodetect)",
+---    "node.js.selected.package.tslint": "(autodetect)",
+---    "nodejs_package_manager_path": "npm",
+---    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+---    "settings.editor.selected.configurable": "preferences.pluginManager",
+---    "vue.rearranger.settings.migration": "true"
+--+  <component name="PropertiesComponent">{
+--+  &quot;keyToString&quot;: {
+--+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+--+    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
+--+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+--+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+--+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+--+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+--+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+--+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+--+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+--+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+--+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+--+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
+--+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+--+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+--   }
+---}]]></component>
+--+}</component>
+--   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+--   <component name="TaskManager">
+--     <task active="true" id="Default" summary="Default task">
+--@@ -120,7 +102,15 @@
+--       <option name="project" value="LOCAL" />
+--       <updated>1714475170302</updated>
+--     </task>
+---    <option name="localTasksCounter" value="4" />
+--+    <task id="LOCAL-00004" summary="userStory #3 udregning af medlemspriser">
+--+      <option name="closed" value="true" />
+--+      <created>1714479326912</created>
+--+      <option name="number" value="00004" />
+--+      <option name="presentableId" value="LOCAL-00004" />
+--+      <option name="project" value="LOCAL" />
+--+      <updated>1714479326912</updated>
+--+    </task>
+--+    <option name="localTasksCounter" value="5" />
+--     <servers />
+--   </component>
+--   <component name="TypeScriptGeneratedFilesManager">
+--@@ -129,6 +119,7 @@
+--   <component name="VcsManagerConfiguration">
+--     <MESSAGE value="gh" />
+--     <MESSAGE value="userStory 1 z og a" />
+---    <option name="LAST_COMMIT_MESSAGE" value="userStory 1 z og a" />
+--+    <MESSAGE value="userStory #3 udregning af medlemspriser" />
+--+    <option name="LAST_COMMIT_MESSAGE" value="userStory #3 udregning af medlemspriser" />
+--   </component>
+-- </project>
+--\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ /dev/null	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]" date="1714480705372" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30/04/2024 14.32 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: src/Delfinen/Controller.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package Delfinen;\r\n\r\nimport java.io.*;\r\nimport java.time.LocalDate;\r\nimport java.util.ArrayList;\r\nimport java.util.Comparator;\r\n\r\npublic class Controller {\r\n    public FileHandler fileHandler;\r\n    private LocalDate fødselsÅr;\r\n    private Kasserer alder;\r\n    private Formand formand;\r\n    private static Sortering sortering;\r\n\r\n    private static Svømmeklub svømmeklub;\r\n\r\n    public Controller() {\r\n        this.fileHandler = new FileHandler();\r\n        this.fødselsÅr = LocalDate.now();\r\n        this.alder = new Kasserer();\r\n        this.svømmeklub = new Svømmeklub();\r\n        this.formand = new Formand(svømmeklub);\r\n        this.sortering = new Sortering(svømmeklub);\r\n    }\r\n\r\n    public void loadMedlemsListe() {\r\n        try {\r\n            ArrayList <Medlem> loadedMedlemmer = FileHandler.læsMedlemmerFraFil(new File(\"navneListe.txt\"));\r\n            for (Medlem medlem: loadedMedlemmer) {\r\n                svømmeklub.tilføjMedlem(medlem);\r\n            }\r\n        } catch (FileNotFoundException e) {\r\n            throw new RuntimeException(\"Fil ikke fundet: \" + e.getMessage());\r\n        }\r\n    }\r\n\r\n    public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {\r\n        formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);\r\n    }\r\n\r\n    public void printAll() {\r\n        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();\r\n        for (Medlem medlem: medlemmer) {\r\n            LocalDate fødselsÅr = medlem.getFødselsÅr();\r\n            AktivitetsType aktivitetsType = medlem.getAktivitetsType();\r\n            double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);\r\n            medlem.setBetalingsGebyr(betalingsGebyr);\r\n\r\n            String betalingsinfo = hentBetalignsInfoFraFil(\"navneListe.txt\", medlem.getNavn());\r\n\r\n            System.out.println(medlem + \", Betalingsinfo: \" + betalingsinfo);\r\n        }\r\n    }\r\n\r\n    private String hentBetalignsInfoFraFil(String filePath, String navn) {\r\n        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {\r\n            String line;\r\n            while ((line = br.readLine()) != null) {\r\n                if (line.startsWith(navn)) {\r\n                    String[] parts = line.split(\", \");\r\n                    if (parts.length > 1) {\r\n                        return parts[parts.length - 1];\r\n                    }\r\n                }\r\n            }\r\n        } catch (IOException e) {\r\n            e.printStackTrace();\r\n        }\r\n        return \"Information ikke fundet\";\r\n    }\r\n\r\n    public void gemMedlemmerTilFil() {\r\n        ArrayList <Medlem> medlemmerDerSkalGemmes = svømmeklub.getMedlemmer();\r\n        fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);\r\n    }\r\n\r\n    public void sorterAlle(String sorteringstype) {\r\n        sortering.sorterAlle(sorteringstype);\r\n    }\r\n\r\n    public int udregnAlder(LocalDate fødselsÅr) {\r\n        return Kasserer.udregnAlder(fødselsÅr);\r\n    }\r\n\r\n    public int udregnAktivPris(int alder) {\r\n        return (int) Kasserer.udregnAktivPris(alder);\r\n    }\r\n\r\n    public double udregnForventetIndtjening() {\r\n        return Kasserer.udregnForventetIndtjening();\r\n    }\r\n\r\n    public static boolean betalingsInfo(String filePath, String navn, String betalingsInfo) {\r\n        return Kasserer.betalingsInfo(filePath, navn, betalingsInfo);\r\n    }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Delfinen/Controller.java b/src/Delfinen/Controller.java
+---- a/src/Delfinen/Controller.java	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/src/Delfinen/Controller.java	(date 1715101708696)
+-@@ -10,7 +10,8 @@
+-     private LocalDate fødselsÅr;
+-     private Kasserer alder;
+-     private Formand formand;
+--    private static Sortering sortering;
+-+    private Træner træner;
+-+    private Sortering sortering;
+- 
+-     private static Svømmeklub svømmeklub;
+- 
+-@@ -20,7 +21,7 @@
+-         this.alder = new Kasserer();
+-         this.svømmeklub = new Svømmeklub();
+-         this.formand = new Formand(svømmeklub);
+--        this.sortering = new Sortering(svømmeklub);
+-+        this.træner = new Træner(svømmeklub);
+-     }
+- 
+-     public void loadMedlemsListe() {
+-@@ -34,25 +35,60 @@
+-         }
+-     }
+- 
+-+    public void loadTidsListe() {
+-+        try {
+-+            ArrayList<Tid> loadedTider = FileHandler.læsTiderFraFilTræner(new File("konkurrenceTider.txt"));
+-+            for (Tid tid: loadedTider) {
+-+                svømmeklub.tilføjTid((tid));
+-+            }
+-+        } catch (FileNotFoundException e) {
+-+            throw new RuntimeException("Fil ikke fundet: " + e.getMessage());
+-+        }
+-+    }
+-+
+-     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
+-         formand.tilføjMedlem(navn, datoString, aktivitetsTyp, svommeTyp, aldersTyp);
+-     }
+- 
+-+    public void tilføjTid(String navn, String datoString, String svømmeTid, String aldersTyp) {
+-+        træner.tilføjTid(navn, datoString, svømmeTid, aldersTyp);
+-+        SvømmeTid.tilføjSvømmeTid(svømmeTid);
+-+    }
+-+
+-+    public ArrayList<Tid> getTider() {
+-+        return svømmeklub.getTider();
+-+    }
+-+
+-     public void printAll() {
+--        ArrayList < Medlem > medlemmer = svømmeklub.getMedlemmer();
+-+        ArrayList <Medlem> medlemmer = svømmeklub.getMedlemmer();
+-         for (Medlem medlem: medlemmer) {
+-             LocalDate fødselsÅr = medlem.getFødselsÅr();
+-             AktivitetsType aktivitetsType = medlem.getAktivitetsType();
+-             double betalingsGebyr = Kasserer.udregnBetalingsGebyr(aktivitetsType, fødselsÅr);
+-             medlem.setBetalingsGebyr(betalingsGebyr);
+- 
+--            String betalingsinfo = hentBetalignsInfoFraFil("navneListe.txt", medlem.getNavn());
+-+            String betalingsinfo = hentBetalingsInfoFraFil("navneListe.txt", medlem.getNavn());
+- 
+-             System.out.println(medlem + ", Betalingsinfo: " + betalingsinfo);
+-         }
+-     }
+- 
+--    private String hentBetalignsInfoFraFil(String filePath, String navn) {
+-+    public void printAllTop5() {
+-+        ArrayList<Tid> tider = svømmeklub.getTider();
+-+
+-+        tider.sort(Comparator.comparing(Tid::getSvømmeTid));
+-+
+-+        System.out.println("Top 5 konkurrencesvømmere:");
+-+        for (int i = 0; i < Math.min(5, tider.size()); i++) {
+-+            Tid tid = tider.get(i);
+-+            LocalDate fødselsÅr = tid.getFødselsÅr();
+-+            String svømmeTid = tid.getSvømmeTid();
+-+            AldersType aldersType = tid.getAldersType();
+-+            System.out.println("Navn: " + tid.getNavn() + ", Svømmetid: " + svømmeTid + ", Alders type: " + aldersType);
+-+        }
+-+    }
+-+
+-+    private String hentBetalingsInfoFraFil(String filePath, String navn) {
+-         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+-             String line;
+-             while ((line = br.readLine()) != null) {
+-@@ -74,6 +110,11 @@
+-         fileHandler.gemMedlemmerTilFil(medlemmerDerSkalGemmes);
+-     }
+- 
+-+    public void gemTiderTilFil() {
+-+        ArrayList<Tid> tiderDerSkalGemmes = svømmeklub.getTider();
+-+        fileHandler.gemTiderTilFilTræner(tiderDerSkalGemmes);
+-+    }
+-+
+-     public void sorterAlle(String sorteringstype) {
+-         sortering.sorterAlle(sorteringstype);
+-     }
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"sortering\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/Controller.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"504863aa-3151-42ed-9d58-4c5e64c508b9\" name=\"Changes by omara\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/amaliekea/DelfinenProjekt.git\",\r\n    \"accountId\": \"152fb25b-e382-42b5-8165-0d7eeed6e637\"\r\n  }\r\n}]]></component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"kass-sort-sortering-i-ny-class\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveMembersDialog.RECENTS_KEY\">\r\n      <recent name=\"Sortering\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n      <workItem from=\"1714724359716\" duration=\"2495000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TODO lister er tilføjet\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision ccf3a7312cfbc576b9bc1024ef38fb1e8c7188b5)
+-+++ b/.idea/workspace.xml	(date 1715101730716)
+-@@ -4,16 +4,9 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Træneren er færdig" />
+-     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+-     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+--    <list id="504863aa-3151-42ed-9d58-4c5e64c508b9" name="Changes by omara" comment="">
+--      <change beforePath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
+--    </list>
+-     <list id="644b0149-4ab5-400b-b910-91888a403bd2" name="Changes by zuhurunun" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -43,12 +36,12 @@
+-     &quot;assignee&quot;: &quot;amaliekea&quot;
+-   }
+- }</component>
+--  <component name="GithubPullRequestsUISettings"><![CDATA[{
+--  "selectedUrlAndAccountId": {
+--    "url": "https://github.com/amaliekea/DelfinenProjekt.git",
+--    "accountId": "152fb25b-e382-42b5-8165-0d7eeed6e637"
+-+  <component name="GithubPullRequestsUISettings">{
+-+  &quot;selectedUrlAndAccountId&quot;: {
+-+    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt&quot;,
+-+    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="MarkdownSettingsMigration">
+-     <option name="stateVersion" value="1" />
+-   </component>
+-@@ -61,30 +54,25 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "Application.Main.executor": "Run",
+--    "Application.UserInterface.executor": "Run",
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+--    "git-widget-placeholder": "kass-sort-sortering-i-ny-class",
+--    "kotlin-language-version-configured": "true",
+--    "node.js.detected.package.eslint": "true",
+--    "node.js.detected.package.tslint": "true",
+--    "node.js.selected.package.eslint": "(autodetect)",
+--    "node.js.selected.package.tslint": "(autodetect)",
+--    "nodejs_package_manager_path": "npm",
+--    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+--    "settings.editor.selected.configurable": "preferences.pluginManager",
+--    "vue.rearranger.settings.migration": "true"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-+    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;træneren&quot;,
+-+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+-+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-   }
+--}]]></component>
+--  <component name="RecentsManager">
+--    <key name="MoveMembersDialog.RECENTS_KEY">
+--      <recent name="Sortering" />
+--    </key>
+--  </component>
+-+}</component>
+-   <component name="RunManager">
+-     <configuration name="Main" type="Application" factoryName="Application">
+-       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
+-@@ -116,7 +104,8 @@
+-       <workItem from="1714552427540" duration="2550000" />
+-       <workItem from="1714644756598" duration="16000" />
+-       <workItem from="1714644801772" duration="11798000" />
+--      <workItem from="1714724359716" duration="2495000" />
+-+      <workItem from="1714988550023" duration="5564000" />
+-+      <workItem from="1714994177827" duration="5586000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="gh">
+-       <option name="closed" value="true" />
+-@@ -230,7 +219,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1714650404372</updated>
+-     </task>
+--    <option name="localTasksCounter" value="15" />
+-+    <task id="LOCAL-00015" summary="Træneren er færdig">
+-+      <option name="closed" value="true" />
+-+      <created>1715000973833</created>
+-+      <option name="number" value="00015" />
+-+      <option name="presentableId" value="LOCAL-00015" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1715000973833</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="16" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -272,10 +269,7 @@
+-     <MESSAGE value="Betalingsinfo" />
+-     <MESSAGE value="Betalingsinfo opd" />
+-     <MESSAGE value="TODO lister er tilføjet" />
+--    <option name="LAST_COMMIT_MESSAGE" value="TODO lister er tilføjet" />
+--  </component>
+--  <component name="XSLT-Support.FileAssociations.UIState">
+--    <expand />
+--    <select />
+-+    <MESSAGE value="Træneren er færdig" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Træneren er færdig" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"sortering\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test/Delfinen/FormandTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test/Delfinen/KassererTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_by_omara_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_08__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_47__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_05_2024_09_40__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/DelfinenProjekt.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DelfinenProjekt.iml\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"5b98f35b-5b80-48c1-9e59-1d24738914bc\" name=\"Changes by 45418\" comment=\"\" />\r\n    <list id=\"81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a\" name=\"Changes by Dhaniel\" comment=\"\" />\r\n    <list id=\"504863aa-3151-42ed-9d58-4c5e64c508b9\" name=\"Changes by omara\" comment=\"\" />\r\n    <list id=\"644b0149-4ab5-400b-b910-91888a403bd2\" name=\"Changes by zuhurunun\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;amaliekea&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt.git&quot;,\r\n    &quot;accountId&quot;: &quot;152fb25b-e382-42b5-8165-0d7eeed6e637&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2foP111fkmAAIgVo56Su8uzf4iG\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.UserInterface.executor\": \"Run\",\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"JUnit.FormandTest.executor\": \"Run\",\r\n    \"JUnit.KassererTest.executor\": \"Run\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit5\",\r\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveMembersDialog.RECENTS_KEY\">\r\n      <recent name=\"Sortering\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"Delfinen\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.FormandTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.Main\" />\r\n      <module name=\"DelfinenProjekt\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FormandTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"DelfinenProjekt\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Delfinen.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Delfinen\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.FormandTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"KassererTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"DelfinenProjekt\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Delfinen.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Delfinen\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Delfinen.KassererTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.FormandTest\" />\r\n        <item itemvalue=\"JUnit.KassererTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b24b90a-e914-48d5-b6f2-df83e537faec\" name=\"Changes\" comment=\"\" />\r\n      <created>1714464246038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714464246038</updated>\r\n      <workItem from=\"1714464247198\" duration=\"12704000\" />\r\n      <workItem from=\"1714481269632\" duration=\"3874000\" />\r\n      <workItem from=\"1714552229432\" duration=\"135000\" />\r\n      <workItem from=\"1714552427540\" duration=\"2550000\" />\r\n      <workItem from=\"1714644756598\" duration=\"16000\" />\r\n      <workItem from=\"1714644801772\" duration=\"11798000\" />\r\n      <workItem from=\"1714724359716\" duration=\"2495000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"gh\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714464263947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714464263947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475094984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475094984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"userStory 1 z og a\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714475170302</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714475170302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"userStory 1 z og a updates\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714479223909</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714479223909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558820860</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558820860</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714558954846</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714558954846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og se betalingsgebyrer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714566246780</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714566246780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714567035147</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714567035147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"sortering\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714637212129</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714637212129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Betalingsinfo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647403110</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647403110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714647875797</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714647875797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Betalingsinfo opd\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714648029293</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714648029293</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650377785</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650377785</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TODO lister er tilføjet\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714650404372</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714650404372</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/oprydning\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"gh\" />\r\n    <MESSAGE value=\"userStory 1 z og a\" />\r\n    <MESSAGE value=\"userStory 1 z og a updates\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer. Korrekt og automatisk udregning betalingsgebyrer\" />\r\n    <MESSAGE value=\"Nu kan programmet loade navneList.txt og sætte dem på array, så formand kan generer en liste over medlemmer og betalingsgebyrer bliver automatisk og korrekt udregnet. Indtil videre bliver det hele printet inde fra formand\" />\r\n    <MESSAGE value=\"sortering\" />\r\n    <MESSAGE value=\"Betalingsinfo\" />\r\n    <MESSAGE value=\"Betalingsinfo opd\" />\r\n    <MESSAGE value=\"Træner og\" />\r\n    <MESSAGE value=\"TODO lister er tilføjet\" />\r\n    <MESSAGE value=\"Træner og fejlhåndtering er merged ind i main\" />\r\n    <MESSAGE value=\"Fejlhåndtering er merged ind i træneren\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fejlhåndtering er merged ind i træneren\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 51292149cb2ced0de32c26988d5e0b1433458747)
++++ b/.idea/workspace.xml	(date 1715768699373)
+@@ -4,18 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="sortering">
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test/Delfinen/FormandTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test/Delfinen/KassererTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_05_2024_11_42__Changes_by_omara_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_08__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_05_2024_13_47__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_05_2024_09_40__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/DelfinenProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DelfinenProjekt.iml" afterDir="false" />
++    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Ændret lidt på betalingsinfo til betalingsstatus - så senior/junior ikke bliver printet, men kun betalt/ikke betalt">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_07__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-05-2024_19_09__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-05-2024_12_39__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+     </list>
+     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
+     <list id="81d5bc22-b5c5-4b2a-a87e-b5b54f354c9a" name="Changes by Dhaniel" comment="" />
+@@ -39,7 +32,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="forsøgeratflytteindlæsfilfrakasserer" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -68,36 +61,36 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "Application.UserInterface.executor": "Run",
+-    "Downloaded.Files.Path.Enabled": "false",
+-    "JUnit.FormandTest.executor": "Run",
+-    "JUnit.KassererTest.executor": "Run",
+-    "Repository.Attach.Annotations": "false",
+-    "Repository.Attach.JavaDocs": "false",
+-    "Repository.Attach.Sources": "false",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.UserInterface.executor&quot;: &quot;Run&quot;,
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;JUnit.FormandTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.KassererTest.executor&quot;: &quot;Run&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveMembersDialog.RECENTS_KEY">
+       <recent name="Sortering" />
+@@ -109,7 +102,7 @@
+       <recent name="Delfinen" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.FormandTest">
++  <component name="RunManager" selected="Application.Main">
+     <configuration name="Main" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="Delfinen.Main" />
+       <module name="DelfinenProjekt" />
