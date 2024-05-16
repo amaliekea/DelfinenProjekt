@@ -80,8 +80,19 @@ public class UserInterface {
                             String datoString = scanner.next();
                             System.out.println("Hvor hurtigt svømmede svømmeren (MM-SS format)? ");
                             String svømmeTid = scanner.next();
-                            System.out.println("Er svømmeren junior eller senior? ");
-                            String aldersTyp = scanner.next();
+
+                            String aldersTyp;
+                            String[] parts = datoString.split("-");
+                            int fødselsÅr = Integer.parseInt(parts[0]);
+                            int år = LocalDate.now().getYear();
+                            int alder = år - fødselsÅr;
+
+                            if (alder < 18) {
+                                aldersTyp = "JUNIOR";
+                            } else {
+                                aldersTyp = "SENIOR";
+                            }
+
                             System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
                             String svømmeDisciplin = scanner.next();
 
@@ -199,8 +210,19 @@ public class UserInterface {
                         String datoString = scanner.next();
                         System.out.println("Er medlemmet aktiv eller passiv?");
                         String aktivitetsType = scanner.next();
-                        System.out.println("Er medlemmet junior eller senior?");
-                        String aldersTyp = scanner.next();
+
+                        String aldersTyp;
+                        String[] parts = datoString.split("-");
+                        int fødselsÅr = Integer.parseInt(parts[0]);
+                        int år = LocalDate.now().getYear();
+                        int alder = år - fødselsÅr;
+
+                        if (alder < 18) {
+                            aldersTyp = "JUNIOR";
+                        } else {
+                            aldersTyp = "SENIOR";
+                        }
+
                         System.out.println("Ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
                         String svømmeTyp = scanner.next();
 

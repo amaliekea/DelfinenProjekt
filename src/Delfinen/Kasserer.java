@@ -50,7 +50,7 @@ public class Kasserer {
     public double udregnForventetIndtjening() {
         double forventetIndtjening = 0;
 
-        List < Medlem > medlemmer = svømmeklub.getMedlemmer();
+        List <Medlem> medlemmer = svømmeklub.getMedlemmer();
 
         if (medlemmer.isEmpty()) {
             System.out.println("Ingen medlemmer fundet.");
