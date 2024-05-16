@@ -124,4 +124,5 @@ public abstract class Medlem {
     public void setBetalingsGebyr(double betalingsGebyr) {
         this.betalingsGebyr = betalingsGebyr;
     }
+
 }

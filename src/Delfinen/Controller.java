@@ -1,4 +1,5 @@
 package Delfinen;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,6 +9,7 @@ public class Controller {
     public FileHandler fileHandler;
     private Kasserer kasserer;
     public Formand formand;
+    public Traener traener;
     Svommeklub svommeklub;
 
     public Controller() {
@@ -15,6 +17,7 @@ public class Controller {
         this.formand = new Formand(this.svommeklub);
         this.fileHandler = new FileHandler();
         this.kasserer = new Kasserer(this.svommeklub);
+        this.traener = new Traener(this.svommeklub);
     }
 
 
@@ -49,13 +52,17 @@ public class Controller {
     public double udregnTotalIndtjening() {
         return kasserer.udregnTotalIndtjening();
     }
+
     public void printRestance() {
         svommeklub.printRestance();
     }
+
     public void opkraevMedlem(String navn) {
         kasserer.opkraevMedlem(navn);
     }
+
     public void medlemsBetaling(String navn) {
         svommeklub.medlemsBetaling(navn);
     }
+
 }

@@ -18,6 +18,56 @@ public class Svommeklub {
         this.loadMedlemsListe();
     }
 
+    public void addbedsteTræningsTid(String navn, double tid, Svømmedisciplin disciplin) {
+        Medlem medlem = searchMedlem(navn);
+        if (medlem instanceof KonkurrenceSvømmer) {
+            KonkurrenceSvømmer svommer = (KonkurrenceSvømmer) medlem;
+            Svoemmeresultater resultater = svommer.getSvoemmeresultater();
+
+            switch (disciplin) {
+                case RYGCRAWL:
+                    resultater.addRygCrawlTræningstid(tid);
+                    break;
+                case BRYSTSVØMNING:
+                    resultater.addBrystsvømningTræningstid(tid);
+                    break;
+                case BUTTERFLY:
+                    resultater.addButterflyTræningstid(tid);
+                    break;
+                case CRAWL:
+                    resultater.addCrawlTræningstid(tid);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    public void addStævne(String navn, Svømmedisciplin disciplin, String staevne, int placering, double tid) {
+        Medlem medlem = searchMedlem(navn);
+        if (medlem instanceof KonkurrenceSvømmer) {
+            KonkurrenceSvømmer svommer = (KonkurrenceSvømmer) medlem;
+            Svoemmeresultater resultater = svommer.getSvoemmeresultater();
+
+            switch (disciplin) {
+                case RYGCRAWL:
+                    resultater.addRygCrawlStævne(staevne, placering, tid);
+                    break;
+                case BRYSTSVØMNING:
+                    resultater.addBrystsvømningStævne(staevne, placering, tid);
+                    break;
+                case BUTTERFLY:
+                    resultater.addButterflyStævne(staevne, placering, tid);
+                    break;
+                case CRAWL:
+                    resultater.addCrawlStævne(staevne, placering, tid);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
     public void printAll() {
         for (Medlem medlem : medlemmer) {
             System.out.println(medlem.toString());
@@ -32,6 +82,7 @@ public class Svommeklub {
     public void setMedlemmer(ArrayList<Medlem> medlemmer) {
         this.medlemmer = medlemmer;
     }
+
 
     public void tilføjMedlem(String navn, String datoString, String aktivitetsTyp, String svommeTyp, String aldersTyp) {
         Medlem medlem = null;

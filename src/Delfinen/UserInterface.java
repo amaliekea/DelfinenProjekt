@@ -44,14 +44,98 @@ public class UserInterface {
     }
 
     public void trænerMenu() {
+        Boolean exit = false;
+        while (!exit) {
+            System.out.println("\nTræner Menu: Indtast nummer:");
+            System.out.println("1. Tilføj bedste træningstid");
+            System.out.println("2. Tilføj stævneresultat");
+            System.out.println("3. Vis top 5");
+            System.out.println("4. Tilbage til hovedmenu");
+            System.out.println("5. Log ud");
 
+            int valg = scanner.nextInt();
+            scanner.nextLine();
+            switch (valg) {
+                case 1:
+                    System.out.println("Indtast navnet for medlem;");
+                    String navn = scanner.nextLine();
+                    System.out.println("Indtast tid til registering:");
+                    double tid = scanner.nextDouble();
+                    System.out.println("Indtast disciplin:");
+                    String disciplin = scanner.next();
+                    Svømmedisciplin d = null;
+
+                    switch (disciplin.toLowerCase()) {
+                        case "butterfly":
+                            d = Svømmedisciplin.BUTTERFLY;
+                            break;
+                        case "crawl":
+                            d = Svømmedisciplin.CRAWL;
+                            break;
+                        case "rygcrawl":
+                            d = Svømmedisciplin.RYGCRAWL;
+                            break;
+                        case "brystsvømning":
+                            d = Svømmedisciplin.BRYSTSVØMNING;
+                            break;
+                        default:
+                            System.out.println("ugyldig disciplin");
+                    }
+                    if (d != null) {
+                        controller.traener.addbedsteTræningsTid(navn, tid, d);
+                    }
+                    break;
+                case 2:
+                    //(String navn, Svømmedisciplin disciplin, String staevne, int placering, double tid
+                    System.out.println("Indtast navnet for medlem;");
+                    String navn1 = scanner.nextLine();
+                    System.out.println("indtast navn for stævne");
+                    String stævne = scanner.nextLine();
+                    System.out.println("indtast placering:");
+                    int placering = scanner.nextInt();
+                    System.out.println("indtast tid (2.00)");
+                    double tid1 = scanner.nextDouble();
+                    System.out.println("Indtast disciplin:");
+                    String disciplin1 = scanner.next();
+                    Svømmedisciplin d1 = null;
+
+                    switch (disciplin1.toLowerCase()) {
+                        case "butterfly":
+                            d = Svømmedisciplin.BUTTERFLY;
+                            break;
+                        case "crawl":
+                            d = Svømmedisciplin.CRAWL;
+                            break;
+                        case "rygcrawl":
+                            d = Svømmedisciplin.RYGCRAWL;
+                            break;
+                        case "brystsvømning":
+                            d = Svømmedisciplin.BRYSTSVØMNING;
+                            break;
+                        default:
+                            System.out.println("ugyldig disciplin");
+                    }
+                    if (d1 != null) {
+                        controller.traener.addStævne(navn1, d1, stævne, placering, tid1);
+                    }
+                    break;
+                case 3:
+                    System.out.println("Top 5....");
+                    break;
+                case 4:
+                    startProgram();
+                    break;
+                case 5:
+                    System.out.println("logger ud...");
+                    exit = true;
+                    break;
+                default:
+                    System.out.println("Ugyldigt valg!!");
+            }
+        }
     }
 
     public void formandMenu() {
-        //fil
-        //alder
-        //junior/senior
-
         Boolean exit = false;
         while (!exit) {
             System.out.println("\nFormandens Menu: Indtast nummer:");
@@ -84,7 +168,6 @@ public class UserInterface {
                     break;
                 case 3:
                     sorterMedlemmer();
-
                     break;
                 case 4:
                     startProgram();
@@ -98,6 +181,7 @@ public class UserInterface {
             }
         }
     }
+
 
     private void sorterMedlemmer() {
         System.out.println("Vælg sorteringstype: (navn, fødselsår, aktivitet, aldersgruppe)");
@@ -150,6 +234,8 @@ public class UserInterface {
         }
     }
 }
+
+
 
 
 
