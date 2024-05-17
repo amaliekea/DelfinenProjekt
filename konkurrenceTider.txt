@@ -1,4 +1,1 @@
-Daniel, 1995-05-25, 1:00, butterfly, SENIOR, 2024-03-01
-Børge, 1995-01-07, 1:00, Butterfly, SENIOR, 2024-03-01
-Omar, 1995-01-07, 2:00, butterfly, SENIOR, 2024-03-01
-zuhur, 2001-10-04, 1:10, crawl, SENIOR, 2002-10-04
+Test, 1995-01-07, 4:00, RYGCRAWL, SENIOR, 2024-05-13

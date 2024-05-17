@@ -1,8 +1,15 @@
 package Delfinen;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.LocalDate;
+import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class UserInterface {
     private Svømmeklub svømmeklub;
@@ -90,6 +97,15 @@ public class UserInterface {
     }
 
     private void håndterKonkurrenceResultater() {
+        System.out.println("Hvis du vil tilbage til menuen, så indtast venligt 'tilbage', ellers tast 1.");
+        String tilbage = scanner.nextLine();
+
+        if (tilbage.equalsIgnoreCase("tilbage")) {
+            return;
+        } else if (!tilbage.equals("1")) {
+            System.out.println("Ugyldigt input! Prøv igen.");
+            return;
+        }
         System.out.println("Vil du registrere eller redigere?");
         String trænerValg = getTrænerValg();
         while (!(trænerValg.equalsIgnoreCase("registrere") || trænerValg.equalsIgnoreCase("redigere"))) {
@@ -103,65 +119,179 @@ public class UserInterface {
         }
     }
 
-    private void registrerKonkurrenceResultater() {
+    public void registrerKonkurrenceResultater() {
         System.out.println("Indsæt navn: ");
         String navn = scanner.next();
-        System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
-        String datoString = scanner.next();
-        System.out.println("Hvor hurtigt svømmede svømmeren (MM-SS format)? ");
-        String svømmeTid = scanner.next();
-
-        String aldersTyp = beregnAldersType(datoString);
-
-        System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
-        String svømmeDisciplin = scanner.next();
-
-        while (!isValidDisciplin(svømmeDisciplin)) {
-            System.out.println("Forkert svømmedisciplin. Prøv igen.");
-            svømmeDisciplin = scanner.next();
+        while (!navn.matches("[a-zA-Z]+")) {
+            System.out.println("Navn må kun indeholde bogstaver. Prøv igen:");
+            navn = scanner.next();
         }
 
-        System.out.println("Hvornår var stævnet (YYYY-MM-DD format)?");
-        LocalDate konkurrenceDato = LocalDate.parse(scanner.next());
+        if (isKonkurrenceSvømmer(navn)) {
+            System.out.println("Hvor hurtigt svømmede svømmeren (MM:SS format)? ");
+            String svømmeTid = scanner.next();
+            while (!svømmeTid.matches("\\d{2}:\\d{2}")) {
+                System.out.println("Ugyldigt format. Indtast tid i MM:SS format:");
+                svømmeTid = scanner.next();
+            }
 
-        controller.tilføjTid(navn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
-        controller.gemTiderTilFil();
+            System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
+            String svømmeDisciplin = scanner.next().toUpperCase();
+            while (!svømmeDisciplin.matches("[a-zA-Z]+")) {
+                System.out.println("Svømmedisciplin må kun indeholde bogstaver. Prøv igen:");
+                svømmeDisciplin = scanner.next().toUpperCase();
+            }
+
+            while (!isValidDisciplin(svømmeDisciplin)) {
+                System.out.println("Forkert svømmedisciplin. Prøv igen.");
+                svømmeDisciplin = scanner.next().toUpperCase();
+            }
+
+            String datoString = getDatoStringFromNavneListe(navn);
+            if (datoString == null) {
+                System.out.println("Kunne ikke finde fødselsdagsdato for svømmeren. Registrering af konkurrence resultater afbrudt.");
+                return;
+            }
+
+            System.out.println("Hvornår var stævnet (YYYY-MM-DD format)?");
+            LocalDate konkurrenceDato = null;
+            String konkurrenceDatoString = scanner.next();
+            try {
+                konkurrenceDato = LocalDate.parse(konkurrenceDatoString);
+            } catch (DateTimeParseException e) {
+                System.out.println("Ugyldigt datoformat. Registrering af konkurrence resultater afbrudt.");
+                return;
+            }
+
+            String aldersTyp = beregnAldersType(datoString);
+            controller.tilføjTid(navn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
+            controller.gemTiderTilFil();
+        } else {
+            System.out.println(navn + " er ikke en konkurrencesvømmer.");
+        }
+    }
+
+    private String getDatoStringFromNavneListe(String navn) {
+        try (FileReader fr = new FileReader("navneListe.txt")) {
+            StringBuilder sb = new StringBuilder();
+            int i;
+            while ((i = fr.read()) != -1) {
+                sb.append((char) i);
+            }
+            String fileContent = sb.toString();
+            String[] lines = fileContent.split("\n");
+            for (String line : lines) {
+                if (line.contains(navn) && line.contains("KONKURRENCESVØMMER")) {
+                    String[] parts = line.split(",");
+                    if (parts.length >= 2) {
+                        return parts[1].trim();
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private boolean isKonkurrenceSvømmer(String navn) {
+        try (FileReader fr = new FileReader("navneListe.txt")) {
+            StringBuilder sb = new StringBuilder();
+            int i;
+            while ((i = fr.read()) != -1) {
+                sb.append((char) i);
+            }
+            String fileContent = sb.toString();
+            String[] lines = fileContent.split("\n");
+            for (String line : lines) {
+                if (line.contains(navn) && line.contains("KONKURRENCESVØMMER")) {
+                    return true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 
     private void redigerKonkurrenceResultater() {
-        System.out.println("Indtast nummeret på tiden, du vil redigere: ");
-        int tidIndex = scanner.nextInt();
+        System.out.println("Indtast navn: ");
+        String navn = scanner.next();
+        while (!navn.matches("[a-zA-Z]+")) {
+            System.out.println("Navn må kun indeholde bogstaver. Prøv igen:");
+            navn = scanner.next();
+        }
         scanner.nextLine();
 
-        if (tidIndex < 1 || tidIndex > controller.getTider().size()) {
-            System.out.println("Ugyldigt valg. Der findes mindre end 3 tider på listen.");
+        final String finalNavn = navn;
+
+        List<Tid> matchingTider = controller.getTider().stream()
+                .filter(tid -> tid.getNavn().equalsIgnoreCase(finalNavn))
+                .collect(Collectors.toList());
+
+        if (matchingTider.isEmpty()) {
+            System.out.println("Ingen konkurrencetider fundet for navnet.");
             return;
         }
 
-        System.out.println("Indtast nyt navn: ");
-        String nytNavn = scanner.next();
-        System.out.println("Indtast ny fødselsår (YYYY-MM-DD format): ");
-        String nyDatoString = scanner.next();
-        System.out.println("Indtast ny svømmetid (MM-SS format): ");
+        if (matchingTider.size() > 1) {
+            System.out.println("Der er flere konkurrencetider for dette navn. Indtast stævnedato (YYYY-MM-DD) for at vælge:");
+            matchingTider.forEach(tid -> System.out.println(tid.getKonkurrenceDato()));
+
+            String datoString = scanner.next();
+            scanner.nextLine();
+
+            final LocalDate konkurrenceDato;
+            try {
+                konkurrenceDato = LocalDate.parse(datoString);
+            } catch (DateTimeParseException e) {
+                System.out.println("Ugyldigt datoformat.");
+                return;
+            }
+
+            final LocalDate finalKonkurrenceDato = konkurrenceDato;
+            matchingTider = matchingTider.stream()
+                    .filter(tid -> tid.getKonkurrenceDato().equals(finalKonkurrenceDato))
+                    .collect(Collectors.toList());
+
+            if (matchingTider.isEmpty()) {
+                System.out.println("Ingen konkurrencetider fundet for den angivne dato.");
+                return;
+            }
+        }
+
+        Tid tid = matchingTider.get(0);
+
+        System.out.println("Indtast ny svømmetid (MM:SS format): ");
         String nySvømmeTid = scanner.next();
-        System.out.println("Er svømmeren junior eller senior? ");
-        String nyAldersTyp = scanner.next();
+        while (!nySvømmeTid.matches("\\d{2}:\\d{2}")) {
+            System.out.println("Ugyldigt format. Indtast tid i MM:SS format:");
+            nySvømmeTid = scanner.next();
+        }
+
         System.out.println("Indtast ny svømmedisciplin: ");
         String nySvømmeDisciplin = scanner.next();
+        while (!nySvømmeDisciplin.matches("[a-zA-Z]+")) {
+            System.out.println("Svømmedisciplin må kun indeholde bogstaver. Prøv igen:");
+            nySvømmeDisciplin = scanner.next().toUpperCase();
+        }
 
         while (!isValidDisciplin(nySvømmeDisciplin)) {
             System.out.println("Forkert svømmedisciplin. Prøv igen.");
-            nySvømmeDisciplin = scanner.next();
+            nySvømmeDisciplin = scanner.next().toUpperCase();
         }
-        System.out.println("Indtast ny stævnedato (YYYY-MM-DD format): ");
-        LocalDate nyKonkurrenceDato = LocalDate.parse(scanner.next());
 
-        Tid tid = controller.getTider().get(tidIndex - 1);
-        tid.setNavn(nytNavn);
-        tid.setFødselsÅr(LocalDate.parse(nyDatoString));
+        System.out.println("Indtast ny stævnedato (YYYY-MM-DD format): ");
+        LocalDate nyKonkurrenceDato;
+        try {
+            nyKonkurrenceDato = LocalDate.parse(scanner.next());
+        } catch (DateTimeParseException e) {
+            System.out.println("Ugyldigt datoformat.");
+            return;
+        }
+
         tid.setSvømmeTid(nySvømmeTid);
         tid.setSvømmeDisciplin(nySvømmeDisciplin);
-        tid.setAldersType(AldersType.valueOf(nyAldersTyp.toUpperCase()));
         tid.setKonkurrenceDato(nyKonkurrenceDato);
 
         controller.gemTiderTilFil();
@@ -200,7 +330,6 @@ public class UserInterface {
     public void loadTidsListePåStart() {
         controller.loadTidsListe();
     }
-
 
     public void formandMenu() {
         boolean exit = false;
@@ -244,19 +373,47 @@ public class UserInterface {
     }
 
     private void tilføjNytMedlem() {
+        System.out.println("Hvis du vil tilbage til menuen, så indtast venligt 'tilbage', ellers tast 1.");
+        String tilbage = scanner.nextLine();
+
+        if (tilbage.equalsIgnoreCase("tilbage")) {
+            return;
+        } else if (!tilbage.equals("1")) {
+            System.out.println("Ugyldigt input! Prøv igen.");
+            return;
+        }
+
         System.out.println("Indsæt navn: ");
         String navn = scanner.nextLine();
+        if (!navn.matches("[a-zA-Z]+")) {
+            System.out.println("Navn må kun indeholde bogstaver. Prøv igen.");
+            return;
+        }
+
         System.out.println("Indtast fødselsår (YYYY-MM-DD format): ");
         String datoString = scanner.next();
+        try {
+            LocalDate.parse(datoString);
+        } catch (DateTimeParseException e) {
+            System.out.println("Ugyldigt datoformat. Indtast dato i formatet YYYY-MM-DD.");
+            return;
+        }
+
         System.out.println("Er medlemmet aktiv eller passiv?");
         String aktivitetsType = scanner.next();
-
-        String aldersTyp = beregnAldersType(datoString);
+        if (!aktivitetsType.equalsIgnoreCase("aktiv") && !aktivitetsType.equalsIgnoreCase("passiv")) {
+            System.out.println("Ugyldig aktivitetstype. Skal være 'aktiv' eller 'passiv'.");
+            return;
+        }
 
         System.out.println("Ønsker du at indmelde en 'motionist' eller 'konkurrencesvømmer'?");
         String svømmeTyp = scanner.next();
+        if (!svømmeTyp.equalsIgnoreCase("motionist") && !svømmeTyp.equalsIgnoreCase("konkurrencesvømmer")) {
+            System.out.println("Ugyldig svømmetype. Skal være 'motionist' eller 'konkurrencesvømmer'.");
+            return;
+        }
 
-        controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, aldersTyp);
+        controller.tilføjMedlem(navn, datoString, aktivitetsType, svømmeTyp, beregnAldersType(datoString));
         controller.gemMedlemmerTilFil();
     }
 
@@ -322,12 +479,51 @@ public class UserInterface {
     }
 
     private void indtastBetalingsInfo() {
+        System.out.println("Hvis du vil tilbage til menuen, så indtast venligt 'tilbage', ellers tast 1.");
+        String tilbage = scanner.nextLine();
+
+        if (tilbage.equalsIgnoreCase("tilbage")) {
+            return;
+        } else if (!tilbage.equals("1")) {
+            System.out.println("Ugyldigt input! Prøv igen.");
+            return;
+        }
+
         System.out.println("Indtast navn:");
         String navn = scanner.nextLine();
+        if (!navn.matches("[a-zA-Z]+")) {
+            System.out.println("Navn må kun indeholde bogstaver. Prøv igen.");
+            return;
+        }
+
+        if (!checkNavnExists(navn)) {
+            System.out.println("Navnet findes ikke i listen. Prøv igen.");
+            return;
+        }
+
         System.out.println("Har medlemmet betalt? (HAR BETALT/HAR IKKE BETALT):");
         String betalingsInfo = scanner.nextLine();
+        if (!betalingsInfo.equalsIgnoreCase("HAR BETALT") && !betalingsInfo.equalsIgnoreCase("HAR IKKE BETALT")) {
+            System.out.println("Ugyldigt input for betalingsinfo. Skal være 'HAR BETALT' eller 'HAR IKKE BETALT'.");
+            return;
+        }
+
         String filePath = "navneListe.txt";
         controller.betalingsInfo(filePath, navn, betalingsInfo);
+    }
+
+    private boolean checkNavnExists(String navn) {
+        try (BufferedReader br = new BufferedReader(new FileReader("navneListe.txt"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (line.contains(navn)) {
+                    return true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 
     private void udregnAlderOgPris() {
