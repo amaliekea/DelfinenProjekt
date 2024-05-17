@@ -1,6 +1,8 @@
 package Delfinen;
 
-public class Staevneresultat {
+import java.io.Serializable;
+
+public class Staevneresultat implements Serializable {
     private String Staevne;
     private int placering;
     private double tid;

@@ -1,5 +1,6 @@
 package Delfinen;
 
+import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,6 +19,7 @@ public class Controller {
         this.fileHandler = new FileHandler();
         this.kasserer = new Kasserer(this.svommeklub);
         this.traener = new Traener(this.svommeklub);
+        læsKlub();
     }
 
 
@@ -64,5 +66,28 @@ public class Controller {
     public void medlemsBetaling(String navn) {
         svommeklub.medlemsBetaling(navn);
     }
+    public void gemKlub() {
+        try {
+            FileOutputStream fileOutputStream = new FileOutputStream("svømmeklub.dump");
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 
+            objectOutputStream.writeObject(this.svommeklub);
+            objectOutputStream.flush();
+            objectOutputStream.close();
+        } catch (IOException e) {
+           e.printStackTrace();
+        }
+    }
+    public void læsKlub() {
+        try {
+            FileInputStream fileInputStream = new FileInputStream("svømmeklub.dump");
+            ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+
+            this.svommeklub = (Svommeklub) objectInputStream.readObject();
+
+            objectInputStream.close();
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 }

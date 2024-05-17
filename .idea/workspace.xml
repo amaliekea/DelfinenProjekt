@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="formand save">
-      <change afterPath="$PROJECT_DIR$/src/Delfinen/Staevneresultat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Delfinen/Svoemmeresultater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Delfinen/Traener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13-05-2024_19_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13-05-2024_19_47__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13-05-2024_19_47__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13-05-2024_19_47__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_08_59_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_08_59__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_11_24_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2024_11_24__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_23_56__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024_14_32__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Træner save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/FileHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Medlem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Medlem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Motionist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Motionist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Staevneresultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Staevneresultat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Svoemmeresultater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svoemmeresultater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/Svommeklub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Svommeklub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Traener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Traener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="">
@@ -59,23 +51,25 @@
     &quot;assignee&quot;: &quot;amaliekea&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/amaliekea/DelfinenProjekt.git&quot;,
-    &quot;accountId&quot;: &quot;57875154-d4ae-44c5-9163-96a49543181a&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b20ac4bc-5cc2-40a7-a782-4d5540026b4d" />
+        <option name="url" value="https://github.com/amaliekea/DelfinenProjekt.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Delfinen/UserInterface.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Delfinen/KonkurrenceSvømmer.java">
       <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="5" end1="6" start2="6" end2="7" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="9" end1="9" start2="10" end2="11" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
-        <range start1="10" end1="10" start2="12" end2="16" changelist="5b98f35b-5b80-48c1-9e59-1d24738914bc" />
-        <range start1="15" end1="15" start2="21" end2="22" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+        <range start1="2" end1="2" start2="2" end2="3" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+        <range start1="3" end1="4" start2="4" end2="4" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+        <range start1="5" end1="6" start2="5" end2="6" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
+        <range start1="13" end1="13" start2="13" end2="17" changelist="5b98f35b-5b80-48c1-9e59-1d24738914bc" />
+        <range start1="18" end1="18" start2="22" end2="35" changelist="0b24b90a-e914-48d5-b6f2-df83e537faec" />
       </ranges>
     </file>
   </component>
@@ -138,7 +132,7 @@
       <workItem from="1714481269632" duration="3874000" />
       <workItem from="1714552229432" duration="135000" />
       <workItem from="1714552427540" duration="2550000" />
-      <workItem from="1715862350819" duration="14024000" />
+      <workItem from="1715862350819" duration="28092000" />
     </task>
     <task id="LOCAL-00001" summary="gh">
       <option name="closed" value="true" />
@@ -244,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715626100834</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Træner save">
+      <option name="closed" value="true" />
+      <created>1715878682166</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715878682166</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +287,8 @@
     <MESSAGE value="sortering" />
     <MESSAGE value="formand opdateringer" />
     <MESSAGE value="formand save" />
-    <option name="LAST_COMMIT_MESSAGE" value="formand save" />
+    <MESSAGE value="Træner save" />
+    <option name="LAST_COMMIT_MESSAGE" value="Træner save" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

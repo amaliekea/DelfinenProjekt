@@ -1,5 +1,8 @@
 package Delfinen;
-public class Svoemmeresultater {
+
+import java.io.Serializable;
+
+public class Svoemmeresultater implements Serializable {
     private DisciplinResultater rygcrawl;
     private DisciplinResultater brystsvømning;
     private DisciplinResultater butterfly;
@@ -10,6 +13,22 @@ public class Svoemmeresultater {
         this.brystsvømning = null;
         this.butterfly = null;
         this.crawl = null;
+    }
+
+    public DisciplinResultater getRygcrawl() {
+        return rygcrawl;
+    }
+
+    public DisciplinResultater getBrystsvømning() {
+        return brystsvømning;
+    }
+
+    public DisciplinResultater getButterfly() {
+        return butterfly;
+    }
+
+    public DisciplinResultater getCrawl() {
+        return crawl;
     }
 
     public void addRygCrawlStævne(String staevne, int placering, double tid) {
@@ -63,5 +82,15 @@ public class Svoemmeresultater {
             this.crawl = new DisciplinResultater();
         }
         crawl.addBedsteTræningsTid(tid);
+    }
+
+    @Override
+    public String toString() {
+        return "Svoemmeresultater{" +
+                "rygcrawl=" + rygcrawl +
+                ", brystsvømning=" + brystsvømning +
+                ", butterfly=" + butterfly +
+                ", crawl=" + crawl +
+                '}';
     }
 }

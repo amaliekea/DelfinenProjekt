@@ -1,9 +1,10 @@
 package Delfinen;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
 
-public abstract class Medlem {
+public abstract class Medlem implements Serializable {
     private String navn;
     private LocalDate fødselsÅr;
     private AktivitetsType aktivitetsType;
@@ -125,4 +126,7 @@ public abstract class Medlem {
         this.betalingsGebyr = betalingsGebyr;
     }
 
+    public boolean isHarBetalt() {
+        return harBetalt;
+    }
 }

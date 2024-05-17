@@ -2,14 +2,18 @@ package Delfinen;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Random;
 
-public class Svommeklub {
+import static Delfinen.Svømmedisciplin.*;
+
+public class Svommeklub implements Serializable {
     private ArrayList<Medlem> medlemmer;
-    private FileHandler fileHandler;
+    private transient FileHandler fileHandler;
 
 
     public Svommeklub() {
@@ -19,7 +23,13 @@ public class Svommeklub {
     }
 
     public void addbedsteTræningsTid(String navn, double tid, Svømmedisciplin disciplin) {
+        navn = navn.trim().toLowerCase();
         Medlem medlem = searchMedlem(navn);
+        if (medlem == null) {
+            System.out.println("Medlem ikke fundet");
+            return;
+        }
+
         if (medlem instanceof KonkurrenceSvømmer) {
             KonkurrenceSvømmer svommer = (KonkurrenceSvømmer) medlem;
             Svoemmeresultater resultater = svommer.getSvoemmeresultater();
@@ -44,7 +54,13 @@ public class Svommeklub {
     }
 
     public void addStævne(String navn, Svømmedisciplin disciplin, String staevne, int placering, double tid) {
+        navn = navn.trim().toLowerCase();
         Medlem medlem = searchMedlem(navn);
+        if (medlem == null) {
+            System.out.println("Medlem ikke fundet");
+            return;
+        }
+
         if (medlem instanceof KonkurrenceSvømmer) {
             KonkurrenceSvømmer svommer = (KonkurrenceSvømmer) medlem;
             Svoemmeresultater resultater = svommer.getSvoemmeresultater();
@@ -162,6 +178,59 @@ public class Svommeklub {
 
     public void printRestance() {
         System.out.println(Arrays.toString(harIkkeBetalt().toArray()));
+    }
+
+    public void seTop5(Svømmedisciplin svømmedisciplin) {
+        ArrayList<KonkurrenceSvømmer> svømmere = new ArrayList<>();
+
+        switch (svømmedisciplin) {
+            case RYGCRAWL:
+                for (Medlem m : medlemmer) {
+                    if (m instanceof KonkurrenceSvømmer) {
+                        if (((KonkurrenceSvømmer) m).getSvoemmeresultater().getRygcrawl() != null) {
+                            svømmere.add((KonkurrenceSvømmer) m);
+                        }
+                    }
+                }
+                svømmere.sort(new RygCrawlComparator());
+                break;
+            case BRYSTSVØMNING:
+                for (Medlem m : medlemmer) {
+                    if (m instanceof KonkurrenceSvømmer) {
+                        if (((KonkurrenceSvømmer) m).getSvoemmeresultater().getBrystsvømning() != null) {
+                            svømmere.add((KonkurrenceSvømmer) m);
+                        }
+                    }
+                }
+                svømmere.sort(new BrystSvømningComparator());
+                break;
+            case BUTTERFLY:
+                for (Medlem m : medlemmer) {
+                    if (m instanceof KonkurrenceSvømmer) {
+                        if (((KonkurrenceSvømmer) m).getSvoemmeresultater().getButterfly() != null) {
+                            svømmere.add((KonkurrenceSvømmer) m);
+                        }
+                    }
+                }
+                svømmere.sort(new ButterFlyComparator());
+                break;
+            case CRAWL:
+                for (Medlem m : medlemmer) {
+                    if (m instanceof KonkurrenceSvømmer) {
+                        if (((KonkurrenceSvømmer) m).getSvoemmeresultater().getCrawl() != null) {
+                            svømmere.add((KonkurrenceSvømmer) m);
+                        }
+                    }
+                }
+                svømmere.sort(new CrawlComparator());
+                break;
+            default:
+                break;
+        }
+
+        for (int i = 0; i < 5 && i < svømmere.size(); i++) {
+            System.out.println(svømmere.get(i).toString());
+        }
     }
 }
 

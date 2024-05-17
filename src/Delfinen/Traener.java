@@ -14,4 +14,7 @@ public class Traener {
     public void addStævne(String navn, Svømmedisciplin disciplin, String staevne, int placering, double tid) {
         svommeklub.addStævne(navn, disciplin, staevne, placering, tid);
     }
+    public void visTop5(Svømmedisciplin svømmedisciplin) {
+        svommeklub.seTop5(svømmedisciplin);
+    }
 }

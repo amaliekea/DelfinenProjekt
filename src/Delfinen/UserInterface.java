@@ -57,7 +57,7 @@ public class UserInterface {
             scanner.nextLine();
             switch (valg) {
                 case 1:
-                    System.out.println("Indtast navnet for medlem;");
+                    System.out.println("Indtast navnet for medlem:");
                     String navn = scanner.nextLine();
                     System.out.println("Indtast tid til registering:");
                     double tid = scanner.nextDouble();
@@ -83,11 +83,12 @@ public class UserInterface {
                     }
                     if (d != null) {
                         controller.traener.addbedsteTræningsTid(navn, tid, d);
+                    } else {
+                        System.out.println("fejl ingen desciplin valgt");
                     }
                     break;
                 case 2:
-                    //(String navn, Svømmedisciplin disciplin, String staevne, int placering, double tid
-                    System.out.println("Indtast navnet for medlem;");
+                    System.out.println("Indtast navnet for medlem:");
                     String navn1 = scanner.nextLine();
                     System.out.println("indtast navn for stævne");
                     String stævne = scanner.nextLine();
@@ -121,11 +122,35 @@ public class UserInterface {
                     break;
                 case 3:
                     System.out.println("Top 5....");
+                    System.out.println("Indtast disciplin:");
+                    String disciplin2 = scanner.next();
+                    Svømmedisciplin d2 = null;
+
+                    switch (disciplin2.toLowerCase()) {
+                        case "butterfly":
+                            d2 = Svømmedisciplin.BUTTERFLY;
+                            break;
+                        case "crawl":
+                            d2 = Svømmedisciplin.CRAWL;
+                            break;
+                        case "rygcrawl":
+                            d2 = Svømmedisciplin.RYGCRAWL;
+                            break;
+                        case "brystsvømning":
+                            d2 = Svømmedisciplin.BRYSTSVØMNING;
+                            break;
+                        default:
+                            System.out.println("ugyldig disciplin");
+                    }
+                    if (d2 != null) {
+                        controller.traener.visTop5(d2);
+                    }
                     break;
                 case 4:
                     startProgram();
                     break;
                 case 5:
+                    controller.gemKlub();
                     System.out.println("logger ud...");
                     exit = true;
                     break;
