@@ -70,22 +70,9 @@ public class FileHandler {
     public void gemTiderTilFilTræner(ArrayList<Tid> tider) {
         try (PrintWriter output = new PrintWriter(filTider)) {
             for (Tid tid : tider) {
-                String svømmeTidInput = tid.getSvømmeTid();
-                String svømmeTidFormateret;
-                
-                if (svømmeTidInput.contains(":")) {
-                    if (svømmeTidInput.endsWith(":")) {
-                        svømmeTidFormateret = svømmeTidInput + "00";
-                    } else {
-                        svømmeTidFormateret = svømmeTidInput;
-                    }
-                } else {
-                    svømmeTidFormateret = svømmeTidInput + ":00";
-                }
-
                 output.println(tid.getNavn() + ", " +
                         tid.getFødselsÅr() + ", " +
-                        svømmeTidFormateret + ", " +
+                        tid.getSvømmeTid() + ", " +
                         tid.getSvømmeDisciplin() + ", " +
                         tid.getAldersType() + ", " +
                         tid.getKonkurrenceDato());

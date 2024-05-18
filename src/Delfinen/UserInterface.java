@@ -60,7 +60,6 @@ public class UserInterface {
         }
     }
 
-
     public void trænerMenu() {
         boolean exit = false;
         while (!exit) {
@@ -78,7 +77,15 @@ public class UserInterface {
                         håndterKonkurrenceResultater();
                         break;
                     case 2:
-                        visTop5Liste();
+                        System.out.println("Top 5 menu: ");
+                        System.out.println("Tast 1 for at se den generelle top 5");
+                        System.out.println("Tast 2 for at se den generelle top 5 for juniorer");
+                        System.out.println("Tast 3 for at se den generelle top 5 for seniorer");
+                        System.out.println("Tast 4 for at se top 5 for juniorer i sorterede svømmedisciplin");
+                        System.out.println("Tast 5 for at se top 5 for seniorer i sorterede svømmediscipliner");
+                        int brugerInput = scanner.nextInt();
+                        System.out.println();
+                        visTop5Liste(brugerInput);
                         break;
                     case 3:
                         startProgram();
@@ -108,6 +115,7 @@ public class UserInterface {
             System.out.println("Ugyldigt input! Prøv igen.");
             return;
         }
+
         System.out.println("Vil du registrere eller redigere?");
         String trænerValg = getTrænerValg();
         while (!(trænerValg.equalsIgnoreCase("registrere") || trænerValg.equalsIgnoreCase("redigere"))) {
@@ -122,54 +130,56 @@ public class UserInterface {
     }
 
     public void registrerKonkurrenceResultater() {
-        System.out.println("Indsæt navn: ");
-        String navn = scanner.next();
-        while (!navn.matches("[a-zA-Z]+")) {
-            System.out.println("Navn må kun indeholde bogstaver. Prøv igen:");
-            navn = scanner.next();
-        }
+        boolean validName = false;
+        while (!validName) {
+            System.out.println("Indsæt navn (Fornavn Efternavn): ");
+            String fornavn = scanner.next();
+            String efternavn = scanner.next();
+            String fuldtNavn = fornavn + " " + efternavn;
 
-        if (isKonkurrenceSvømmer(navn)) {
-            System.out.println("Hvor hurtigt svømmede svømmeren (MM:SS format)? ");
-            String svømmeTid = scanner.next();
-            while (!svømmeTid.matches("\\d{2}:\\d{2}")) {
-                System.out.println("Ugyldigt format. Indtast tid i MM:SS format:");
-                svømmeTid = scanner.next();
+            if (isKonkurrenceSvømmer(fuldtNavn)) {
+                validName = true;
+                System.out.println("Hvor hurtigt svømmede svømmeren (MM:SS format)? ");
+                String svømmeTid = scanner.next();
+                while (!svømmeTid.matches("\\d{2}:\\d{2}")) {
+                    System.out.println("Ugyldigt format. Indtast tid i MM:SS format:");
+                    svømmeTid = scanner.next();
+                }
+
+                System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
+                String svømmeDisciplin = scanner.next().toUpperCase();
+                while (!svømmeDisciplin.matches("[a-zA-Z]+")) {
+                    System.out.println("Svømmedisciplin må kun indeholde bogstaver. Prøv igen:");
+                    svømmeDisciplin = scanner.next().toUpperCase();
+                }
+
+                while (!isValidDisciplin(svømmeDisciplin)) {
+                    System.out.println("Forkert svømmedisciplin. Prøv igen.");
+                    svømmeDisciplin = scanner.next().toUpperCase();
+                }
+
+                String datoString = getDatoStringFromNavneListe(fuldtNavn);
+                if (datoString == null) {
+                    System.out.println("Kunne ikke finde fødselsdagsdato for svømmeren. Registrering af konkurrence resultater afbrudt.");
+                    return;
+                }
+
+                System.out.println("Hvornår var stævnet (YYYY-MM-DD format)?");
+                LocalDate konkurrenceDato = null;
+                String konkurrenceDatoString = scanner.next();
+                try {
+                    konkurrenceDato = LocalDate.parse(konkurrenceDatoString);
+                } catch (DateTimeParseException e) {
+                    System.out.println("Ugyldigt datoformat. Registrering af konkurrence resultater afbrudt.");
+                    return;
+                }
+
+                String aldersTyp = beregnAldersType(datoString);
+                controller.tilføjTid(fuldtNavn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
+                controller.gemTiderTilFil();
+            } else {
+                System.out.print(fuldtNavn + " er ikke en konkurrencesvømmer. Prøv igen: ");
             }
-
-            System.out.println("Hvilken svømmedisciplin deltog svømmeren i? ");
-            String svømmeDisciplin = scanner.next().toUpperCase();
-            while (!svømmeDisciplin.matches("[a-zA-Z]+")) {
-                System.out.println("Svømmedisciplin må kun indeholde bogstaver. Prøv igen:");
-                svømmeDisciplin = scanner.next().toUpperCase();
-            }
-
-            while (!isValidDisciplin(svømmeDisciplin)) {
-                System.out.println("Forkert svømmedisciplin. Prøv igen.");
-                svømmeDisciplin = scanner.next().toUpperCase();
-            }
-
-            String datoString = getDatoStringFromNavneListe(navn);
-            if (datoString == null) {
-                System.out.println("Kunne ikke finde fødselsdagsdato for svømmeren. Registrering af konkurrence resultater afbrudt.");
-                return;
-            }
-
-            System.out.println("Hvornår var stævnet (YYYY-MM-DD format)?");
-            LocalDate konkurrenceDato = null;
-            String konkurrenceDatoString = scanner.next();
-            try {
-                konkurrenceDato = LocalDate.parse(konkurrenceDatoString);
-            } catch (DateTimeParseException e) {
-                System.out.println("Ugyldigt datoformat. Registrering af konkurrence resultater afbrudt.");
-                return;
-            }
-
-            String aldersTyp = beregnAldersType(datoString);
-            controller.tilføjTid(navn, datoString, svømmeDisciplin, svømmeTid, aldersTyp, konkurrenceDato);
-            controller.gemTiderTilFil();
-        } else {
-            System.out.println(navn + " er ikke en konkurrencesvømmer.");
         }
     }
 
@@ -196,18 +206,17 @@ public class UserInterface {
         return null;
     }
 
-    private boolean isKonkurrenceSvømmer(String navn) {
+    private boolean isKonkurrenceSvømmer(String fuldtNavn) {
         try (FileReader fr = new FileReader("navneListe.txt")) {
-            StringBuilder sb = new StringBuilder();
-            int i;
-            while ((i = fr.read()) != -1) {
-                sb.append((char) i);
-            }
-            String fileContent = sb.toString();
-            String[] lines = fileContent.split("\n");
-            for (String line : lines) {
-                if (line.contains(navn) && line.contains("KONKURRENCESVØMMER")) {
-                    return true;
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] parts = line.split(",");
+                if (parts.length >= 2) {
+                    String navnFromFile = parts[0].trim(); // Assuming the name is the first part
+                    if (navnFromFile.equalsIgnoreCase(fuldtNavn) && line.contains("KONKURRENCESVØMMER")) {
+                        return true;
+                    }
                 }
             }
         } catch (IOException e) {
@@ -321,8 +330,8 @@ public class UserInterface {
         return scanner.next();
     }
 
-    private void visTop5Liste() {
-        controller.printAllTop5();
+    private void visTop5Liste(int brugerInput) {
+        controller.printAllTop5(brugerInput);
     }
 
     public void loadMedlemsListePåStart() {
