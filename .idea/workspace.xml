@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Opd">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konkurrenceTider.txt" beforeDir="false" afterPath="$PROJECT_DIR$/konkurrenceTider.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DelfinenProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DelfinenProjekt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delfinen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delfinen/UserInterface.java" afterDir="false" />
     </list>
     <list id="5b98f35b-5b80-48c1-9e59-1d24738914bc" name="Changes by 45418" comment="" />
@@ -65,7 +65,11 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.UserInterface.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "JUnit.FormandTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -77,6 +81,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/amali/IdeaProjects/DelfinenProjekt/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -256,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715850236820</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Opd">
+      <option name="closed" value="true" />
+      <created>1715976565436</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715976565436</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +316,7 @@
     <MESSAGE value="TODO lister er tilføjet" />
     <MESSAGE value="Træner og fejlhåndtering er merged ind i main" />
     <MESSAGE value="Fejlhåndtering er merged ind i træneren" />
+    <MESSAGE value="Merge remote-tracking branch 'refs/remotes/origin/læs-NavneListe-Før-Registrering-AfTider'" />
     <MESSAGE value="Opd" />
     <option name="LAST_COMMIT_MESSAGE" value="Opd" />
   </component>
