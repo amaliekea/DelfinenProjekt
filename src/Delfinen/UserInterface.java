@@ -1,7 +1,10 @@
 package Delfinen;
 
+import com.github.javafaker.Faker;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
@@ -12,6 +15,8 @@ public class UserInterface {
     private Svømmeklub svømmeklub;
     private Scanner scanner;
     private Controller controller = new Controller();
+    private static final Faker faker = new Faker(new Locale("da-DK"));
+    private static final Random random = new Random();
 
     public UserInterface() {
         svømmeklub = new Svømmeklub();
@@ -531,4 +536,60 @@ public class UserInterface {
         double aktivPris = controller.udregnAktivPris(alder);
         System.out.println("Medlemmet er " + alder + " år gammel, og skal dermed betale " + aktivPris + " kroner.");
     }
+
+    /*public static void genererOgSkrivDanskeNavn(String filePath, int numNames) {
+        try (FileWriter writer = new FileWriter(filePath, true)) {
+            Set<String> danishNames = genererDanskNavn(numNames - 4); // Subtract 4 for the predefined names
+            // Add the first four predefined names
+            writer.write("Omar Al-Ali, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\n");
+            writer.write("Amalie Jensen, 2002-02-17, AKTIV, MOTIONIST, SENIOR\n");
+            writer.write("Daniel Sørensen, 1997-01-01, PASSIV, KONKURRENCESVØMMER, SENIOR\n");
+            writer.write("Zuhur Unun, 2002-02-17, AKTIV, MOTIONIST, SENIOR\n");
+            // Add the remaining generated names
+            for (String name : danishNames) {
+                writer.write(name + "\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static Set<String> genererDanskNavn(int numNames) {
+        Set<String> danishNames = new HashSet<>();
+
+        while (danishNames.size() < numNames) {
+            String firstName = faker.name().firstName();
+            String lastName = faker.name().lastName();
+            String fullName = firstName + " " + lastName;
+            String birthDate = genererTilfældigFødselsdag();
+            String activityStatus = faker.bool().bool() ? "AKTIV" : "PASSIV";
+            String swimmingType = faker.bool().bool() ? "KONKURRENCESVØMMER" : "MOTIONIST";
+            String ageCategory = genererAldersType(birthDate);
+
+            String formattedName = fullName + ", " + birthDate + ", " + activityStatus + ", " + swimmingType + ", " + ageCategory;
+            danishNames.add(formattedName);
+        }
+
+        return danishNames;
+    }
+
+    private static String genererTilfældigFødselsdag() {
+        LocalDate startDate = LocalDate.of(1970, 1, 1); // Start date: January 1, 1970
+        LocalDate endDate = LocalDate.of(2013, 12, 31); // End date: December 31, 2013
+
+        long startEpochDay = startDate.toEpochDay();
+        long endEpochDay = endDate.toEpochDay();
+
+        // Generate a random date between startDate and endDate
+        long randomEpochDay = startEpochDay + random.nextInt((int) (endEpochDay - startEpochDay));
+
+        return LocalDate.ofEpochDay(randomEpochDay).toString();
+    }
+
+    private static String genererAldersType(String birthDate) {
+        int birthYear = Integer.parseInt(birthDate.substring(0, 4));
+        int currentYear = LocalDate.now().getYear();
+        int age = currentYear - birthYear;
+        return age >= 18 ? "SENIOR" : "JUNIOR";
+    }*/
 }

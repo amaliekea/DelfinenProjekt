@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Opd">
+    <list default="true" id="0b24b90a-e914-48d5-b6f2-df83e537faec" name="Changes" comment="Har genereret 996 navne til navnelisten, og ingen af navnene går igen. (udover fornavne).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DelfinenProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DelfinenProjekt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navneListe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navneListe.txt" afterDir="false" />
@@ -271,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715976565436</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Har genereret 996 navne til navnelisten, og ingen af navnene går igen. (udover fornavne).">
+      <option name="closed" value="true" />
+      <created>1716045396026</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716045396026</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +326,8 @@
     <MESSAGE value="Fejlhåndtering er merged ind i træneren" />
     <MESSAGE value="Merge remote-tracking branch 'refs/remotes/origin/læs-NavneListe-Før-Registrering-AfTider'" />
     <MESSAGE value="Opd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opd" />
+    <MESSAGE value="Har genereret 996 navne til navnelisten, og ingen af navnene går igen. (udover fornavne)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Har genereret 996 navne til navnelisten, og ingen af navnene går igen. (udover fornavne)." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
