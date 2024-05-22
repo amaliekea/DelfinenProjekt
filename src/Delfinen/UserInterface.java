@@ -548,7 +548,7 @@ public class UserInterface {
 
     /*public static void genererOgSkrivDanskeNavn(String filePath, int numNames) {
         try (FileWriter writer = new FileWriter(filePath, true)) {
-            Set<String> danishNames = genererDanskNavn(numNames - 4); // Subtract 4 for the predefined names
+            Set<String> danishNames = genererDanskNavn(numNames - 4);
             // Add the first four predefined names
             writer.write("Omar Al-Ali, 1995-01-07, AKTIV, KONKURRENCESVØMMER, SENIOR\n");
             writer.write("Amalie Jensen, 2002-02-17, AKTIV, MOTIONIST, SENIOR\n");
@@ -583,8 +583,8 @@ public class UserInterface {
     }
 
     private static String genererTilfældigFødselsdag() {
-        LocalDate startDate = LocalDate.of(1970, 1, 1); // Start date: January 1, 1970
-        LocalDate endDate = LocalDate.of(2013, 12, 31); // End date: December 31, 2013
+        LocalDate startDate = LocalDate.of(1970, 1, 1);
+        LocalDate endDate = LocalDate.of(2013, 12, 31);
 
         long startEpochDay = startDate.toEpochDay();
         long endEpochDay = endDate.toEpochDay();
